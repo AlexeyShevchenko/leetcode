@@ -16,6 +16,9 @@
 		7CCA5CDE257134C100F53CF2 /* leetcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA5CDD257134C100F53CF2 /* leetcodeTests.swift */; };
 		7CCA5CE9257134C100F53CF2 /* leetcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA5CE8257134C100F53CF2 /* leetcodeUITests.swift */; };
 		7CCA5CFE2571398500F53CF2 /* MaximumDepthOfBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA5CFD2571398500F53CF2 /* MaximumDepthOfBinaryTree.swift */; };
+		7CE7527A25FD5DD5005F0B63 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7527925FD5DD5005F0B63 /* TwoSum.swift */; };
+		7CE7528025FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7527F25FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift */; };
+		7CE7528C25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7528B25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift */; };
 		7CF095AF25713B5300E48F1E /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF095AE25713B5300E48F1E /* SingleNumber.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +55,9 @@
 		7CCA5CE8257134C100F53CF2 /* leetcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leetcodeUITests.swift; sourceTree = "<group>"; };
 		7CCA5CEA257134C100F53CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CCA5CFD2571398500F53CF2 /* MaximumDepthOfBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumDepthOfBinaryTree.swift; sourceTree = "<group>"; };
+		7CE7527925FD5DD5005F0B63 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		7CE7527F25FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToBuyAndSellStock.swift; sourceTree = "<group>"; };
+		7CE7528B25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyingAnAlienDictionary.swift; sourceTree = "<group>"; };
 		7CF095AE25713B5300E48F1E /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,8 +109,11 @@
 		7CCA5CC5257134BD00F53CF2 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				7CE7527525FD3CC2005F0B63 /* #1 */,
+				7CE7527E25FE3391005F0B63 /* #121 */,
 				7CCA5CFC2571396800F53CF2 /* #104 */,
 				7CCA5D0625713A2D00F53CF2 /* #136 */,
+				7CE7528A25FE5D9F005F0B63 /* #953 */,
 				7CCA5CC6257134BD00F53CF2 /* AppDelegate.swift */,
 				7CCA5CC8257134BD00F53CF2 /* SceneDelegate.swift */,
 				7CCA5CCA257134BD00F53CF2 /* ViewController.swift */,
@@ -156,6 +165,30 @@
 				7CF095AE25713B5300E48F1E /* SingleNumber.swift */,
 			);
 			path = "#136";
+			sourceTree = "<group>";
+		};
+		7CE7527525FD3CC2005F0B63 /* #1 */ = {
+			isa = PBXGroup;
+			children = (
+				7CE7527925FD5DD5005F0B63 /* TwoSum.swift */,
+			);
+			path = "#1";
+			sourceTree = "<group>";
+		};
+		7CE7527E25FE3391005F0B63 /* #121 */ = {
+			isa = PBXGroup;
+			children = (
+				7CE7527F25FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift */,
+			);
+			path = "#121";
+			sourceTree = "<group>";
+		};
+		7CE7528A25FE5D9F005F0B63 /* #953 */ = {
+			isa = PBXGroup;
+			children = (
+				7CE7528B25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift */,
+			);
+			path = "#953";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,8 +321,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CE7528C25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift in Sources */,
+				7CE7528025FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift in Sources */,
 				7CCA5CCB257134BD00F53CF2 /* ViewController.swift in Sources */,
 				7CCA5CC7257134BD00F53CF2 /* AppDelegate.swift in Sources */,
+				7CE7527A25FD5DD5005F0B63 /* TwoSum.swift in Sources */,
 				7CF095AF25713B5300E48F1E /* SingleNumber.swift in Sources */,
 				7CCA5CFE2571398500F53CF2 /* MaximumDepthOfBinaryTree.swift in Sources */,
 				7CCA5CC9257134BD00F53CF2 /* SceneDelegate.swift in Sources */,
