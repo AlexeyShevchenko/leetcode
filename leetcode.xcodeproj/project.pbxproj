@@ -22,6 +22,7 @@
 		7CE7528025FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7527F25FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift */; };
 		7CE7528C25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7528B25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift */; };
 		7CF095AF25713B5300E48F1E /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF095AE25713B5300E48F1E /* SingleNumber.swift */; };
+		7CFFAE0E26247728006F8364 /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFFAE0D26247728006F8364 /* MergeSortedArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		7CE7527F25FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToBuyAndSellStock.swift; sourceTree = "<group>"; };
 		7CE7528B25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyingAnAlienDictionary.swift; sourceTree = "<group>"; };
 		7CF095AE25713B5300E48F1E /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
+		7CFFAE0D26247728006F8364 /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			children = (
 				7CE7527525FD3CC2005F0B63 /* #1 */,
 				7CE354622603EBA600AE39B1 /* #20 */,
+				7CFFAE0C26247708006F8364 /* #88 */,
 				7CE7527E25FE3391005F0B63 /* #121 */,
 				7CCA5CFC2571396800F53CF2 /* #104 */,
 				7CCA5D0625713A2D00F53CF2 /* #136 */,
@@ -211,6 +214,14 @@
 				7CE7528B25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift */,
 			);
 			path = "#953";
+			sourceTree = "<group>";
+		};
+		7CFFAE0C26247708006F8364 /* #88 */ = {
+			isa = PBXGroup;
+			children = (
+				7CFFAE0D26247728006F8364 /* MergeSortedArray.swift */,
+			);
+			path = "#88";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C7DF8D2260264240001F7BE /* ReverseLinkedList.swift in Sources */,
+				7CFFAE0E26247728006F8364 /* MergeSortedArray.swift in Sources */,
 				7CE7528C25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift in Sources */,
 				7CE7528025FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift in Sources */,
 				7CE354642603EBC100AE39B1 /* ValidParentheses.swift in Sources */,
