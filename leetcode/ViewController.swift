@@ -12,7 +12,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let solution = LongestCommonPrefix.Solution()
-        let prefix = solution.longestCommonPrefix([""])
+        //["flower", "flow", "flight"]
+        //["dog", "racecar", "car"]
+        let prefix = solution.longestCommonPrefix(["1", "1", "1"])
         print(prefix)
     }
 }
