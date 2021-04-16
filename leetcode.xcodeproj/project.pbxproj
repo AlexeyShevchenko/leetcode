@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7C7DF8D2260264240001F7BE /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DF8D1260264240001F7BE /* ReverseLinkedList.swift */; };
+		7C86FB9F26298EA500A6D969 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C86FB9E26298EA500A6D969 /* LongestCommonPrefix.swift */; };
 		7CCA5CC7257134BD00F53CF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA5CC6257134BD00F53CF2 /* AppDelegate.swift */; };
 		7CCA5CC9257134BD00F53CF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA5CC8257134BD00F53CF2 /* SceneDelegate.swift */; };
 		7CCA5CCB257134BD00F53CF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA5CCA257134BD00F53CF2 /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		7C7DF8D1260264240001F7BE /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
+		7C86FB9E26298EA500A6D969 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		7CCA5CC3257134BD00F53CF2 /* leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCA5CC6257134BD00F53CF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CCA5CC8257134BD00F53CF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,14 @@
 			path = "#206";
 			sourceTree = "<group>";
 		};
+		7C86FB9D26298E9000A6D969 /* #14 */ = {
+			isa = PBXGroup;
+			children = (
+				7C86FB9E26298EA500A6D969 /* LongestCommonPrefix.swift */,
+			);
+			path = "#14";
+			sourceTree = "<group>";
+		};
 		7CCA5CBA257134BD00F53CF2 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				7CE7527525FD3CC2005F0B63 /* #1 */,
+				7C86FB9D26298E9000A6D969 /* #14 */,
 				7CE354622603EBA600AE39B1 /* #20 */,
 				7CFFAE0C26247708006F8364 /* #88 */,
 				7CE7527E25FE3391005F0B63 /* #121 */,
@@ -359,6 +370,7 @@
 				7CE7528C25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift in Sources */,
 				7CE7528025FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift in Sources */,
 				7CE354642603EBC100AE39B1 /* ValidParentheses.swift in Sources */,
+				7C86FB9F26298EA500A6D969 /* LongestCommonPrefix.swift in Sources */,
 				7CCA5CCB257134BD00F53CF2 /* ViewController.swift in Sources */,
 				7CCA5CC7257134BD00F53CF2 /* AppDelegate.swift in Sources */,
 				7CE7527A25FD5DD5005F0B63 /* TwoSum.swift in Sources */,
