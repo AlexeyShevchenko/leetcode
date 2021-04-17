@@ -14,7 +14,8 @@ class ViewController: UIViewController {
         let solution = LongestCommonPrefix.Solution()
         //["flower", "flow", "flight"]
         //["dog", "racecar", "car"]
-        let prefix = solution.longestCommonPrefix(["1", "1", "1"])
+        //["brew", "bristor", "brown"]
+        let prefix = solution.longestCommonPrefix(["brew", "bristor", "brown"])
         print(prefix)
     }
 }
