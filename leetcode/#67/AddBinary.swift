@@ -24,21 +24,36 @@ class AddBinary {
             var res = ""
             var carry = 0
             for i in stride(from: aToUse.count - 1, through: 0, by: -1) {
-                let fromA = Int(aToUse[i])!
-                let fromB = Int(bToUse[i])!
-                let sum = fromA + fromB + carry
-                if sum == 0 {
-                    res.insert(contentsOf: "0", at: res.startIndex)
-                    carry = 0
-                } else if sum == 1 {
-                    res.insert(contentsOf: "1", at: res.startIndex)
-                    carry = 0
-                } else if sum == 2 {
-                    res.insert(contentsOf: "0", at: res.startIndex)
-                    carry = 1
-                } else if sum == 3 {
-                    res.insert(contentsOf: "1", at: res.startIndex)
-                    carry = 1
+                let fromA = aToUse[i]
+                let fromB = bToUse[i]
+                if fromA == fromB {
+                    // 0 and 0
+                    if fromA == "0" {
+                        if carry > 0 {
+                            res.insert(contentsOf: "1", at: res.startIndex)
+                            carry = 0
+                        } else {
+                            res.insert(contentsOf: "0", at: res.startIndex)
+                            carry = 0
+                        }
+                    // 1 and 1
+                    } else {
+                        if carry > 0 {
+                            res.insert(contentsOf: "1", at: res.startIndex)
+                            carry = 1
+                        } else {
+                            res.insert(contentsOf: "0", at: res.startIndex)
+                            carry = 1
+                        }
+                    }
+                } else { // '0 and 1' or '1 and 0'
+                    if carry > 0 {
+                        res.insert(contentsOf: "0", at: res.startIndex)
+                        carry = 1
+                    } else {
+                        res.insert(contentsOf: "1", at: res.startIndex)
+                        carry = 0
+                    }
                 }
             }
             if carry > 0 {
