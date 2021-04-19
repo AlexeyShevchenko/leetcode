@@ -10,6 +10,7 @@
 		7C7DF8D2260264240001F7BE /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7DF8D1260264240001F7BE /* ReverseLinkedList.swift */; };
 		7C86FB9F26298EA500A6D969 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C86FB9E26298EA500A6D969 /* LongestCommonPrefix.swift */; };
 		7C86FBAB262B2F3300A6D969 /* AddBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C86FBAA262B2F3300A6D969 /* AddBinary.swift */; };
+		7CADA056262D928900CDBD57 /* String+Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CADA055262D928800CDBD57 /* String+Index.swift */; };
 		7CCA5CC7257134BD00F53CF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA5CC6257134BD00F53CF2 /* AppDelegate.swift */; };
 		7CCA5CC9257134BD00F53CF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA5CC8257134BD00F53CF2 /* SceneDelegate.swift */; };
 		7CCA5CCB257134BD00F53CF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA5CCA257134BD00F53CF2 /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 		7C7DF8D1260264240001F7BE /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
 		7C86FB9E26298EA500A6D969 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		7C86FBAA262B2F3300A6D969 /* AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinary.swift; sourceTree = "<group>"; };
+		7CADA055262D928800CDBD57 /* String+Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Index.swift"; sourceTree = "<group>"; };
 		7CCA5CC3257134BD00F53CF2 /* leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCA5CC6257134BD00F53CF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CCA5CC8257134BD00F53CF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				7CCA5CCF257134C000F53CF2 /* Assets.xcassets */,
 				7CCA5CD1257134C000F53CF2 /* LaunchScreen.storyboard */,
 				7CCA5CD4257134C000F53CF2 /* Info.plist */,
+				7CADA055262D928800CDBD57 /* String+Index.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				7CF095AF25713B5300E48F1E /* SingleNumber.swift in Sources */,
 				7CCA5CFE2571398500F53CF2 /* MaximumDepthOfBinaryTree.swift in Sources */,
 				7CCA5CC9257134BD00F53CF2 /* SceneDelegate.swift in Sources */,
+				7CADA056262D928900CDBD57 /* String+Index.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
