@@ -31,7 +31,7 @@ class AddBinary {
                     }
                     j -= 1
                 }
-                result = "\(sum % 2)" + result
+                result.insert(contentsOf: "\(sum % 2)", at: result.startIndex)
                 carry = sum / 2
             }
 
