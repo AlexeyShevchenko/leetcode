@@ -11,8 +11,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // "1111", "10"
-        let s = AddBinary.Solution().addBinary("1100", "101")
+        let s = FirstUniqueCharacterInString.Solution().firstUniqChar("bbaa")
         print(s)
     }
 }
