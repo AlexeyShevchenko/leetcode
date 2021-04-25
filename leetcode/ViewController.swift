@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = FirstUniqueCharacterInString.Solution().firstUniqChar("bbaa")
+        let s = RomanToInteger.Solution().romanToInt("MCMXCIV")
         print(s)
     }
 }
