@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = ValidAnagram.Solution().isAnagram("anagram", "nagaram")
+        let s = SquaresOfSortedArray.Solution().sortedSquares([-4, -1, 0, 3, 10])
         print(s)
     }
 }
