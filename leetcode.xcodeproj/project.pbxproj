@@ -11,6 +11,7 @@
 		7C86FB9F26298EA500A6D969 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C86FB9E26298EA500A6D969 /* LongestCommonPrefix.swift */; };
 		7C86FBAB262B2F3300A6D969 /* AddBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C86FBAA262B2F3300A6D969 /* AddBinary.swift */; };
 		7CADA056262D928900CDBD57 /* String+Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CADA055262D928800CDBD57 /* String+Index.swift */; };
+		7CC979D92639FE03000D5A43 /* ValidAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC979D82639FE03000D5A43 /* ValidAnagram.swift */; };
 		7CCA5CC7257134BD00F53CF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA5CC6257134BD00F53CF2 /* AppDelegate.swift */; };
 		7CCA5CC9257134BD00F53CF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA5CC8257134BD00F53CF2 /* SceneDelegate.swift */; };
 		7CCA5CCB257134BD00F53CF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA5CCA257134BD00F53CF2 /* ViewController.swift */; };
@@ -52,6 +53,7 @@
 		7C86FB9E26298EA500A6D969 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		7C86FBAA262B2F3300A6D969 /* AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinary.swift; sourceTree = "<group>"; };
 		7CADA055262D928800CDBD57 /* String+Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Index.swift"; sourceTree = "<group>"; };
+		7CC979D82639FE03000D5A43 /* ValidAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidAnagram.swift; sourceTree = "<group>"; };
 		7CCA5CC3257134BD00F53CF2 /* leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCA5CC6257134BD00F53CF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CCA5CC8257134BD00F53CF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +128,14 @@
 			path = "#67";
 			sourceTree = "<group>";
 		};
+		7CC979D72639FDEB000D5A43 /* #242 */ = {
+			isa = PBXGroup;
+			children = (
+				7CC979D82639FE03000D5A43 /* ValidAnagram.swift */,
+			);
+			path = "#242";
+			sourceTree = "<group>";
+		};
 		7CCA5CBA257134BD00F53CF2 = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +169,7 @@
 				7CCA5CFC2571396800F53CF2 /* #104 */,
 				7CCA5D0625713A2D00F53CF2 /* #136 */,
 				7C7DF8D02602640B0001F7BE /* #206 */,
+				7CC979D72639FDEB000D5A43 /* #242 */,
 				7CCF66C02634A4B8007B6816 /* #387 */,
 				7CE7528A25FE5D9F005F0B63 /* #953 */,
 				7CCA5CC6257134BD00F53CF2 /* AppDelegate.swift */,
@@ -403,6 +414,7 @@
 			files = (
 				7C7DF8D2260264240001F7BE /* ReverseLinkedList.swift in Sources */,
 				7CFFAE0E26247728006F8364 /* MergeSortedArray.swift in Sources */,
+				7CC979D92639FE03000D5A43 /* ValidAnagram.swift in Sources */,
 				7CE7528C25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift in Sources */,
 				7C86FBAB262B2F3300A6D969 /* AddBinary.swift in Sources */,
 				7CCF66C22634A4E6007B6816 /* FirstUniqueCharacterInString.swift in Sources */,

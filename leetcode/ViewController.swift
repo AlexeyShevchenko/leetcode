@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = RomanToInteger.Solution().romanToInt("MCMXCIV")
+        let s = ValidAnagram.Solution().isAnagram("anagram", "nagaram")
         print(s)
     }
 }
