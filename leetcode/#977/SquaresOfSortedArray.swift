@@ -10,13 +10,23 @@ import Foundation
 class SquaresOfSortedArray {
     class Solution {
         func sortedSquares(_ nums: [Int]) -> [Int] {
-            var num1 = [Int]()
-            for n in nums {
-                num1.append(n < 0 ? n * (-1) : n)
+            var leftIndex = 0
+            var rightIndex = nums.count - 1
+            var result = [Int](repeatElement(0, count: nums.count))
+            for i in stride(from: nums.count - 1, through: 0, by: -1) {
+                let leftValue = nums[leftIndex]
+                let rightValue = nums[rightIndex]
+                var num = 0
+                if abs(leftValue) < abs(rightValue) {
+                    num = rightValue
+                    rightIndex = rightIndex - 1
+                } else {
+                    num = leftValue
+                    leftIndex = leftIndex + 1
+                }
+                result[i] = num * num
             }
-            num1.sort()
-
-            return num1.map({ $0 * $0 })
+            return result
         }
     }
 }
