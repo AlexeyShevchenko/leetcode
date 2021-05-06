@@ -11,8 +11,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = SquaresOfSortedArray.Solution().sortedSquares([-10, -5, -1, 0, 2, 4, 6, 100])
-        print(s)
     }
 }
 
