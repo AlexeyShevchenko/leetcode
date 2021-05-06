@@ -11,6 +11,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let solution = BinarySearch.Solution()
+        let nums = [-1, 0, 3, 5, 9, 12]
+        let target = 3
+        let index = solution.search(nums, target)
+        print(index)
     }
 }
 
