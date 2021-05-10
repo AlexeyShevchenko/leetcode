@@ -31,6 +31,7 @@
 		7CE7528025FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7527F25FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift */; };
 		7CE7528C25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7528B25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift */; };
 		7CF095AF25713B5300E48F1E /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF095AE25713B5300E48F1E /* SingleNumber.swift */; };
+		7CF0E01B26497C5D005396A2 /* GuessNumberHigherOrLower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF0E01A26497C5D005396A2 /* GuessNumberHigherOrLower.swift */; };
 		7CFFAE0E26247728006F8364 /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFFAE0D26247728006F8364 /* MergeSortedArray.swift */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +83,7 @@
 		7CE7527F25FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToBuyAndSellStock.swift; sourceTree = "<group>"; };
 		7CE7528B25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyingAnAlienDictionary.swift; sourceTree = "<group>"; };
 		7CF095AE25713B5300E48F1E /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
+		7CF0E01A26497C5D005396A2 /* GuessNumberHigherOrLower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberHigherOrLower.swift; sourceTree = "<group>"; };
 		7CFFAE0D26247728006F8364 /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -201,6 +203,7 @@
 				7C2759342643F49D00BB4557 /* #141 */,
 				7C7DF8D02602640B0001F7BE /* #206 */,
 				7CC979D72639FDEB000D5A43 /* #242 */,
+				7CF0E01926497C03005396A2 /* #374 */,
 				7CCF66C02634A4B8007B6816 /* #387 */,
 				7C275937264401C700BB4557 /* #704 */,
 				7CE7528A25FE5D9F005F0B63 /* #953 */,
@@ -305,6 +308,14 @@
 				7CE7528B25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift */,
 			);
 			path = "#953";
+			sourceTree = "<group>";
+		};
+		7CF0E01926497C03005396A2 /* #374 */ = {
+			isa = PBXGroup;
+			children = (
+				7CF0E01A26497C5D005396A2 /* GuessNumberHigherOrLower.swift */,
+			);
+			path = "#374";
 			sourceTree = "<group>";
 		};
 		7CFFAE0C26247708006F8364 /* #88 */ = {
@@ -454,6 +465,7 @@
 				7CCF66C22634A4E6007B6816 /* FirstUniqueCharacterInString.swift in Sources */,
 				7CE7528025FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift in Sources */,
 				7CE354642603EBC100AE39B1 /* ValidParentheses.swift in Sources */,
+				7CF0E01B26497C5D005396A2 /* GuessNumberHigherOrLower.swift in Sources */,
 				7C86FB9F26298EA500A6D969 /* LongestCommonPrefix.swift in Sources */,
 				7CCA5CCB257134BD00F53CF2 /* ViewController.swift in Sources */,
 				7CCA5CC7257134BD00F53CF2 /* AppDelegate.swift in Sources */,
