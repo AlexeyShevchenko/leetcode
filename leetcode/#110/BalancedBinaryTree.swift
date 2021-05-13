@@ -13,13 +13,17 @@ class BalancedBinaryTree {
         typealias TreeNode = SameTree.TreeNode
 
         func isBalanced(_ root: TreeNode?) -> Bool {
-            if root == nil { return true }
-            return isBalanced(root?.left) && isBalanced(root?.right) && abs(height(root?.left) - height(root?.right)) < 2
+            return root == nil ?
+                true :
+                isBalanced(root?.left) &&
+                isBalanced(root?.right) &&
+                abs(height(root?.left) - height(root?.right)) < 2
         }
 
         private func height(_ node: TreeNode?) -> Int {
-            if node == nil { return -1 }
-            return 1 + max(height(node?.left), height(node?.right))
+            return node == nil ?
+                -1 :
+                max(height(node?.left), height(node?.right)) + 1
         }
     }
 }
