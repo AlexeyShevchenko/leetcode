@@ -11,16 +11,20 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = BinarySearch.Solution()
-        let nums = [-1, 0, 3, 5, 9, 12]
-        let target = 3
-        let index = solution.search(nums, target)
-        print(index)
+        let solution = Search2dMatrix.Solution()
+        let exist = solution.searchMatrix(
+            [
+                [1,3,5,7],
+                [10,11,16,20],
+                [23,30,34,60]
+            ], 3
+        )
+        print(exist)
     }
 }
 
 class QSort {
-
+    
     func sort<T: Comparable>(_ array: [T]) -> [T] {
         guard array.count > 1 else { return array }
         let pivot = array[array.count / 2]
