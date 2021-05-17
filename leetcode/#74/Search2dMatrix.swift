@@ -10,31 +10,11 @@ import Foundation
 class Search2dMatrix {
     class Solution {
         func searchMatrix(_ matrix: [[Int]], _ target: Int) -> Bool {
-            if matrix.count < 1 { return false }
-            if matrix.count == 1 {
-                let row = matrix[0]
-                return binarySearch(in: row, target: target)
+            var array = [Int]()
+            for row in matrix {
+                array = array + row
             }
-
-            var index = 0
-            var nextIndex = 1
-
-            while nextIndex < matrix.count {
-                let firstElementInRow = matrix[index].first ?? 0
-                let nextFirstElementInRow = matrix[nextIndex].first ?? 0
-
-                if target >= firstElementInRow && target < nextFirstElementInRow {
-                    let row = matrix[index]
-                    return binarySearch(in: row, target: target)
-                } else if target == nextFirstElementInRow {
-                    return true
-                }
-                
-                index += 1
-                nextIndex += 1
-            }
-
-            return binarySearch(in: matrix[matrix.count - 1], target: target)
+            return binarySearch(in: array, target: target)
         }
 
         private func binarySearch(in row: [Int], target: Int) -> Bool {
