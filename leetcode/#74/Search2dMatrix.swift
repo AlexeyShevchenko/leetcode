@@ -10,23 +10,24 @@ import Foundation
 class Search2dMatrix {
     class Solution {
         func searchMatrix(_ matrix: [[Int]], _ target: Int) -> Bool {
-            var array = [Int]()
-            for row in matrix {
-                array = array + row
-            }
-            return binarySearch(in: array, target: target)
-        }
+            if matrix.isEmpty || matrix[0].isEmpty { return false }
 
-        private func binarySearch(in row: [Int], target: Int) -> Bool {
+            let rows = matrix.count
+            let columns = matrix[0].count
             var left = 0
-            var rigth = row.count - 1
-            while left <= rigth {
-                let middle = (left + rigth) / 2
-                let numAtMiddle = row[middle]
-                if target == numAtMiddle { return true }
-                else if target < numAtMiddle { rigth = middle - 1 }
-                else if target > numAtMiddle { left = middle + 1 }
+            var right = rows * columns - 1
+
+            while left <= right {
+                let middle = left + (right - left) / 2
+                let valueAtMiddle = matrix[middle / columns][middle % columns]
+                if valueAtMiddle == target { return true }
+                else if valueAtMiddle < target {
+                    left = middle + 1
+                } else {
+                    right = middle - 1
+                }
             }
+
             return false
         }
     }

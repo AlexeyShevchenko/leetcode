@@ -42,6 +42,13 @@ class ViewController: UIViewController {
             30
         )
         print(exist3)
+        let exist4 = solution.searchMatrix(
+            [
+                [1,1]
+            ],
+            2
+        )
+        print(exist4)
     }
 }
 
