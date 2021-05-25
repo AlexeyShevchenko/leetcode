@@ -11,44 +11,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = Search2dMatrix.Solution()
-        let exist = solution.searchMatrix(
-            [
-                [1,3,5,7],
-                [10,11,16,20],
-                [23,30,34,60],
-            ], 13
-        )
-        print(exist)
-        let exist1 = solution.searchMatrix(
-            [
-                [1],
-            ], -1
-        )
-        print(exist1)
-        let exist2 = solution.searchMatrix(
-            [
-                [1],
-                [3],
-            ], -3
-        )
-        print(exist2)
-        let exist3 = solution.searchMatrix(
-            [
-                [1,3,5,7],
-                [10,11,16,20],
-                [23,30,34,50],
-            ],
-            30
-        )
-        print(exist3)
-        let exist4 = solution.searchMatrix(
-            [
-                [1,1]
-            ],
-            2
-        )
-        print(exist4)
+        let solution = SearchInRotatedSortedArray.Solution()
+        let result = solution.search([4,5,6,7,0,1,2], 0)
+        print(result)
     }
 }
 

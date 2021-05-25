@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C2710232655222A007CA4FC /* SearchInRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2710222655222A007CA4FC /* SearchInRotatedSortedArray.swift */; };
 		7C2759362643F4EA00BB4557 /* LinkedListCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2759352643F4EA00BB4557 /* LinkedListCycle.swift */; };
 		7C275939264401DA00BB4557 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C275938264401DA00BB4557 /* BinarySearch.swift */; };
 		7C6EC469264AF04000719C52 /* BestTimeToBuyAndSellStockII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6EC468264AF04000719C52 /* BestTimeToBuyAndSellStockII.swift */; };
@@ -59,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C2710222655222A007CA4FC /* SearchInRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInRotatedSortedArray.swift; sourceTree = "<group>"; };
 		7C2759352643F4EA00BB4557 /* LinkedListCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycle.swift; sourceTree = "<group>"; };
 		7C275938264401DA00BB4557 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		7C6EC468264AF04000719C52 /* BestTimeToBuyAndSellStockII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToBuyAndSellStockII.swift; sourceTree = "<group>"; };
@@ -124,6 +126,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C27102126552204007CA4FC /* #33 */ = {
+			isa = PBXGroup;
+			children = (
+				7C2710222655222A007CA4FC /* SearchInRotatedSortedArray.swift */,
+			);
+			path = "#33";
+			sourceTree = "<group>";
+		};
 		7C2759342643F49D00BB4557 /* #141 */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +241,7 @@
 				7CCF66CB2635B896007B6816 /* #13 */,
 				7C86FB9D26298E9000A6D969 /* #14 */,
 				7CE354622603EBA600AE39B1 /* #20 */,
+				7C27102126552204007CA4FC /* #33 */,
 				7C86FBA9262B2F1300A6D969 /* #67 */,
 				7CBA9AF226500FBE00553CC5 /* #74 */,
 				7CFFAE0C26247708006F8364 /* #88 */,
@@ -548,6 +559,7 @@
 				7CCF66CD2635B8AB007B6816 /* RomanToInteger.swift in Sources */,
 				7CCA5CC9257134BD00F53CF2 /* SceneDelegate.swift in Sources */,
 				7CADA056262D928900CDBD57 /* String+Index.swift in Sources */,
+				7C2710232655222A007CA4FC /* SearchInRotatedSortedArray.swift in Sources */,
 				7CBA9AF426500FF100553CC5 /* Search2dMatrix.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
