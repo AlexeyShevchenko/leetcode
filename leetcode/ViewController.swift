@@ -11,8 +11,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = SearchInRotatedSortedArray.Solution()
-        let result = solution.search([4,5,6,7,0,1,2], 0)
+        let solution = ProductOfArrayExceptSelf.Solution()
+        let input = [4, 5, 1, 8, 2]
+        let result = solution.productExceptSelf(input)
         print(result)
     }
 }

@@ -32,6 +32,8 @@
 		7CCF66CD2635B8AB007B6816 /* RomanToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF66CC2635B8AB007B6816 /* RomanToInteger.swift */; };
 		7CE354642603EBC100AE39B1 /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE354632603EBC100AE39B1 /* ValidParentheses.swift */; };
 		7CE55868264C5F32009EC351 /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE55867264C5F32009EC351 /* BalancedBinaryTree.swift */; };
+		7CE67FD72A824F7600107A67 /* ProductOfArrayExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE67FD62A824F7600107A67 /* ProductOfArrayExceptSelf.swift */; };
+		7CE67FDA2A82A64200107A67 /* Maximum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE67FD92A82A64200107A67 /* Maximum Subarray.swift */; };
 		7CE7527A25FD5DD5005F0B63 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7527925FD5DD5005F0B63 /* TwoSum.swift */; };
 		7CE7528025FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7527F25FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift */; };
 		7CE7528C25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7528B25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift */; };
@@ -91,6 +93,8 @@
 		7CCF66CC2635B8AB007B6816 /* RomanToInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToInteger.swift; sourceTree = "<group>"; };
 		7CE354632603EBC100AE39B1 /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 		7CE55867264C5F32009EC351 /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
+		7CE67FD62A824F7600107A67 /* ProductOfArrayExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfArrayExceptSelf.swift; sourceTree = "<group>"; };
+		7CE67FD92A82A64200107A67 /* Maximum Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maximum Subarray.swift"; sourceTree = "<group>"; };
 		7CE7527925FD5DD5005F0B63 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		7CE7527F25FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToBuyAndSellStock.swift; sourceTree = "<group>"; };
 		7CE7528B25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyingAnAlienDictionary.swift; sourceTree = "<group>"; };
@@ -242,6 +246,7 @@
 				7C86FB9D26298E9000A6D969 /* #14 */,
 				7CE354622603EBA600AE39B1 /* #20 */,
 				7C27102126552204007CA4FC /* #33 */,
+				7CE67FD82A82846B00107A67 /* #53 */,
 				7C86FBA9262B2F1300A6D969 /* #67 */,
 				7CBA9AF226500FBE00553CC5 /* #74 */,
 				7CFFAE0C26247708006F8364 /* #88 */,
@@ -255,6 +260,7 @@
 				7C2759342643F49D00BB4557 /* #141 */,
 				7CBA9AEF264FFCBE00553CC5 /* #200 */,
 				7C7DF8D02602640B0001F7BE /* #206 */,
+				7CE67FD52A824F4400107A67 /* #238 */,
 				7CC979D72639FDEB000D5A43 /* #242 */,
 				7CF0E01926497C03005396A2 /* #374 */,
 				7CCF66C02634A4B8007B6816 /* #387 */,
@@ -345,6 +351,22 @@
 				7CE55867264C5F32009EC351 /* BalancedBinaryTree.swift */,
 			);
 			path = "#110";
+			sourceTree = "<group>";
+		};
+		7CE67FD52A824F4400107A67 /* #238 */ = {
+			isa = PBXGroup;
+			children = (
+				7CE67FD62A824F7600107A67 /* ProductOfArrayExceptSelf.swift */,
+			);
+			path = "#238";
+			sourceTree = "<group>";
+		};
+		7CE67FD82A82846B00107A67 /* #53 */ = {
+			isa = PBXGroup;
+			children = (
+				7CE67FD92A82A64200107A67 /* Maximum Subarray.swift */,
+			);
+			path = "#53";
 			sourceTree = "<group>";
 		};
 		7CE7527525FD3CC2005F0B63 /* #1 */ = {
@@ -553,7 +575,9 @@
 				7CE7527A25FD5DD5005F0B63 /* TwoSum.swift in Sources */,
 				7CC979DF263A054B000D5A43 /* SquaresOfSortedArray.swift in Sources */,
 				7CF095AF25713B5300E48F1E /* SingleNumber.swift in Sources */,
+				7CE67FDA2A82A64200107A67 /* Maximum Subarray.swift in Sources */,
 				7C6EC469264AF04000719C52 /* BestTimeToBuyAndSellStockII.swift in Sources */,
+				7CE67FD72A824F7600107A67 /* ProductOfArrayExceptSelf.swift in Sources */,
 				7C2759362643F4EA00BB4557 /* LinkedListCycle.swift in Sources */,
 				7CCA5CFE2571398500F53CF2 /* MaximumDepthOfBinaryTree.swift in Sources */,
 				7CCF66CD2635B8AB007B6816 /* RomanToInteger.swift in Sources */,
