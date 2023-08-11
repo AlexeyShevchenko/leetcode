@@ -11,9 +11,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = MaximumSubarray.Solution()
-        let input = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
-        let result = solution.maxSubArray(input)
+        let solution = RemoveDuplicatesFromSortedArray.Solution()
+        var input = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
+        let result = solution.removeDuplicates(&input)
         print(result)
     }
 }
