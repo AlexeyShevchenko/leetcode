@@ -10,12 +10,16 @@ import Foundation
 class MaximumSubarray {
     class Solution {
         func maxSubArray(_ nums: [Int]) -> Int {
-            var curSum = nums[0]
+            guard !nums.isEmpty else { return 0 }
+            
             var maxSum = nums[0]
+            var maxCurrentSum = nums[0]
             
             for i in 1 ..< nums.count {
-                curSum = max(nums[i], curSum + nums[i])
-                maxSum = max(maxSum, curSum)
+                let currentNum = nums[i]
+                let possibleMaxCurrentSum = maxCurrentSum + currentNum
+                maxCurrentSum = max(possibleMaxCurrentSum, currentNum)
+                maxSum = max(maxSum, maxCurrentSum)
             }
             
             return maxSum

@@ -11,9 +11,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = ProductOfArrayExceptSelf.Solution()
-        let input = [4, 5, 1, 8, 2]
-        let result = solution.productExceptSelf(input)
+        let solution = MaximumSubarray.Solution()
+        let input = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+        let result = solution.maxSubArray(input)
         print(result)
     }
 }
