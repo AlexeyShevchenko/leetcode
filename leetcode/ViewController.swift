@@ -8,12 +8,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = RemoveDuplicatesFromSortedArray.Solution()
-        var input = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
-        let result = solution.removeDuplicates(&input)
+        let solution = MissingNumber.Solution()
+        let input = [9, 6, 4, 2, 3, 5, 7, 0, 1]
+        let result = solution.missingNumber(input)
         print(result)
     }
 }
