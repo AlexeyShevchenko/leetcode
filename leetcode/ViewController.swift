@@ -10,15 +10,13 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = MissingNumber.Solution()
-        let input = [9, 6, 4, 2, 3, 5, 7, 0, 1]
-        let result = solution.missingNumber(input)
+        let solution = ClimbingStairs.Solution()
+        let result = solution.climbStairs(2)
         print(result)
     }
 }
 
 class QSort {
-
     func sort<T: Comparable>(_ array: [T]) -> [T] {
         guard array.count > 1 else { return array }
         let pivot = array[array.count / 2]
