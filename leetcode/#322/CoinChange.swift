@@ -11,8 +11,7 @@ class CoinChange {
     class Solution {
         func coinChange(_ coins: [Int], _ amount: Int) -> Int {
             if amount < 1 { return 0  }
-            let minCoinsHolderLenght = amount + 1
-            var minCoinsHolder = Array(repeating: 0, count: minCoinsHolderLenght)
+            var minCoinsHolder = Array(repeating: 0, count: amount + 1)
             
             for amountToMake in 1 ... amount {
                 var minCoins: Int = .max
