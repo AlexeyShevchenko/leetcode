@@ -10,8 +10,10 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = ClimbingStairs.Solution()
-        let result = solution.climbStairs(2)
+        let solution = CoinChange.Solution()
+        let coins = [1, 5, 6, 9]
+        let amount = 11
+        let result = solution.coinChange(coins, amount)
         print(result)
     }
 }

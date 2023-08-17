@@ -326,7 +326,6 @@
 		7CCA5CDC257134C100F53CF2 /* leetcodeTests */ = {
 			isa = PBXGroup;
 			children = (
-				7CCA5D02257139F800F53CF2 /* #104 */,
 				7CCA5CDD257134C100F53CF2 /* leetcodeTests.swift */,
 				7CCA5CDF257134C100F53CF2 /* Info.plist */,
 			);
@@ -346,13 +345,6 @@
 			isa = PBXGroup;
 			children = (
 				7CCA5CFD2571398500F53CF2 /* MaximumDepthOfBinaryTree.swift */,
-			);
-			path = "#104";
-			sourceTree = "<group>";
-		};
-		7CCA5D02257139F800F53CF2 /* #104 */ = {
-			isa = PBXGroup;
-			children = (
 			);
 			path = "#104";
 			sourceTree = "<group>";
