@@ -10,24 +10,26 @@ import Foundation
 class CoinChange {
     class Solution {
         func coinChange(_ coins: [Int], _ amount: Int) -> Int {
-            if amount < 1 { return 0  }
-            var minCoinsHolder = Array(repeating: 0, count: amount + 1)
+            if amount < 1 { return 0 }
+            var minCoinsHolder: [Int] = Array(repeating: Int.max, count: amount + 1)
+            minCoinsHolder[0] = 0
             
-            for amountToMake in 1 ... amount {
+            for interimAmount in 1 ... amount {
                 var minCoins: Int = .max
                 
                 for coin in coins {
-                    if coin <= amountToMake {
-                        let reminder = amountToMake - coin
-                        minCoins = min(minCoins, 1 + minCoinsHolder[reminder])
+                    if interimAmount >= coin {
+                        let reminder = interimAmount - coin
+                        let minCoinsForReminder = minCoinsHolder[reminder]
+                        if minCoinsForReminder == .max { continue }
+                        minCoins = min(minCoins, 1 + minCoinsForReminder)
                     }
                 }
                 
-                if minCoins == .max { return -1 }
-                minCoinsHolder[amountToMake] = minCoins
+                minCoinsHolder[interimAmount] = minCoins
             }
             
-            return minCoinsHolder[amount]
+            return minCoinsHolder[amount] == .max ? -1 : minCoinsHolder[amount]
         }
     }
 }

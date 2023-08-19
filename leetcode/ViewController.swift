@@ -11,8 +11,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let solution = CoinChange.Solution()
-        let coins = [1, 5, 6, 9]
-        let amount = 11
+        let coins = [2]
+        let amount = 3
         let result = solution.coinChange(coins, amount)
         print(result)
     }
