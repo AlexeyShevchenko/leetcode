@@ -10,9 +10,10 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = LongestIncreasingSubsequence.Solution()
-        let nums = [1, 3, 6, 7, 9, 4, 10, 5, 6]
-        let result = solution.lengthOfLIS(nums)
+        let solution = LongestCommonSubsequence.Solution()
+        let text1 = "abcde"
+        let text2 = "ace"
+        let result = solution.longestCommonSubsequence(text1, text2)
         print(result)
     }
 }
