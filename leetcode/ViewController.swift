@@ -10,10 +10,9 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = CoinChange.Solution()
-        let coins = [2]
-        let amount = 3
-        let result = solution.coinChange(coins, amount)
+        let solution = LongestIncreasingSubsequence.Solution()
+        let nums = [10, 9, 2, 5, 3, 7, 101, 18]
+        let result = solution.lengthOfLIS(nums)
         print(result)
     }
 }
