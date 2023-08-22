@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let solution = LongestIncreasingSubsequence.Solution()
-        let nums = [10, 9, 2, 5, 3, 7, 101, 18]
+        let nums = [1, 3, 6, 7, 9, 4, 10, 5, 6]
         let result = solution.lengthOfLIS(nums)
         print(result)
     }
