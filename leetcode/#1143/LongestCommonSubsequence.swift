@@ -23,15 +23,9 @@ class LongestCommonSubsequence {
             
             for i in 0 ..< array1.count {
                 for j in 0 ..< array2.count {
-                    if array1[i] == array2[j] {
-                        matrix[j + 1][i + 1] = 1 + matrix[j][i]
-                    } else {
-                        matrix[j + 1][i + 1] = max(
-                            matrix[j][i + 1],
-                            matrix[j + 1][i]
-                        )
-                    }
-                    longestSubsequenceLenght = max(longestSubsequenceLenght, matrix[j + 1][i + 1])
+                    let currentLenght = array1[i] == array2[j] ? (1 + matrix[j][i]) : max(matrix[j][i + 1], matrix[j + 1][i])
+                    matrix[j + 1][i + 1] = currentLenght
+                    longestSubsequenceLenght = max(longestSubsequenceLenght, currentLenght)
                 }
             }
             
