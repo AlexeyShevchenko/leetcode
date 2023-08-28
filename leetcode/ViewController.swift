@@ -10,10 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = LongestCommonSubsequence.Solution()
-        let text1 = "abcde"
-        let text2 = "ace"
-        let result = solution.longestCommonSubsequence(text1, text2)
+        let solution = NumberOf1Bits.Solution()
+        let result = solution.hammingWeight(5)
         print(result)
     }
 }
