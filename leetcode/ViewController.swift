@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = NumberOf1Bits.Solution()
-        let result = solution.hammingWeight(5)
+        let solution = CountingBits.Solution()
+        let result = solution.countBits(5)
         print(result)
     }
 }
