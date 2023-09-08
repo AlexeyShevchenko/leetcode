@@ -10,8 +10,12 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = CountingBits.Solution()
-        let result = solution.countBits(5)
+        let solution = FindTheTownJudge.Solution()
+        let result = solution.findJudge(
+            1,
+            []
+        )
+        
         print(result)
     }
 }
