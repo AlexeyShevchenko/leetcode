@@ -39,3 +39,6 @@ class CloneGraph {
         }
     }
 }
+
+// Time complexity: O(n + m), where n - number of nodes, m - number of edges
+// Space complexity: O(n), where n - number of nodes
