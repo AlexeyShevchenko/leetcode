@@ -10,12 +10,9 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = FindTheTownJudge.Solution()
-        let result = solution.findJudge(
-            1,
-            []
-        )
-        
+        let solution = MergeIntervals.Solution()
+        let intervals = [[1,4],[2,3]]
+        let result = solution.merge(intervals)
         print(result)
     }
 }
