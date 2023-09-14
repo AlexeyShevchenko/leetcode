@@ -55,6 +55,7 @@
 		7CF0E01F2649A13F005396A2 /* SameTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF0E01E2649A13F005396A2 /* SameTree.swift */; };
 		7CF0E0222649CFFD005396A2 /* SymmetricTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF0E0212649CFFD005396A2 /* SymmetricTree.swift */; };
 		7CFFAE0E26247728006F8364 /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFFAE0D26247728006F8364 /* MergeSortedArray.swift */; };
+		7CFFB5F32AB235E70038756C /* InsertInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFFB5F22AB235E70038756C /* InsertInterval.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +130,7 @@
 		7CF0E01E2649A13F005396A2 /* SameTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameTree.swift; sourceTree = "<group>"; };
 		7CF0E0212649CFFD005396A2 /* SymmetricTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymmetricTree.swift; sourceTree = "<group>"; };
 		7CFFAE0D26247728006F8364 /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
+		7CFFB5F22AB235E70038756C /* InsertInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertInterval.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -371,6 +373,7 @@
 				7C27102126552204007CA4FC /* #33 */,
 				7CE67FD82A82846B00107A67 /* #53 */,
 				7C51F98C2AB1974D00EBDF79 /* #56 */,
+				7CFFB5F12AB235CB0038756C /* #57 */,
 				7C86FBA9262B2F1300A6D969 /* #67 */,
 				7CA5D9C92A8D091400E8DA25 /* #70 */,
 				7CBA9AF226500FBE00553CC5 /* #74 */,
@@ -552,6 +555,14 @@
 			path = "#88";
 			sourceTree = "<group>";
 		};
+		7CFFB5F12AB235CB0038756C /* #57 */ = {
+			isa = PBXGroup;
+			children = (
+				7CFFB5F22AB235E70038756C /* InsertInterval.swift */,
+			);
+			path = "#57";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -691,6 +702,7 @@
 				7CA5D9CB2A8D093400E8DA25 /* ClimbingStairs.swift in Sources */,
 				7C51F98E2AB197AC00EBDF79 /* MergeIntervals.swift in Sources */,
 				7C86FBAB262B2F3300A6D969 /* AddBinary.swift in Sources */,
+				7CFFB5F32AB235E70038756C /* InsertInterval.swift in Sources */,
 				7CCF66C22634A4E6007B6816 /* FirstUniqueCharacterInString.swift in Sources */,
 				7CE7528025FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift in Sources */,
 				7CE354642603EBC100AE39B1 /* ValidParentheses.swift in Sources */,

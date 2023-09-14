@@ -10,9 +10,17 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = MergeIntervals.Solution()
-        let intervals = [[1,4],[2,3]]
-        let result = solution.merge(intervals)
+        let solution = InsertInterval.Solution()
+        let intervals = [
+            [1, 2],
+            [3, 5],
+            [6, 7],
+            [8, 10],
+            [12, 16],
+        ]
+        let newInterval = [4, 8]
+        let result = solution.insert(intervals, newInterval)
+        // [[1,2],[3,10],[12,16]]
         print(result)
     }
 }
