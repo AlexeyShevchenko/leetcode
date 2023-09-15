@@ -50,6 +50,7 @@
 		7CE7527A25FD5DD5005F0B63 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7527925FD5DD5005F0B63 /* TwoSum.swift */; };
 		7CE7528025FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7527F25FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift */; };
 		7CE7528C25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE7528B25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift */; };
+		7CECC5F12AB4929100F99034 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CECC5F02AB4929100F99034 /* ListNode.swift */; };
 		7CF095AF25713B5300E48F1E /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF095AE25713B5300E48F1E /* SingleNumber.swift */; };
 		7CF0E01B26497C5D005396A2 /* GuessNumberHigherOrLower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF0E01A26497C5D005396A2 /* GuessNumberHigherOrLower.swift */; };
 		7CF0E01F2649A13F005396A2 /* SameTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF0E01E2649A13F005396A2 /* SameTree.swift */; };
@@ -125,6 +126,7 @@
 		7CE7527925FD5DD5005F0B63 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		7CE7527F25FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToBuyAndSellStock.swift; sourceTree = "<group>"; };
 		7CE7528B25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyingAnAlienDictionary.swift; sourceTree = "<group>"; };
+		7CECC5F02AB4929100F99034 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		7CF095AE25713B5300E48F1E /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
 		7CF0E01A26497C5D005396A2 /* GuessNumberHigherOrLower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberHigherOrLower.swift; sourceTree = "<group>"; };
 		7CF0E01E2649A13F005396A2 /* SameTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameTree.swift; sourceTree = "<group>"; };
@@ -413,6 +415,7 @@
 				7CCA5CD4257134C000F53CF2 /* Info.plist */,
 				7CADA055262D928800CDBD57 /* String+Index.swift */,
 				7C1F6D712AADEA5100DF768A /* Node.swift */,
+				7CECC5F02AB4929100F99034 /* ListNode.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -704,6 +707,7 @@
 				7C86FBAB262B2F3300A6D969 /* AddBinary.swift in Sources */,
 				7CFFB5F32AB235E70038756C /* InsertInterval.swift in Sources */,
 				7CCF66C22634A4E6007B6816 /* FirstUniqueCharacterInString.swift in Sources */,
+				7CECC5F12AB4929100F99034 /* ListNode.swift in Sources */,
 				7CE7528025FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift in Sources */,
 				7CE354642603EBC100AE39B1 /* ValidParentheses.swift in Sources */,
 				7C1F6D6D2AAB2DFB00DF768A /* FindTheTownJudge.swift in Sources */,
