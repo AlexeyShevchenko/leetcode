@@ -13,28 +13,32 @@ class InsertInterval {
             var result: [[Int]] = []
             var i = 0
             
-            // add all intervals that come before newInterval
+            // add intervals which are before newInterval
             while i < intervals.count, intervals[i][1] < newInterval[0] {
                 result.append(intervals[i])
                 i += 1
             }
             
-            // merge overlapping intervals with newInterval
-            var mergedInterval = newInterval
-            while i < intervals.count, intervals[i][0] <= mergedInterval[1] {
-                mergedInterval[0] = min(intervals[i][0], mergedInterval[0])
-                mergedInterval[1] = max(intervals[i][1], mergedInterval[1])
+            // add intervals which are overlapping with newInterval
+            var mergegInterval = newInterval
+            while i < intervals.count, !isInterval(intervals[i], after: mergegInterval) {
+                mergegInterval[0] = min(mergegInterval[0], intervals[i][0])
+                mergegInterval[1] = max(mergegInterval[1], intervals[i][1])
                 i += 1
             }
-            result.append(mergedInterval)
+            result.append(mergegInterval)
             
-            // add all intervals that come after newInterval
+            // add intervals which are after newInterval
             while i < intervals.count {
                 result.append(intervals[i])
                 i += 1
             }
             
             return result
+        }
+        
+        private func isInterval(_ interval: [Int], after mergedInterval: [Int]) -> Bool {
+            return interval[0] > mergedInterval[1]
         }
     }
 }
