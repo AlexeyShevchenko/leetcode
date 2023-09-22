@@ -10,10 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = RemoveElement.Solution()
-        var nums1 = [3, 2, 2, 3]
-        let val1 = 3
-        let result = solution.removeElement(&nums1, val1)
+        let solution = MajorityElement.Solution()
+        let result = solution.majorityElement([2,2,1,1,1,2,2])
         print(result)
     }
 }
