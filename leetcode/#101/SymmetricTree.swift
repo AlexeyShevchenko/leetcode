@@ -8,9 +8,6 @@
 import Foundation
 
 class SymmetricTree {
-
-    typealias TreeNode = SameTree.TreeNode
-
     class Solution {
         func isSymmetric(_ root: TreeNode?) -> Bool {
             return isMirror(root, root)

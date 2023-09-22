@@ -10,17 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = InsertInterval.Solution()
-        let intervals = [
-            [1, 2],
-            [3, 5],
-            [6, 7],
-            [8, 10],
-            [12, 16],
-        ]
-        let newInterval = [4, 8]
-        let result = solution.insert(intervals, newInterval)
-        // [[1,2],[3,10],[12,16]]
+        let solution = TopKFrequentElements.Solution()
+        let result = solution.topKFrequent([-1,-1,0,0,1,1,1,2,2,2,3], 2)
         print(result)
     }
 }

@@ -9,9 +9,6 @@ import Foundation
 
 class BalancedBinaryTree {
     class Solution {
-
-        typealias TreeNode = SameTree.TreeNode
-
         func isBalanced(_ root: TreeNode?) -> Bool {
             return root == nil ?
                 true :
