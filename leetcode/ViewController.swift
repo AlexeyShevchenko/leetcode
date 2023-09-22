@@ -10,9 +10,10 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = IsSubsequence.Solution()
-        let s = "abc", t = "ahbgdcsdf"
-        let result = solution.isSubsequence(s, t)
+        let solution = RemoveElement.Solution()
+        var nums1 = [3, 2, 2, 3]
+        let val1 = 3
+        let result = solution.removeElement(&nums1, val1)
         print(result)
     }
 }
