@@ -10,8 +10,9 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = TopKFrequentElements.Solution()
-        let result = solution.topKFrequent([-1,-1,0,0,1,1,1,2,2,2,3], 2)
+        let solution = IsSubsequence.Solution()
+        let s = "abc", t = "ahbgdcsdf"
+        let result = solution.isSubsequence(s, t)
         print(result)
     }
 }
