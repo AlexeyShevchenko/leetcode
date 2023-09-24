@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = IntersectionOfTwoArraysII.Solution()
-        let result = solution.intersect([1,2,2,1], [2,2])
+        let solution = FindTheDifferenceOfTwoArrays.Solution()
+        let result = solution.findDifference([1,2,3], [2,4,6])
         print(result)
     }
 }
