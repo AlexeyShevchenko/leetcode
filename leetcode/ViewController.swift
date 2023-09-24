@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = ContainsDuplicateII.Solution()
-        let result = solution.containsNearbyDuplicate([1,0,1,1], 1)
+        let solution = IntersectionOfTwoArraysII.Solution()
+        let result = solution.intersect([1,2,2,1], [2,2])
         print(result)
     }
 }
