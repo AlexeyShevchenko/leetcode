@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = MajorityElement.Solution()
-        let result = solution.majorityElement([2,2,1,1,1,2,2])
+        let solution = ContainsDuplicateII.Solution()
+        let result = solution.containsNearbyDuplicate([1,0,1,1], 1)
         print(result)
     }
 }
