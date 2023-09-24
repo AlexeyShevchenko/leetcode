@@ -12,19 +12,20 @@ class FibonacciNumber {
         func fib(_ n: Int) -> Int {
             if n < 2 { return n }
             
-            var dict: [Int: Int] = [:]
-            dict[0] = 0
-            dict[1] = 1
+            var prevPrev = 0
+            var prev = 1
+            var result = 0
             
-            for i in 2 ... n {
-                guard let prevPrev = dict[i - 2], let prev = dict[i - 1] else { continue }
-                dict[i] = prevPrev + prev
+            for _ in 2 ... n {
+                result = prevPrev + prev
+                prevPrev = prev
+                prev = result
             }
             
-            return dict[n] ?? -1
+            return result
         }
     }
 }
 
 // Time complexity: O(n)
-// Space complexity: O(n)
+// Space complexity: O(1)
