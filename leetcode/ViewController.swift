@@ -10,10 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = FindTheDifference.Solution()
-        let s = "abcd"
-        let t = "abcde"
-        let result = solution.findTheDifference(s, t)
+        let solution = PascalsTriangle.Solution()
+        let result = solution.generate(5)
         print(result)
     }
 }
