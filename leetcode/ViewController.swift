@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = PascalsTriangle.Solution()
-        let result = solution.generate(5)
+        let solution = PascalsTriangleII.Solution()
+        let result = solution.getRow(3)
         print(result)
     }
 }
