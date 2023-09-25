@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7C08CC1D2A8634D50043A2E5 /* RemoveDuplicatesFromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C08CC1C2A8634D50043A2E5 /* RemoveDuplicatesFromSortedArray.swift */; };
 		7C09523A2AC1A4B8007DE7DA /* MinCostClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0952392AC1A4B8007DE7DA /* MinCostClimbingStairs.swift */; };
+		7C09523D2AC1AA9D007DE7DA /* NthTribonacciNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C09523C2AC1AA9D007DE7DA /* NthTribonacciNumber.swift */; };
 		7C1F6D6A2AA8D8FF00DF768A /* CountingBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1F6D692AA8D8FF00DF768A /* CountingBits.swift */; };
 		7C1F6D6D2AAB2DFB00DF768A /* FindTheTownJudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1F6D6C2AAB2DFB00DF768A /* FindTheTownJudge.swift */; };
 		7C1F6D702AADEA1B00DF768A /* CloneGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1F6D6F2AADEA1B00DF768A /* CloneGraph.swift */; };
@@ -93,6 +94,7 @@
 /* Begin PBXFileReference section */
 		7C08CC1C2A8634D50043A2E5 /* RemoveDuplicatesFromSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesFromSortedArray.swift; sourceTree = "<group>"; };
 		7C0952392AC1A4B8007DE7DA /* MinCostClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinCostClimbingStairs.swift; sourceTree = "<group>"; };
+		7C09523C2AC1AA9D007DE7DA /* NthTribonacciNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NthTribonacciNumber.swift; sourceTree = "<group>"; };
 		7C1F6D692AA8D8FF00DF768A /* CountingBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingBits.swift; sourceTree = "<group>"; };
 		7C1F6D6C2AAB2DFB00DF768A /* FindTheTownJudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheTownJudge.swift; sourceTree = "<group>"; };
 		7C1F6D6F2AADEA1B00DF768A /* CloneGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneGraph.swift; sourceTree = "<group>"; };
@@ -202,6 +204,14 @@
 				7C0952392AC1A4B8007DE7DA /* MinCostClimbingStairs.swift */,
 			);
 			path = "#746";
+			sourceTree = "<group>";
+		};
+		7C09523B2AC1AA83007DE7DA /* #1137 */ = {
+			isa = PBXGroup;
+			children = (
+				7C09523C2AC1AA9D007DE7DA /* NthTribonacciNumber.swift */,
+			);
+			path = "#1137";
 			sourceTree = "<group>";
 		};
 		7C1F6D682AA8D8DD00DF768A /* #338 */ = {
@@ -549,6 +559,7 @@
 				7CE7528A25FE5D9F005F0B63 /* #953 */,
 				7CC979DD263A052C000D5A43 /* #977 */,
 				7C1F6D6B2AAB2DE300DF768A /* #997 */,
+				7C09523B2AC1AA83007DE7DA /* #1137 */,
 				7C9149CC2A95125200AC977C /* #1143 */,
 				7C5DEC3A2AC090AC00619AB9 /* #2215 */,
 				7CCA5CC6257134BD00F53CF2 /* AppDelegate.swift */,
@@ -891,6 +902,7 @@
 				7C1F6D722AADEA5100DF768A /* Node.swift in Sources */,
 				7CADA056262D928900CDBD57 /* String+Index.swift in Sources */,
 				7C1F6D6A2AA8D8FF00DF768A /* CountingBits.swift in Sources */,
+				7C09523D2AC1AA9D007DE7DA /* NthTribonacciNumber.swift in Sources */,
 				7C26D2162ABC3D0D00A9CEFF /* InvertBinaryTree.swift in Sources */,
 				7C426DD12A8E490C00CDEC7B /* CoinChange.swift in Sources */,
 				7C08CC1D2A8634D50043A2E5 /* RemoveDuplicatesFromSortedArray.swift in Sources */,

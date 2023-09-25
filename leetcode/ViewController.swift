@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = FindTheDifferenceOfTwoArrays.Solution()
-        let result = solution.findDifference([1,2,3], [2,4,6])
+        let solution = NthTribonacciNumber.Solution()
+        let result = solution.tribonacci(25)
         print(result)
     }
 }
