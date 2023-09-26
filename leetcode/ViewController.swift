@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = PascalsTriangleII.Solution()
-        let result = solution.getRow(3)
+        let solution = JumpGame.Solution()
+        let result = solution.canJump([3,2,1,0,4])
         print(result)
     }
 }
