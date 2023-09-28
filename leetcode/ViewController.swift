@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = JumpGame.Solution()
-        let result = solution.canJump([3,2,1,0,4])
+        let solution = CourseSchedule.Solution()
+        let result = solution.canFinish(3, [[0,2],[1,2],[2,0]])
         print(result)
     }
 }
