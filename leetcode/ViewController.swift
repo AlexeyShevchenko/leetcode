@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = FindCenterOfStarGraph.Solution()
-        let result = solution.findCenter([[1,2],[2,3],[4,2]])
+        let solution = CourseScheduleII.Solution()
+        let result = solution.findOrder(4, [[1,0], [2,0], [3,1], [3,2]])
         print(result)
     }
 }
