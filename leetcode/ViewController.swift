@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = MonotonicArray.Solution()
-        let result = solution.isMonotonic([1, 3, 2])
+        let solution = SpiralMatrix.Solution()
+        let result = solution.spiralOrder([[1,2,3,4],[5,6,7,8],[9,10,11,12]])
         print(result)
     }
 }
