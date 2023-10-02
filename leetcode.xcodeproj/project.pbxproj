@@ -14,6 +14,7 @@
 		7C0952462AC1D9EB007DE7DA /* PascalsTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0952452AC1D9EB007DE7DA /* PascalsTriangle.swift */; };
 		7C0952492AC1E34D007DE7DA /* PascalsTriangleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0952482AC1E34D007DE7DA /* PascalsTriangleII.swift */; };
 		7C12E75C2AC6D4430042BD38 /* CourseScheduleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12E75B2AC6D4430042BD38 /* CourseScheduleII.swift */; };
+		7C12E75F2AC6DCF40042BD38 /* MonotonicArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12E75E2AC6DCF40042BD38 /* MonotonicArray.swift */; };
 		7C1F6D6A2AA8D8FF00DF768A /* CountingBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1F6D692AA8D8FF00DF768A /* CountingBits.swift */; };
 		7C1F6D6D2AAB2DFB00DF768A /* FindTheTownJudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1F6D6C2AAB2DFB00DF768A /* FindTheTownJudge.swift */; };
 		7C1F6D702AADEA1B00DF768A /* CloneGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1F6D6F2AADEA1B00DF768A /* CloneGraph.swift */; };
@@ -107,6 +108,7 @@
 		7C0952452AC1D9EB007DE7DA /* PascalsTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalsTriangle.swift; sourceTree = "<group>"; };
 		7C0952482AC1E34D007DE7DA /* PascalsTriangleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalsTriangleII.swift; sourceTree = "<group>"; };
 		7C12E75B2AC6D4430042BD38 /* CourseScheduleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleII.swift; sourceTree = "<group>"; };
+		7C12E75E2AC6DCF40042BD38 /* MonotonicArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonotonicArray.swift; sourceTree = "<group>"; };
 		7C1F6D692AA8D8FF00DF768A /* CountingBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingBits.swift; sourceTree = "<group>"; };
 		7C1F6D6C2AAB2DFB00DF768A /* FindTheTownJudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheTownJudge.swift; sourceTree = "<group>"; };
 		7C1F6D6F2AADEA1B00DF768A /* CloneGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneGraph.swift; sourceTree = "<group>"; };
@@ -260,6 +262,14 @@
 				7C12E75B2AC6D4430042BD38 /* CourseScheduleII.swift */,
 			);
 			path = "#210";
+			sourceTree = "<group>";
+		};
+		7C12E75D2AC6DCB10042BD38 /* #896 */ = {
+			isa = PBXGroup;
+			children = (
+				7C12E75E2AC6DCF40042BD38 /* MonotonicArray.swift */,
+			);
+			path = "#896";
 			sourceTree = "<group>";
 		};
 		7C1F6D682AA8D8DD00DF768A /* #338 */ = {
@@ -643,6 +653,7 @@
 				7C5DEC3D2AC0B29200619AB9 /* #509 */,
 				7C275937264401C700BB4557 /* #704 */,
 				7C0952382AC1A495007DE7DA /* #746 */,
+				7C12E75D2AC6DCB10042BD38 /* #896 */,
 				7CE7528A25FE5D9F005F0B63 /* #953 */,
 				7CC979DD263A052C000D5A43 /* #977 */,
 				7C1F6D6B2AAB2DE300DF768A /* #997 */,
@@ -1003,6 +1014,7 @@
 				7C08CC1D2A8634D50043A2E5 /* RemoveDuplicatesFromSortedArray.swift in Sources */,
 				7C2710232655222A007CA4FC /* SearchInRotatedSortedArray.swift in Sources */,
 				7C5DEC3F2AC0B2A400619AB9 /* FibonacciNumber.swift in Sources */,
+				7C12E75F2AC6DCF40042BD38 /* MonotonicArray.swift in Sources */,
 				7CACFFCC2A9C9CD400EC418D /* NumberOf1Bits.swift in Sources */,
 				7C5DEC2C2ABDE83900619AB9 /* MajorityElement.swift in Sources */,
 				7CBA9AF426500FF100553CC5 /* Search2dMatrix.swift in Sources */,

@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = CourseScheduleII.Solution()
-        let result = solution.findOrder(4, [[1,0], [2,0], [3,1], [3,2]])
+        let solution = MonotonicArray.Solution()
+        let result = solution.isMonotonic([1, 3, 2])
         print(result)
     }
 }
