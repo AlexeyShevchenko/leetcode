@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = FindTheIndexOfTheFirstOccurrenceInAString.Solution()
-        let result = solution.strStr("sadbutsad", "sad")
+        let solution = LengthOfLastWord.Solution()
+        let result = solution.lengthOfLastWord("hello you worlds        ")
         print(result)
     }
 }
