@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = SpiralMatrix.Solution()
-        let result = solution.spiralOrder([[1,2,3,4],[5,6,7,8],[9,10,11,12]])
+        let solution = MedianOfTwoSortedArrays.Solution()
+        let result = solution.findMedianSortedArrays([1,3], [2])
         print(result)
     }
 }
