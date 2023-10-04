@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = MedianOfTwoSortedArrays.Solution()
-        let result = solution.findMedianSortedArrays([1,3], [2])
+        let solution = FindTheIndexOfTheFirstOccurrenceInAString.Solution()
+        let result = solution.strStr("sadbutsad", "sad")
         print(result)
     }
 }
