@@ -10,8 +10,9 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = LengthOfLastWord.Solution()
-        let result = solution.lengthOfLastWord("hello you worlds        ")
+        let solution = RotateArray.Solution()
+        var array = [1,2,3,4,5,6,7]
+        let result = solution.rotate(&array, 3)
         print(result)
     }
 }
