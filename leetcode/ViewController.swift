@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = TwoSumIIInputArrayIsSorted.Solution()
-        let result = solution.twoSum([-1, 0], -1)
+        let solution = MinimumSizeSubarraySum.Solution()
+        let result = solution.minSubArrayLen(4, [1,4,4])
         print(result)
     }
 }
