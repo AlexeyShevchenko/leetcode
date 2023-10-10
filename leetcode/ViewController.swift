@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = MinimumSizeSubarraySum.Solution()
-        let result = solution.minSubArrayLen(4, [1,4,4])
+        let solution = RansomNote.Solution()
+        let result = solution.canConstruct("aa", "aab")
         print(result)
     }
 }
