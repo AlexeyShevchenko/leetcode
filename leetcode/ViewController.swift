@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = IsomorphicStrings.Solution()
-        let result = solution.isIsomorphic("badc", "baba")
+        let solution = WordPattern.Solution()
+        let result = solution.wordPattern("abba", "dog cat cat fish")
         print(result)
     }
 }
