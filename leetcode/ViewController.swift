@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = RansomNote.Solution()
-        let result = solution.canConstruct("aa", "aab")
+        let solution = IsomorphicStrings.Solution()
+        let result = solution.isIsomorphic("badc", "baba")
         print(result)
     }
 }
