@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = WordPattern.Solution()
-        let result = solution.wordPattern("abba", "dog cat cat fish")
+        let solution = SummaryRanges.Solution()
+        let result = solution.summaryRanges([0,2,3,4,6,8,9])
         print(result)
     }
 }
