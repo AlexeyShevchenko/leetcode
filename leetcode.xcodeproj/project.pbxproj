@@ -67,6 +67,7 @@
 		7CB2A4442AC59EA80040E3D5 /* FindCenterOfStarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB2A4432AC59EA80040E3D5 /* FindCenterOfStarGraph.swift */; };
 		7CBA9AF1264FFCD800553CC5 /* NumberOfIslands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBA9AF0264FFCD800553CC5 /* NumberOfIslands.swift */; };
 		7CBA9AF426500FF100553CC5 /* Search2dMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBA9AF326500FF100553CC5 /* Search2dMatrix.swift */; };
+		7CBFE4992ADD39CD00B42CD3 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBFE4982ADD39CD00B42CD3 /* Triangle.swift */; };
 		7CC979D92639FE03000D5A43 /* ValidAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC979D82639FE03000D5A43 /* ValidAnagram.swift */; };
 		7CC979DF263A054B000D5A43 /* SquaresOfSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC979DE263A054B000D5A43 /* SquaresOfSortedArray.swift */; };
 		7CCA5CC7257134BD00F53CF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA5CC6257134BD00F53CF2 /* AppDelegate.swift */; };
@@ -175,6 +176,7 @@
 		7CB2A4432AC59EA80040E3D5 /* FindCenterOfStarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCenterOfStarGraph.swift; sourceTree = "<group>"; };
 		7CBA9AF0264FFCD800553CC5 /* NumberOfIslands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfIslands.swift; sourceTree = "<group>"; };
 		7CBA9AF326500FF100553CC5 /* Search2dMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search2dMatrix.swift; sourceTree = "<group>"; };
+		7CBFE4982ADD39CD00B42CD3 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		7CC979D82639FE03000D5A43 /* ValidAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidAnagram.swift; sourceTree = "<group>"; };
 		7CC979DE263A054B000D5A43 /* SquaresOfSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresOfSortedArray.swift; sourceTree = "<group>"; };
 		7CCA5CC3257134BD00F53CF2 /* leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -692,6 +694,14 @@
 			path = "#74";
 			sourceTree = "<group>";
 		};
+		7CBFE4972ADD39B800B42CD3 /* #120 */ = {
+			isa = PBXGroup;
+			children = (
+				7CBFE4982ADD39CD00B42CD3 /* Triangle.swift */,
+			);
+			path = "#120";
+			sourceTree = "<group>";
+		};
 		7CC979D72639FDEB000D5A43 /* #242 */ = {
 			isa = PBXGroup;
 			children = (
@@ -762,6 +772,7 @@
 				7CE55866264C5F12009EC351 /* #110 */,
 				7C0952442AC1D9BA007DE7DA /* #118 */,
 				7C0952472AC1E337007DE7DA /* #119 */,
+				7CBFE4972ADD39B800B42CD3 /* #120 */,
 				7CE7527E25FE3391005F0B63 /* #121 */,
 				7C6EC467264AF02000719C52 /* #122 */,
 				7C51F9892AB05C8D00EBDF79 /* #128 */,
@@ -1181,6 +1192,7 @@
 				7C08CC1D2A8634D50043A2E5 /* RemoveDuplicatesFromSortedArray.swift in Sources */,
 				7C21209E2AD96DAE00F385D3 /* SummaryRanges.swift in Sources */,
 				7C2710232655222A007CA4FC /* SearchInRotatedSortedArray.swift in Sources */,
+				7CBFE4992ADD39CD00B42CD3 /* Triangle.swift in Sources */,
 				7C5DEC3F2AC0B2A400619AB9 /* FibonacciNumber.swift in Sources */,
 				7C12E75F2AC6DCF40042BD38 /* MonotonicArray.swift in Sources */,
 				7CACFFCC2A9C9CD400EC418D /* NumberOf1Bits.swift in Sources */,

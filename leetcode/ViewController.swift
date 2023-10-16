@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = SummaryRanges.Solution()
-        let result = solution.summaryRanges([0,2,3,4,6,8,9])
+        let solution = Triangle.Solution()
+        let result = solution.minimumTotal([[2], [3,4], [6,5,7], [4,1,8,3]])
         print(result)
     }
 }
