@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0556F42ADFFF54003D4A16 /* GasStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0556F32ADFFF54003D4A16 /* GasStation.swift */; };
 		7C08CC1D2A8634D50043A2E5 /* RemoveDuplicatesFromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C08CC1C2A8634D50043A2E5 /* RemoveDuplicatesFromSortedArray.swift */; };
 		7C09523A2AC1A4B8007DE7DA /* MinCostClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0952392AC1A4B8007DE7DA /* MinCostClimbingStairs.swift */; };
 		7C09523D2AC1AA9D007DE7DA /* NthTribonacciNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C09523C2AC1AA9D007DE7DA /* NthTribonacciNumber.swift */; };
@@ -117,6 +118,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C0556F32ADFFF54003D4A16 /* GasStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStation.swift; sourceTree = "<group>"; };
 		7C08CC1C2A8634D50043A2E5 /* RemoveDuplicatesFromSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesFromSortedArray.swift; sourceTree = "<group>"; };
 		7C0952392AC1A4B8007DE7DA /* MinCostClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinCostClimbingStairs.swift; sourceTree = "<group>"; };
 		7C09523C2AC1AA9D007DE7DA /* NthTribonacciNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NthTribonacciNumber.swift; sourceTree = "<group>"; };
@@ -240,6 +242,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C0556F22ADFFF42003D4A16 /* #134 */ = {
+			isa = PBXGroup;
+			children = (
+				7C0556F32ADFFF54003D4A16 /* GasStation.swift */,
+			);
+			path = "#134";
+			sourceTree = "<group>";
+		};
 		7C08CC1B2A8634930043A2E5 /* #26 */ = {
 			isa = PBXGroup;
 			children = (
@@ -787,6 +797,7 @@
 				7C6EC467264AF02000719C52 /* #122 */,
 				7C51F9892AB05C8D00EBDF79 /* #128 */,
 				7C1F6D6E2AADEA0A00DF768A /* #133 */,
+				7C0556F22ADFFF42003D4A16 /* #134 */,
 				7CCA5D0625713A2D00F53CF2 /* #136 */,
 				7C2759342643F49D00BB4557 /* #141 */,
 				7C8CB7D62AD2BC8100E0154E /* #167 */,
@@ -1188,6 +1199,7 @@
 				7C1F6D702AADEA1B00DF768A /* CloneGraph.swift in Sources */,
 				7C0952462AC1D9EB007DE7DA /* PascalsTriangle.swift in Sources */,
 				7CCF66CD2635B8AB007B6816 /* RomanToInteger.swift in Sources */,
+				7C0556F42ADFFF54003D4A16 /* GasStation.swift in Sources */,
 				7CCA5CC9257134BD00F53CF2 /* SceneDelegate.swift in Sources */,
 				7C1F6D722AADEA5100DF768A /* Node.swift in Sources */,
 				7C4625E62AD80A8B002EDA79 /* WordPattern.swift in Sources */,
