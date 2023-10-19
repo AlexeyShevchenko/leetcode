@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = GasStation.Solution()
-        let result = solution.canCompleteCircuit([1,2,3,4,5], [3,4,5,1,2])
+        let solution = Candy.Solution()
+        let result = solution.candy([1,0,2])
         print(result)
     }
 }
