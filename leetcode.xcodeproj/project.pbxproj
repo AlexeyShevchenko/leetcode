@@ -32,6 +32,7 @@
 		7C2759362643F4EA00BB4557 /* LinkedListCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2759352643F4EA00BB4557 /* LinkedListCycle.swift */; };
 		7C275939264401DA00BB4557 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C275938264401DA00BB4557 /* BinarySearch.swift */; };
 		7C40E9C62AE15BAF0055990C /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C40E9C52AE15BAE0055990C /* Candy.swift */; };
+		7C40E9C92AE2C1DD0055990C /* MinimumNumberOfArrowsToBurstBalloons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C40E9C82AE2C1DD0055990C /* MinimumNumberOfArrowsToBurstBalloons.swift */; };
 		7C426DD12A8E490C00CDEC7B /* CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C426DD02A8E490C00CDEC7B /* CoinChange.swift */; };
 		7C4625E32AD8016F002EDA79 /* IsomorphicStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4625E22AD8016F002EDA79 /* IsomorphicStrings.swift */; };
 		7C4625E62AD80A8B002EDA79 /* WordPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4625E52AD80A8B002EDA79 /* WordPattern.swift */; };
@@ -144,6 +145,7 @@
 		7C2759352643F4EA00BB4557 /* LinkedListCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycle.swift; sourceTree = "<group>"; };
 		7C275938264401DA00BB4557 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		7C40E9C52AE15BAE0055990C /* Candy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
+		7C40E9C82AE2C1DD0055990C /* MinimumNumberOfArrowsToBurstBalloons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumNumberOfArrowsToBurstBalloons.swift; sourceTree = "<group>"; };
 		7C426DD02A8E490C00CDEC7B /* CoinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChange.swift; sourceTree = "<group>"; };
 		7C4625E22AD8016F002EDA79 /* IsomorphicStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsomorphicStrings.swift; sourceTree = "<group>"; };
 		7C4625E52AD80A8B002EDA79 /* WordPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPattern.swift; sourceTree = "<group>"; };
@@ -426,6 +428,14 @@
 				7C40E9C52AE15BAE0055990C /* Candy.swift */,
 			);
 			path = "#135";
+			sourceTree = "<group>";
+		};
+		7C40E9C72AE2C1BF0055990C /* #452 */ = {
+			isa = PBXGroup;
+			children = (
+				7C40E9C82AE2C1DD0055990C /* MinimumNumberOfArrowsToBurstBalloons.swift */,
+			);
+			path = "#452";
 			sourceTree = "<group>";
 		};
 		7C426DCF2A8E489E00CDEC7B /* #322 */ = {
@@ -840,6 +850,7 @@
 				7CCF66C02634A4B8007B6816 /* #387 */,
 				7C0952412AC1CA53007DE7DA /* #389 */,
 				7C5DEC242ABDBFEF00619AB9 /* #392 */,
+				7C40E9C72AE2C1BF0055990C /* #452 */,
 				7C5DEC3D2AC0B29200619AB9 /* #509 */,
 				7C275937264401C700BB4557 /* #704 */,
 				7C0952382AC1A495007DE7DA /* #746 */,
@@ -1216,6 +1227,7 @@
 				7C1F6D722AADEA5100DF768A /* Node.swift in Sources */,
 				7C4625E62AD80A8B002EDA79 /* WordPattern.swift in Sources */,
 				7CADA056262D928900CDBD57 /* String+Index.swift in Sources */,
+				7C40E9C92AE2C1DD0055990C /* MinimumNumberOfArrowsToBurstBalloons.swift in Sources */,
 				7C1F6D6A2AA8D8FF00DF768A /* CountingBits.swift in Sources */,
 				7C09523D2AC1AA9D007DE7DA /* NthTribonacciNumber.swift in Sources */,
 				7CFC18642AD474B50062721C /* RansomNote.swift in Sources */,

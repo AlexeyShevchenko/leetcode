@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = Candy.Solution()
-        let result = solution.candy([1,0,2])
+        let solution = MinimumNumberOfArrowsToBurstBalloons.Solution()
+        let result = solution.findMinArrowShots([[10, 16], [2, 8], [1, 6], [7, 12]])
         print(result)
     }
 }
