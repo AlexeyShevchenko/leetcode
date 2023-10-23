@@ -10,22 +10,17 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = RotateList.Solution()
-        
-        //[1,2,3,4,5]
-        let listNode4: ListNode = .init(5)
-        let listNode3: ListNode = .init(4)
-        let listNode2: ListNode = .init(3)
-        let listNode1: ListNode = .init(2)
+        let solution = RemoveDuplicatesFromSortedListII.Solution()
+        //[1,2,3,3,4,4,5]
         let head: ListNode = .init(1)
+        head.next = .init(2)
+        head.next?.next = .init(3)
+        head.next?.next?.next = .init(3)
+        head.next?.next?.next?.next = .init(4)
+        head.next?.next?.next?.next?.next = .init(4)
+        head.next?.next?.next?.next?.next?.next = .init(5)
         
-        head.next = listNode1
-        listNode1.next = listNode2
-        listNode2.next = listNode3
-        listNode3.next = listNode4
-        listNode4.next = nil
-        
-        let result = solution.rotateRight(head, 2)
+        let result = solution.deleteDuplicates(head)
         print(result)
     }
 }
