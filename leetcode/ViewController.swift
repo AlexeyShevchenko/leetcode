@@ -10,15 +10,13 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = RemoveDuplicatesFromSortedListII.Solution()
-        //[1,2,3,3,4,4,5]
+        let solution = RemoveDuplicatesFromSortedList.Solution()
+        // [1,1,2,3,3]
         let head: ListNode = .init(1)
-        head.next = .init(2)
-        head.next?.next = .init(3)
-        head.next?.next?.next = .init(3)
-        head.next?.next?.next?.next = .init(4)
-        head.next?.next?.next?.next?.next = .init(4)
-        head.next?.next?.next?.next?.next?.next = .init(5)
+        head.next = .init(1)
+//        head.next?.next = .init(2)
+//        head.next?.next?.next = .init(3)
+//        head.next?.next?.next?.next = .init(3)
         
         let result = solution.deleteDuplicates(head)
         print(result)
