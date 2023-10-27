@@ -44,7 +44,7 @@ class DeleteTheMiddleNodeOfLinkedList {
             let nextItem = stack[middleIndex + 1]
             previousItem.next = nextItem
             
-            // get middle item (middleIndex = stack.count / 2) ??? do we need that?
+            // get middle item (middleIndex = stack.count / 2)
             let middleItem = stack[middleIndex]
             middleItem.next = nil
             
