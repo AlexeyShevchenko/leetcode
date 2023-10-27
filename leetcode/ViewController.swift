@@ -10,16 +10,11 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = MiddleOfTheLinkedList.Solution()
-        // [1,1,2,3,3]
+        let solution = ConvertBinaryNumberInLinkeListToInteger.Solution()
         let head: ListNode = .init(1)
-        head.next = .init(2)
-        head.next?.next = .init(3)
-        head.next?.next?.next = .init(4)
-        head.next?.next?.next?.next = .init(5)
-        head.next?.next?.next?.next?.next = .init(6)
-        
-        let result = solution.middleNode(head)
+        head.next = .init(0)
+        head.next?.next = .init(1)
+        let result = solution.getDecimalValue(head)
         print(result)
     }
 }
@@ -33,3 +28,10 @@ class QSort {
         return sort(less) + [pivot] + sort(greater)
     }
 }
+
+//        let head: ListNode = .init(1)
+//        head.next = .init(2)
+//        head.next?.next = .init(3)
+//        head.next?.next?.next = .init(4)
+//        head.next?.next?.next?.next = .init(5)
+//        head.next?.next?.next?.next?.next = .init(6)
