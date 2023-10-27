@@ -18,7 +18,7 @@ class DeleteTheMiddleNodeOfLinkedList {
                 current = currentForLoop.next
             }
 
-            // get previous item, set its next with next after meddle item
+            // handle age cases
             if stack.isEmpty {
                 return head
             }
@@ -38,7 +38,7 @@ class DeleteTheMiddleNodeOfLinkedList {
                 return stack[0]
             }
             
-            
+            // get previous item, set its next with next after meddle item
             let middleIndex = stack.count / 2
             let previousItem = stack[middleIndex - 1]
             let nextItem = stack[middleIndex + 1]
