@@ -23,6 +23,10 @@ class DeleteTheMiddleNodeOfLinkedList {
                 return head
             }
             if stack.count == 1 {
+                /*
+                 Input: head = [1]
+                 Output: []
+                 */
                 return nil
             }
             if stack.count == 2 {
