@@ -6,15 +6,23 @@
 //
 
 import UIKit
-
+/*
+ Input: head = [1,3,4,7,1,2,6]
+ Output: [1,3,4,1,2,6]
+ */
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = ConvertBinaryNumberInLinkeListToInteger.Solution()
+        let solution = DeleteTheMiddleNodeOfLinkedList.Solution()
+        //1,2,3,4]
         let head: ListNode = .init(1)
-        head.next = .init(0)
-        head.next?.next = .init(1)
-        let result = solution.getDecimalValue(head)
+//        head.next = .init(1)
+//        head.next?.next = .init(3)
+//        head.next?.next?.next = .init(4)
+//        head.next?.next?.next?.next = .init(1)
+//        head.next?.next?.next?.next?.next = .init(2)
+//        head.next?.next?.next?.next?.next?.next = .init(6)
+        let result = solution.deleteMiddle(head)
         print(result)
     }
 }
