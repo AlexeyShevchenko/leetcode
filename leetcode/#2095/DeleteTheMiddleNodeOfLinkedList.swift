@@ -53,4 +53,4 @@ class DeleteTheMiddleNodeOfLinkedList {
     }
 }
 // Time compexity: O(n)
-// Space complexity: O(nf)
+// Space complexity: O(n)
