@@ -10,11 +10,6 @@ import Foundation
 class DeleteTheMiddleNodeOfLinkedList {
     class Solution {
         func deleteMiddle(_ head: ListNode?) -> ListNode? {
-            /*
-             Input: head = [1,3,4,7,1,2,6]
-             Output: [1,3,4,1,2,6]
-             */
-            
             // add all nodes to stack
             var stack: [ListNode] = []
             var current = head
@@ -54,4 +49,4 @@ class DeleteTheMiddleNodeOfLinkedList {
     }
 }
 // Time compexity: O(n)
-// Space complexity: O(n)
+// Space complexity: O(nf)
