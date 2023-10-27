@@ -10,15 +10,16 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = RemoveDuplicatesFromSortedList.Solution()
+        let solution = MiddleOfTheLinkedList.Solution()
         // [1,1,2,3,3]
         let head: ListNode = .init(1)
-        head.next = .init(1)
-//        head.next?.next = .init(2)
-//        head.next?.next?.next = .init(3)
-//        head.next?.next?.next?.next = .init(3)
+        head.next = .init(2)
+        head.next?.next = .init(3)
+        head.next?.next?.next = .init(4)
+        head.next?.next?.next?.next = .init(5)
+        head.next?.next?.next?.next?.next = .init(6)
         
-        let result = solution.deleteDuplicates(head)
+        let result = solution.middleNode(head)
         print(result)
     }
 }
