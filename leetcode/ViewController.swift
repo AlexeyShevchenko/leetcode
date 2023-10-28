@@ -13,19 +13,22 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = RemoveLinkedListElements.Solution()
+        let solution = IntersectionOfTwoLinkedLists.Solution()
         /*
-         Input: head = [1,2,6,3,4,5,6], val = 6
-         Output: [1,2,3,4,5]
+         [1,9,1,2,4]
+         [3,2,4]
+         Intersected at '2'
          */
-        let head: ListNode = .init(7)
-        head.next = .init(7)
-        head.next?.next = .init(7)
-        head.next?.next?.next = .init(7)
-//        head.next?.next?.next?.next = .init(4)
-//        head.next?.next?.next?.next?.next = .init(5)
-//        head.next?.next?.next?.next?.next?.next = .init(6)
-        let result = solution.removeElements(head, 7)
+        let headA: ListNode = .init(1)
+        headA.next = .init(9)
+        headA.next?.next = .init(1)
+        headA.next?.next?.next = .init(2)
+        headA.next?.next?.next?.next = .init(4)
+
+        let headB: ListNode = .init(3)
+        headB.next = headA.next?.next?.next
+        
+        let result = solution.getIntersectionNode(headA, headB)
         print(result)
     }
 }
