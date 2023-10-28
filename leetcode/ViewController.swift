@@ -13,22 +13,14 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = IntersectionOfTwoLinkedLists.Solution()
-        /*
-         [1,9,1,2,4]
-         [3,2,4]
-         Intersected at '2'
-         */
-        let headA: ListNode = .init(1)
-        headA.next = .init(9)
-        headA.next?.next = .init(1)
-        headA.next?.next?.next = .init(2)
-        headA.next?.next?.next?.next = .init(4)
-
-        let headB: ListNode = .init(3)
-        headB.next = headA.next?.next?.next
+        let solution = PalindromeLinkedList.Solution()
         
-        let result = solution.getIntersectionNode(headA, headB)
+        let headA: ListNode = .init(1)
+        headA.next = .init(2)
+        headA.next?.next = .init(2)
+        headA.next?.next?.next = .init(1)
+        
+        let result = solution.isPalindrome(headA)
         print(result)
     }
 }
