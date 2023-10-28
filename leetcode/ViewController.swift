@@ -13,16 +13,19 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = DeleteTheMiddleNodeOfLinkedList.Solution()
-        //1,2,3,4]
-        let head: ListNode = .init(1)
-//        head.next = .init(1)
-//        head.next?.next = .init(3)
-//        head.next?.next?.next = .init(4)
-//        head.next?.next?.next?.next = .init(1)
-//        head.next?.next?.next?.next?.next = .init(2)
+        let solution = RemoveLinkedListElements.Solution()
+        /*
+         Input: head = [1,2,6,3,4,5,6], val = 6
+         Output: [1,2,3,4,5]
+         */
+        let head: ListNode = .init(7)
+        head.next = .init(7)
+        head.next?.next = .init(7)
+        head.next?.next?.next = .init(7)
+//        head.next?.next?.next?.next = .init(4)
+//        head.next?.next?.next?.next?.next = .init(5)
 //        head.next?.next?.next?.next?.next?.next = .init(6)
-        let result = solution.deleteMiddle(head)
+        let result = solution.removeElements(head, 7)
         print(result)
     }
 }
