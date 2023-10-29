@@ -7,20 +7,24 @@
 
 import UIKit
 /*
- Input: head = [1,3,4,7,1,2,6]
- Output: [1,3,4,1,2,6]
+ Input: head = [0,3,1,0,4,5,2,0]
+ Output: [4,11]
  */
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = PalindromeLinkedList.Solution()
+        let solution = MergeNodesInBetweenZeros.Solution()
         
-        let headA: ListNode = .init(1)
-        headA.next = .init(2)
-        headA.next?.next = .init(2)
-        headA.next?.next?.next = .init(1)
+        let head: ListNode = .init(0)
+        head.next = .init(3)
+        head.next?.next = .init(1)
+        head.next?.next?.next = .init(0)
+        head.next?.next?.next?.next = .init(4)
+        head.next?.next?.next?.next?.next = .init(5)
+        head.next?.next?.next?.next?.next?.next = .init(2)
+        head.next?.next?.next?.next?.next?.next?.next = .init(0)
         
-        let result = solution.isPalindrome(headA)
+        let result = solution.mergeNodes(head)
         print(result)
     }
 }
