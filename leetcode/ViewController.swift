@@ -7,20 +7,26 @@
 
 import UIKit
 /*
- Input: head = [0,3,1,0,4,5,2,0]
- Output: [4,11]
+ Input: list1 = [0,1,2,3,4,5], a = 3, b = 4, list2 = [1000000,1000001,1000002]
+ Output: [0,1,2,1000000,1000001,1000002,5]
  */
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = MaximumTwinSumOfLinkedList.Solution()
+        let solution = MergeInBetweenLinkedLists.Solution()
         
-        let head: ListNode = .init(5)
-        head.next = .init(4)
-        head.next?.next = .init(2)
-        head.next?.next?.next = .init(1)
+        let list1: ListNode = .init(0)
+        list1.next = .init(1)
+        list1.next?.next = .init(2)
+        list1.next?.next?.next = .init(3)
+        list1.next?.next?.next?.next = .init(4)
+        list1.next?.next?.next?.next?.next = .init(5)
+        
+        let list2: ListNode = .init(1000000)
+        list2.next = .init(1000001)
+        list2.next?.next = .init(1000002)
 
-        let result = solution.pairSum(head)
+        let result = solution.mergeInBetween(list1, 3, 4, list2)
         print(result)
     }
 }

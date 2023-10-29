@@ -35,6 +35,7 @@
 		7C3AD38C2AED4ECD00C4500A /* PalindromeLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3AD38B2AED4ECD00C4500A /* PalindromeLinkedList.swift */; };
 		7C3AD38F2AED689500C4500A /* MergeNodesInBetweenZeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3AD38E2AED689500C4500A /* MergeNodesInBetweenZeros.swift */; };
 		7C3AD3922AEE7D6800C4500A /* MaximumTwinSumOfLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3AD3912AEE7D6800C4500A /* MaximumTwinSumOfLinkedList.swift */; };
+		7C3AD3952AEE83E800C4500A /* MergeInBetweenLinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3AD3942AEE83E800C4500A /* MergeInBetweenLinkedLists.swift */; };
 		7C40E9C62AE15BAF0055990C /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C40E9C52AE15BAE0055990C /* Candy.swift */; };
 		7C40E9C92AE2C1DD0055990C /* MinimumNumberOfArrowsToBurstBalloons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C40E9C82AE2C1DD0055990C /* MinimumNumberOfArrowsToBurstBalloons.swift */; };
 		7C40E9CF2AE5301C0055990C /* RemoveNthNodeFromEndOfList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C40E9CE2AE5301C0055990C /* RemoveNthNodeFromEndOfList.swift */; };
@@ -160,6 +161,7 @@
 		7C3AD38B2AED4ECD00C4500A /* PalindromeLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeLinkedList.swift; sourceTree = "<group>"; };
 		7C3AD38E2AED689500C4500A /* MergeNodesInBetweenZeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeNodesInBetweenZeros.swift; sourceTree = "<group>"; };
 		7C3AD3912AEE7D6800C4500A /* MaximumTwinSumOfLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumTwinSumOfLinkedList.swift; sourceTree = "<group>"; };
+		7C3AD3942AEE83E800C4500A /* MergeInBetweenLinkedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeInBetweenLinkedLists.swift; sourceTree = "<group>"; };
 		7C40E9C52AE15BAE0055990C /* Candy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
 		7C40E9C82AE2C1DD0055990C /* MinimumNumberOfArrowsToBurstBalloons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumNumberOfArrowsToBurstBalloons.swift; sourceTree = "<group>"; };
 		7C40E9CE2AE5301C0055990C /* RemoveNthNodeFromEndOfList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthNodeFromEndOfList.swift; sourceTree = "<group>"; };
@@ -476,6 +478,14 @@
 				7C3AD3912AEE7D6800C4500A /* MaximumTwinSumOfLinkedList.swift */,
 			);
 			path = "#2130";
+			sourceTree = "<group>";
+		};
+		7C3AD3932AEE83D300C4500A /* #1669 */ = {
+			isa = PBXGroup;
+			children = (
+				7C3AD3942AEE83E800C4500A /* MergeInBetweenLinkedLists.swift */,
+			);
+			path = "#1669";
 			sourceTree = "<group>";
 		};
 		7C40E9C42AE15B8C0055990C /* #135 */ = {
@@ -949,6 +959,7 @@
 				7C09523B2AC1AA83007DE7DA /* #1137 */,
 				7C9149CC2A95125200AC977C /* #1143 */,
 				7CED42712AEBDC9E00AB4402 /* #1290 */,
+				7C3AD3932AEE83D300C4500A /* #1669 */,
 				7CB2A4422AC59E920040E3D5 /* #1791 */,
 				7CED42742AEBF0B000AB4402 /* #2095 */,
 				7C3AD3902AEE7D4F00C4500A /* #2130 */,
@@ -1313,6 +1324,7 @@
 				7CECC5F12AB4929100F99034 /* ListNode.swift in Sources */,
 				7C3AD3892AED3E8C00C4500A /* IntersectionOfTwoLinkedLists.swift in Sources */,
 				7C8CB7CC2ACDBAA900E0154E /* FindTheIndexOfTheFirstOccurrenceInAString.swift in Sources */,
+				7C3AD3952AEE83E800C4500A /* MergeInBetweenLinkedLists.swift in Sources */,
 				7CE7528025FE33B4005F0B63 /* BestTimeToBuyAndSellStock.swift in Sources */,
 				7CE354642603EBC100AE39B1 /* ValidParentheses.swift in Sources */,
 				7C3AD38F2AED689500C4500A /* MergeNodesInBetweenZeros.swift in Sources */,
