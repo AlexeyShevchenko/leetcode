@@ -13,18 +13,14 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = MergeNodesInBetweenZeros.Solution()
+        let solution = MaximumTwinSumOfLinkedList.Solution()
         
-        let head: ListNode = .init(0)
-        head.next = .init(3)
-        head.next?.next = .init(1)
-        head.next?.next?.next = .init(0)
-        head.next?.next?.next?.next = .init(4)
-        head.next?.next?.next?.next?.next = .init(5)
-        head.next?.next?.next?.next?.next?.next = .init(2)
-        head.next?.next?.next?.next?.next?.next?.next = .init(0)
-        
-        let result = solution.mergeNodes(head)
+        let head: ListNode = .init(5)
+        head.next = .init(4)
+        head.next?.next = .init(2)
+        head.next?.next?.next = .init(1)
+
+        let result = solution.pairSum(head)
         print(result)
     }
 }
