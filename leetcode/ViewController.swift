@@ -7,27 +7,25 @@
 
 import UIKit
 /*
- Input: list1 = [0,1,2,3,4,5], a = 3, b = 4, list2 = [1000000,1000001,1000002]
- Output: [0,1,2,1000000,1000001,1000002,5]
+ Input: head = [7,9,6,6,7,8,3,0,9,5], k = 5
+ Output: [7,9,6,6,8,7,3,0,9,5]
  */
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let solution = MergeInBetweenLinkedLists.Solution()
-        
-        let list1: ListNode = .init(0)
-        list1.next = .init(1)
-        list1.next?.next = .init(2)
-        list1.next?.next?.next = .init(3)
-        list1.next?.next?.next?.next = .init(4)
-        list1.next?.next?.next?.next?.next = .init(5)
-        
-        let list2: ListNode = .init(1000000)
-        list2.next = .init(1000001)
-        list2.next?.next = .init(1000002)
-
-        let result = solution.mergeInBetween(list1, 3, 4, list2)
-        print(result)
+        let s = SwappingNodesInLinkedList.Solution()
+        let list1: ListNode = .init(7)
+        list1.next = .init(9)
+        list1.next?.next = .init(6)
+        list1.next?.next?.next = .init(6)
+        list1.next?.next?.next?.next = .init(7)
+        list1.next?.next?.next?.next?.next = .init(8)
+        list1.next?.next?.next?.next?.next?.next = .init(3)
+        list1.next?.next?.next?.next?.next?.next?.next = .init(0)
+        list1.next?.next?.next?.next?.next?.next?.next?.next = .init(9)
+        list1.next?.next?.next?.next?.next?.next?.next?.next?.next = .init(5)
+        let res = s.swapNodes(list1, 5)
+        print(res)
     }
 }
 
