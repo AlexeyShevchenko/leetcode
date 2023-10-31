@@ -13,18 +13,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = SwappingNodesInLinkedList.Solution()
-        let list1: ListNode = .init(7)
-        list1.next = .init(9)
-        list1.next?.next = .init(6)
-        list1.next?.next?.next = .init(6)
-        list1.next?.next?.next?.next = .init(7)
-        list1.next?.next?.next?.next?.next = .init(8)
-        list1.next?.next?.next?.next?.next?.next = .init(3)
-        list1.next?.next?.next?.next?.next?.next?.next = .init(0)
-        list1.next?.next?.next?.next?.next?.next?.next?.next = .init(9)
-        list1.next?.next?.next?.next?.next?.next?.next?.next?.next = .init(5)
-        let res = s.swapNodes(list1, 5)
+        let s = CountPairsWhoseSumIsLessThanTarget.Solution()
+        let res = s.countPairs([-1,1,2,3,1], 2)
         print(res)
     }
 }
