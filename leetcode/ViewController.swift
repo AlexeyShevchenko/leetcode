@@ -13,8 +13,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = CountPairsWhoseSumIsLessThanTarget.Solution()
-        let res = s.countPairs([-1,1,2,3,1], 2)
+        let s = ReverseWordsInStringIII.Solution()
+        let res = s.reverseWords("Let's take LeetCode contest")
         print(res)
     }
 }
