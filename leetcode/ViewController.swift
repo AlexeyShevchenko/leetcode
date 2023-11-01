@@ -13,8 +13,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = ReverseVowelsOfString.Solution()
-        let res = s.reverseVowels("Euston saw I was not Sue.")
+        let s = FlippingImage.Solution()
+        let res = s.flipAndInvertImage([[1,1,0],[1,0,1],[0,0,0]])
         print(res)
     }
 }
