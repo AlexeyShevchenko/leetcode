@@ -13,8 +13,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = ReverseWordsInStringIII.Solution()
-        let res = s.reverseWords("Let's take LeetCode contest")
+        let s = ReverseVowelsOfString.Solution()
+        let res = s.reverseVowels("Euston saw I was not Sue.")
         print(res)
     }
 }
