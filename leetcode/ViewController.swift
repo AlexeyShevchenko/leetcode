@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = ReversePrefixOfWord.Solution()
-        let res = s.reversePrefix("abcdefd", "d")
+        let s = MergeStringsAlternately.Solution()
+        let res = s.mergeAlternately("abcd", "pq")
         print(res)
     }
 }
