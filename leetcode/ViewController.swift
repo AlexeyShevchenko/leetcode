@@ -6,15 +6,12 @@
 //
 
 import UIKit
-/*
- Input: head = [7,9,6,6,7,8,3,0,9,5], k = 5
- Output: [7,9,6,6,8,7,3,0,9,5]
- */
+
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = FlippingImage.Solution()
-        let res = s.flipAndInvertImage([[1,1,0],[1,0,1],[0,0,0]])
+        let s = ReversePrefixOfWord.Solution()
+        let res = s.reversePrefix("abcdefd", "d")
         print(res)
     }
 }
