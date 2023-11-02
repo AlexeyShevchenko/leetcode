@@ -8,10 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    /*
+     Input: words = ["abc","car","ada","racecar","cool"]
+     Output: "ada"
+     */
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = MergeStringsAlternately.Solution()
-        let res = s.mergeAlternately("abcd", "pq")
+        let s = FindFirstPalindromicStringInTheArray.Solution()
+        let res = s.firstPalindrome(["abc","car","ada","racecar","cool"])
         print(res)
     }
 }
