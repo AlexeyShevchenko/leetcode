@@ -9,17 +9,13 @@ import UIKit
 
 class ViewController: UIViewController {
     /*
-     Input: words = ["abc","car","ada","racecar","cool"]
-     Output: "ada"
+     Input: nums = [3,1,-2,-5,2,-4]
+     Output: [3,-2,1,-5,2,-4]
      */
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = PartitionArrayAccordingToGivenPivot.Solution()
-        /*
-         Input: nums = [9,12,5,10,14,3,10], pivot = 10
-         Output: [9,5,3,10,10,12,14]
-         */
-        let res = s.pivotArray([9,12,5,10,14,3,10], 10)
+        let s = RearrangeArrayElementsBySign.Solution()
+        let res = s.rearrangeArray([3,1,-2,-5,2,-4])
         print(res)
     }
 }
