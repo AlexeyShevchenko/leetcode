@@ -14,8 +14,12 @@ class ViewController: UIViewController {
      */
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = FindFirstPalindromicStringInTheArray.Solution()
-        let res = s.firstPalindrome(["abc","car","ada","racecar","cool"])
+        let s = PartitionArrayAccordingToGivenPivot.Solution()
+        /*
+         Input: nums = [9,12,5,10,14,3,10], pivot = 10
+         Output: [9,5,3,10,10,12,14]
+         */
+        let res = s.pivotArray([9,12,5,10,14,3,10], 10)
         print(res)
     }
 }
