@@ -14,8 +14,11 @@ class ViewController: UIViewController {
      */
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = RearrangeArrayElementsBySign.Solution()
-        let res = s.rearrangeArray([3,1,-2,-5,2,-4])
+        let s = LinkedListCycleII.Solution()
+        let head: ListNode = .init(1)
+        head.next = .init(2)
+        head.next?.next = head
+        let res = s.detectCycle(head)
         print(res)
     }
 }
