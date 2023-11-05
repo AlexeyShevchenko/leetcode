@@ -14,13 +14,13 @@ class ViewController: UIViewController {
      */
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = ReorderList.Solution()
-        let head: ListNode = .init(1)
+        let s = SortList.Solution()
+        //4,2,1,3]
+        let head: ListNode = .init(4)
         head.next = .init(2)
-        head.next?.next = .init(3)
-        head.next?.next?.next = .init(4)
-        head.next?.next?.next?.next = .init(5)
-        let res = s.reorderList(head)
+        head.next?.next = .init(1)
+        head.next?.next?.next = .init(3)
+        let res = s.sortList(head)
         print(res)
     }
 }
