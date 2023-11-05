@@ -14,11 +14,13 @@ class ViewController: UIViewController {
      */
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = LinkedListCycleII.Solution()
+        let s = ReorderList.Solution()
         let head: ListNode = .init(1)
         head.next = .init(2)
-        head.next?.next = head
-        let res = s.detectCycle(head)
+        head.next?.next = .init(3)
+        head.next?.next?.next = .init(4)
+        head.next?.next?.next?.next = .init(5)
+        let res = s.reorderList(head)
         print(res)
     }
 }
