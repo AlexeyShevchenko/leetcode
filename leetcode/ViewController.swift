@@ -14,13 +14,13 @@ class ViewController: UIViewController {
      */
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = SortList.Solution()
+        let s = InsertionSortList.Solution()
         //4,2,1,3]
         let head: ListNode = .init(4)
         head.next = .init(2)
         head.next?.next = .init(1)
         head.next?.next?.next = .init(3)
-        let res = s.sortList(head)
+        let res = s.insertionSortList(head)
         print(res)
     }
 }
