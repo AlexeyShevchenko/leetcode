@@ -8,20 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-    /*
-     Input: nums = [3,1,-2,-5,2,-4]
-     Output: [3,-2,1,-5,2,-4]
-     */
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = InsertionSortList.Solution()
-        //4,2,1,3]
-        let head: ListNode = .init(4)
+        let s = SwapNodesInPairs.Solution()
+        let head: ListNode = .init(1)
         head.next = .init(2)
-        head.next?.next = .init(1)
-        head.next?.next?.next = .init(3)
-        let res = s.insertionSortList(head)
-        print(res)
+        head.next?.next = .init(3)
+        head.next?.next?.next = .init(4)
+        let res = s.swapPairs(head)
+        print(res ?? "n\\a")
     }
 }
 
