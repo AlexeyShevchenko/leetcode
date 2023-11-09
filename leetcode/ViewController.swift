@@ -10,13 +10,14 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = OddEvenLinkedList.Solution()
+        let s = PartitionList.Solution()
         let head: ListNode = .init(1)
-        head.next = .init(2)
+        head.next = .init(4)
         head.next?.next = .init(3)
-        head.next?.next?.next = .init(4)
+        head.next?.next?.next = .init(2)
         head.next?.next?.next?.next = .init(5)
-        let res = s.oddEvenList(head)
+        head.next?.next?.next?.next?.next = .init(2)
+        let res = s.partition(head, 3)
         print(res ?? "n\\a")
     }
 }
