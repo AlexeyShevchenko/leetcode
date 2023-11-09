@@ -10,13 +10,13 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = ReverseLinkedListII.Solution()
+        let s = OddEvenLinkedList.Solution()
         let head: ListNode = .init(1)
         head.next = .init(2)
         head.next?.next = .init(3)
         head.next?.next?.next = .init(4)
         head.next?.next?.next?.next = .init(5)
-        let res = s.reverseBetween(head, 2, 4)
+        let res = s.oddEvenList(head)
         print(res ?? "n\\a")
     }
 }
