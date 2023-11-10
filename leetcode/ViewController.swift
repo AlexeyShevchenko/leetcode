@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = SqrtX.Solution()
-        let res = s.mySqrt(8)
+        let s = ValidPerfectSquare.Solution()
+        let res = s.isPerfectSquare(16)
         print(res ?? "n\\a")
     }
 }
