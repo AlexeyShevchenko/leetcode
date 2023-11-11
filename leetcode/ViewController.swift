@@ -10,9 +10,9 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = SumOfSquareNumbers.Solution()
-        let res = s.judgeSquareSum(5)
-        print(res ?? "n\\a")
+        let s = FindFirstAndLastPositionOfElementInSortedArray.Solution()
+        let res = s.searchRange([5,7,7,8,8,10], 6)
+        print(res)
     }
 }
 
