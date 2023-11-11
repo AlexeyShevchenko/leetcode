@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = ValidPerfectSquare.Solution()
-        let res = s.isPerfectSquare(16)
+        let s = SumOfSquareNumbers.Solution()
+        let res = s.judgeSquareSum(5)
         print(res ?? "n\\a")
     }
 }
