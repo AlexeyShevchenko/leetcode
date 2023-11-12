@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = SearchInRotatedSortedArrayII.Solution()
-        let res = s.search([1 2 3 4 5 6 7 8 8 8 9 10 0 0 0 1], 3)
+        let s = FindMinimumInRotatedSortedArray.Solution()
+        let res = s.findMin([4,5,6,7,0,1,2])
         print(res)
     }
 }
