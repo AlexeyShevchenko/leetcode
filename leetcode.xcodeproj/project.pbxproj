@@ -99,6 +99,7 @@
 		7CB2A4442AC59EA80040E3D5 /* FindCenterOfStarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB2A4432AC59EA80040E3D5 /* FindCenterOfStarGraph.swift */; };
 		7CB33D4B2B017E7A0061E433 /* FindMinimumInRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB33D4A2B017E7A0061E433 /* FindMinimumInRotatedSortedArray.swift */; };
 		7CB33D4E2B0269030061E433 /* FindPeakElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB33D4D2B0269030061E433 /* FindPeakElement.swift */; };
+		7CB33D512B028FA20061E433 /* FirstBadVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB33D502B028FA20061E433 /* FirstBadVersion.swift */; };
 		7CBA9AF1264FFCD800553CC5 /* NumberOfIslands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBA9AF0264FFCD800553CC5 /* NumberOfIslands.swift */; };
 		7CBA9AF426500FF100553CC5 /* Search2dMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBA9AF326500FF100553CC5 /* Search2dMatrix.swift */; };
 		7CBFE4992ADD39CD00B42CD3 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBFE4982ADD39CD00B42CD3 /* Triangle.swift */; };
@@ -252,6 +253,7 @@
 		7CB2A4432AC59EA80040E3D5 /* FindCenterOfStarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCenterOfStarGraph.swift; sourceTree = "<group>"; };
 		7CB33D4A2B017E7A0061E433 /* FindMinimumInRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMinimumInRotatedSortedArray.swift; sourceTree = "<group>"; };
 		7CB33D4D2B0269030061E433 /* FindPeakElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPeakElement.swift; sourceTree = "<group>"; };
+		7CB33D502B028FA20061E433 /* FirstBadVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstBadVersion.swift; sourceTree = "<group>"; };
 		7CBA9AF0264FFCD800553CC5 /* NumberOfIslands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfIslands.swift; sourceTree = "<group>"; };
 		7CBA9AF326500FF100553CC5 /* Search2dMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search2dMatrix.swift; sourceTree = "<group>"; };
 		7CBFE4982ADD39CD00B42CD3 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
@@ -1038,6 +1040,14 @@
 			path = "#162";
 			sourceTree = "<group>";
 		};
+		7CB33D4F2B028F900061E433 /* #278 */ = {
+			isa = PBXGroup;
+			children = (
+				7CB33D502B028FA20061E433 /* FirstBadVersion.swift */,
+			);
+			path = "#278";
+			sourceTree = "<group>";
+		};
 		7CBA9AEF264FFCBE00553CC5 /* #200 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1186,6 +1196,7 @@
 				7CE67FD52A824F4400107A67 /* #238 */,
 				7CC979D72639FDEB000D5A43 /* #242 */,
 				7C7873412A8AB182009DA470 /* #268 */,
+				7CB33D4F2B028F900061E433 /* #278 */,
 				7C4625E42AD80A79002EDA79 /* #290 */,
 				7C9149C92A94BC9500AC977C /* #300 */,
 				7C426DCF2A8E489E00CDEC7B /* #322 */,
@@ -1685,6 +1696,7 @@
 				7C2759362643F4EA00BB4557 /* LinkedListCycle.swift in Sources */,
 				7C8CB7CF2ACDDDEA00E0154E /* LengthOfLastWord.swift in Sources */,
 				7C8CB7D22ACDEB9C00E0154E /* RotateArray.swift in Sources */,
+				7CB33D512B028FA20061E433 /* FirstBadVersion.swift in Sources */,
 				7CCA5CFE2571398500F53CF2 /* MaximumDepthOfBinaryTree.swift in Sources */,
 				7C2C04322AF3CB23000E7DCE /* MergeStringsAlternately.swift in Sources */,
 				7C1F6D702AADEA1B00DF768A /* CloneGraph.swift in Sources */,
