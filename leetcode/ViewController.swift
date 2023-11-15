@@ -10,8 +10,22 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = FindMinimumInRotatedSortedArray.Solution()
-        let res = s.findMin([4,5,6,7,0,1,2])
+        let s = SubtreeOfAnotherTree.Solution()
+        let root: TreeNode? = .init(
+            3,
+            .init(
+                4,
+                .init(1),
+                .init(2)
+            ),
+            .init(5)
+        )
+        let subRoot: TreeNode? = .init(
+            4,
+            .init(1),
+            .init(2)
+        )
+        let res = s.isSubtree(root, subRoot)
         print(res)
     }
 }
@@ -32,3 +46,18 @@ class QSort {
 //        head.next?.next?.next = .init(4)
 //        head.next?.next?.next?.next = .init(5)
 //        head.next?.next?.next?.next?.next = .init(6)
+
+//let root: TreeNode? = .init(
+//    3,
+//    .init(
+//        4,
+//        .init(1),
+//        .init(2)
+//    ),
+//    .init(5)
+//)
+//let subRoot: TreeNode? = .init(
+//    4,
+//    .init(1),
+//    .init(2)
+//)
