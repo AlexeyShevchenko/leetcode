@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = SubtreeOfAnotherTree.Solution()
+        let s = BinaryTreeInorderTraversal.Solution()
         let root: TreeNode? = .init(
             3,
             .init(
@@ -20,12 +20,7 @@ class ViewController: UIViewController {
             ),
             .init(5)
         )
-        let subRoot: TreeNode? = .init(
-            4,
-            .init(1),
-            .init(2)
-        )
-        let res = s.isSubtree(root, subRoot)
+        let res = s.inorderTraversal(root)
         print(res)
     }
 }
