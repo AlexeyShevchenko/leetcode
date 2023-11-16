@@ -10,17 +10,17 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = BinaryTreeInorderTraversal.Solution()
+        let s = MinimumDepthOfBinaryTree.Solution()
         let root: TreeNode? = .init(
-            3,
+            1,
             .init(
-                4,
-                .init(1),
-                .init(2)
+                2,
+                .init(4),
+                .init(5)
             ),
-            .init(5)
+            .init(3)
         )
-        let res = s.inorderTraversal(root)
+        let res = s.minDepth(root)
         print(res)
     }
 }
