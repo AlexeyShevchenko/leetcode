@@ -16,21 +16,23 @@ class MinimumDepthOfBinaryTree {
             var depth = 1
             
             while !queue.isEmpty {
-                for _ in 0 ..< queue.count {
-                    let node = queue.removeFirst()
+                var level: [TreeNode] = []
+                for i in 0 ..< queue.count {
+                    let node = queue[i]
                     
                     if node.left == nil, node.right == nil {
                         return depth
                     }
                     
                     if let left = node.left {
-                        queue.append(left)
+                        level.append(left)
                     }
                     
                     if let right = node.right {
-                        queue.append(right)
+                        level.append(right)
                     }
                 }
+                queue = level
                 depth += 1
             }
             
