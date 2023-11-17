@@ -81,6 +81,7 @@
 		7C8AA1F82AE57FF900EF3003 /* RotateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8AA1F72AE57FF900EF3003 /* RotateList.swift */; };
 		7C8C25032B07D00F00B06FE7 /* PathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8C25022B07D00F00B06FE7 /* PathSum.swift */; };
 		7C8C25072B07D5B800B06FE7 /* BinaryTreePreorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8C25062B07D5B800B06FE7 /* BinaryTreePreorderTraversal.swift */; };
+		7C8C250A2B07D8C800B06FE7 /* BinaryTreePostorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8C25092B07D8C800B06FE7 /* BinaryTreePostorderTraversal.swift */; };
 		7C8CB7C62ACD845100E0154E /* MedianOfTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8CB7C52ACD845100E0154E /* MedianOfTwoSortedArrays.swift */; };
 		7C8CB7C92ACDB7FC00E0154E /* RemoveDuplicatesFromSortedArrayII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8CB7C82ACDB7FC00E0154E /* RemoveDuplicatesFromSortedArrayII.swift */; };
 		7C8CB7CC2ACDBAA900E0154E /* FindTheIndexOfTheFirstOccurrenceInAString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8CB7CB2ACDBAA900E0154E /* FindTheIndexOfTheFirstOccurrenceInAString.swift */; };
@@ -242,6 +243,7 @@
 		7C8AA1F72AE57FF900EF3003 /* RotateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateList.swift; sourceTree = "<group>"; };
 		7C8C25022B07D00F00B06FE7 /* PathSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathSum.swift; sourceTree = "<group>"; };
 		7C8C25062B07D5B800B06FE7 /* BinaryTreePreorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreePreorderTraversal.swift; sourceTree = "<group>"; };
+		7C8C25092B07D8C800B06FE7 /* BinaryTreePostorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreePostorderTraversal.swift; sourceTree = "<group>"; };
 		7C8CB7C52ACD845100E0154E /* MedianOfTwoSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianOfTwoSortedArrays.swift; sourceTree = "<group>"; };
 		7C8CB7C82ACDB7FC00E0154E /* RemoveDuplicatesFromSortedArrayII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesFromSortedArrayII.swift; sourceTree = "<group>"; };
 		7C8CB7CB2ACDBAA900E0154E /* FindTheIndexOfTheFirstOccurrenceInAString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheIndexOfTheFirstOccurrenceInAString.swift; sourceTree = "<group>"; };
@@ -918,6 +920,14 @@
 			path = "#144";
 			sourceTree = "<group>";
 		};
+		7C8C25082B07D8B300B06FE7 /* #145 */ = {
+			isa = PBXGroup;
+			children = (
+				7C8C25092B07D8C800B06FE7 /* BinaryTreePostorderTraversal.swift */,
+			);
+			path = "#145";
+			sourceTree = "<group>";
+		};
 		7C8CB7C42ACD843800E0154E /* #4 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1214,6 +1224,7 @@
 				7CCE11082AF428540014EDF3 /* #142 */,
 				7CCE110B2AF5178D0014EDF3 /* #143 */,
 				7C8C25052B07D5A400B06FE7 /* #144 */,
+				7C8C25082B07D8B300B06FE7 /* #145 */,
 				7C285B6C2AF942B6003A1816 /* #147 */,
 				7C285B692AF83CE9003A1816 /* #148 */,
 				7CB33D492B017E640061E433 /* #153 */,
@@ -1796,6 +1807,7 @@
 				7C7E383F2AFD16D600CEEE37 /* ReverseLinkedListII.swift in Sources */,
 				7C8AA1F82AE57FF900EF3003 /* RotateList.swift in Sources */,
 				7C1F6D6A2AA8D8FF00DF768A /* CountingBits.swift in Sources */,
+				7C8C250A2B07D8C800B06FE7 /* BinaryTreePostorderTraversal.swift in Sources */,
 				7C09523D2AC1AA9D007DE7DA /* NthTribonacciNumber.swift in Sources */,
 				7C2C04292AF2A9E9000E7DCE /* ReverseVowelsOfString.swift in Sources */,
 				7CFC18642AD474B50062721C /* RansomNote.swift in Sources */,
