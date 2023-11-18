@@ -10,21 +10,13 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = PathSumII.Solution()
-        let root = TreeNode(5)
-        root.left = TreeNode(4)
-        root.right = TreeNode(8)
-        
-        root.left?.left = TreeNode(11)
-        root.left?.left?.left = TreeNode(7)
-        root.left?.left?.right = TreeNode(2)
-        
-        root.right?.left = TreeNode(13)
-        root.right?.right = TreeNode(4)
-        
-        root.right?.right?.left = TreeNode(5)
-        root.right?.right?.right = TreeNode(1)
-        let res = s.pathSum(root, 22)
+        let s = SumOfLeftLeaves.Solution()
+        let root = TreeNode(1)
+        root.left = TreeNode(2)
+        root.right = TreeNode(3)
+        root.left?.left = TreeNode(4)
+        root.left?.right = TreeNode(5)
+        let res = s.sumOfLeftLeaves(root)
         print(res)
     }
 }
