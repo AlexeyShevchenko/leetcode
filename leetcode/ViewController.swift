@@ -10,17 +10,21 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = BinaryTreePaths.Solution()
-        let root: TreeNode? = .init(
-            1,
-            .init(
-                2,
-                nil,
-                .init(5)
-            ),
-            .init(3)
-        )
-        let res = s.binaryTreePaths(root)
+        let s = PathSumII.Solution()
+        let root = TreeNode(5)
+        root.left = TreeNode(4)
+        root.right = TreeNode(8)
+        
+        root.left?.left = TreeNode(11)
+        root.left?.left?.left = TreeNode(7)
+        root.left?.left?.right = TreeNode(2)
+        
+        root.right?.left = TreeNode(13)
+        root.right?.right = TreeNode(4)
+        
+        root.right?.right?.left = TreeNode(5)
+        root.right?.right?.right = TreeNode(1)
+        let res = s.pathSum(root, 22)
         print(res)
     }
 }
