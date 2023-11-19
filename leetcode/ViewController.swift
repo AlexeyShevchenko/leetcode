@@ -10,13 +10,13 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = SumOfLeftLeaves.Solution()
-        let root = TreeNode(1)
+        let s = MinimumAbsoluteDifferenceInBST.Solution()
+        let root = TreeNode(4)
         root.left = TreeNode(2)
-        root.right = TreeNode(3)
-        root.left?.left = TreeNode(4)
-        root.left?.right = TreeNode(5)
-        let res = s.sumOfLeftLeaves(root)
+        root.right = TreeNode(6)
+        root.left?.left = TreeNode(1)
+        root.left?.right = TreeNode(3)
+        let res = s.getMinimumDifference(root)
         print(res)
     }
 }
