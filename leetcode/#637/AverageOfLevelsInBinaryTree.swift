@@ -31,7 +31,7 @@ class AverageOfLevelsInBinaryTree {
                     }
                 }
                 
-                var averageOfLevel: Double = Double(sumOfLevel) / Double(queue.count)
+                let averageOfLevel: Double = Double(sumOfLevel) / Double(queue.count)
                 res.append(averageOfLevel)
 
                 queue = currentLevel
