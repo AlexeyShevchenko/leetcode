@@ -10,20 +10,16 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = AverageOfLevelsInBinaryTree.Solution()
+        let s = TwoSumIVInputIsBST.Solution()
         
-        let root = TreeNode(3)
-        let node1 = TreeNode(9)
-        let node2 = TreeNode(20)
-        let node3 = TreeNode(15)
-        let node4 = TreeNode(7)
-
-        root.left = node1
-        root.right = node2
-        node2.left = node3
-        node2.right = node4
+        let root = TreeNode(5)
+        root.left = TreeNode(3)
+        root.right = TreeNode(6)
+        root.left?.left = TreeNode(2)
+        root.left?.right = TreeNode(4)
+        root.right?.right = TreeNode(7)
         
-        let res = s.averageOfLevels(root)
+        let res = s.findTarget(root, 9)
         print(res)
     }
 }
