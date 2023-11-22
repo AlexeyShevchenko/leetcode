@@ -29,10 +29,7 @@ class MaximumDepthOfNaryTree {
                 self.children = []
             }
         }
-        // [1,null,3,2,4,null,5,6]
-        // 1
-        // 3,2,4
-        // 5,6
+        
         func maxDepth(_ root: Node?) -> Int {
             var depth = 0
             guard let root = root else { return depth }
