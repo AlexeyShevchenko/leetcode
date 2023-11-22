@@ -22,20 +22,20 @@ class NaryTreePostorderTraversal {
             var res: [Int] = []
             guard let root = root else { return res }
             
-            dfs(root, &res)
-            
-            return res
-        }
-        
-        private func dfs(_ node: Node?, _ res: inout [Int]) {
-            guard let node = node else { return }
-            
-            for i in 0 ..< node.children.count {
-                let childNode = node.children[i]
-                dfs(childNode, &res)
+            func dfs(_ node: Node?) {
+                guard let node = node else { return }
+                
+                for i in 0 ..< node.children.count {
+                    let childNode = node.children[i]
+                    dfs(childNode)
+                }
+                
+                res.append(node.val)
             }
             
-            res.append(node.val)
+            dfs(root)
+            
+            return res
         }
     }
 }
