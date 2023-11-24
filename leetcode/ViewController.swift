@@ -10,20 +10,21 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = SecondMinimumNodeInBinaryTree.Solution()
+        let s = BinaryTreeLevelOrderTraversal.Solution()
         
-        let root = TreeNode(2)
-        let node1 = TreeNode(2)
-        let node2 = TreeNode(5)
-        let node3 = TreeNode(5)
+        let root = TreeNode(3)
+        let node1 = TreeNode(9)
+        let node2 = TreeNode(20)
+        let node3 = TreeNode(15)
         let node4 = TreeNode(7)
-
+        
+        // Построение структуры дерева
         root.left = node1
         root.right = node2
-        node2.right = node4
         node2.left = node3
+        node2.right = node4
         
-        let res = s.findSecondMinimumValue(root)
+        let res = s.levelOrder(root)
         print(res)
     }
 }
