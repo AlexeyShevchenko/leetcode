@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = BinaryTreeLevelOrderTraversal.Solution()
+        let s = ConstructBinaryTreeFromPreorderAndInorderTraversal.Solution()
         
         let root = TreeNode(3)
         let node1 = TreeNode(9)
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         node2.left = node3
         node2.right = node4
         
-        let res = s.levelOrder(root)
+        let res = s.buildTree([3,9,20,15,7], [9,3,15,20,7])
         print(res)
     }
 }
