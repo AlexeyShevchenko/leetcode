@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = BinaryTreeVerticalOrderTraversal.Solution()
+        let s = BinaryTreeRightSideView.Solution()
         
         let root = TreeNode(3)
         root.left = TreeNode(9)
@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         root.right?.left = TreeNode(1)
         root.right?.right = TreeNode(7)
         
-        let res = s.verticalOrder(root)
+        let res = s.rightSideView(root)
         print(res)
     }
 }
