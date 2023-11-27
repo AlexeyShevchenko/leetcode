@@ -10,21 +10,17 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = ConstructBinaryTreeFromPreorderAndInorderTraversal.Solution()
+        let s = BinaryTreeVerticalOrderTraversal.Solution()
         
         let root = TreeNode(3)
-        let node1 = TreeNode(9)
-        let node2 = TreeNode(20)
-        let node3 = TreeNode(15)
-        let node4 = TreeNode(7)
+        root.left = TreeNode(9)
+        root.right = TreeNode(8)
+        root.left?.left = TreeNode(4)
+        root.left?.right = TreeNode(0)
+        root.right?.left = TreeNode(1)
+        root.right?.right = TreeNode(7)
         
-        // Построение структуры дерева
-        root.left = node1
-        root.right = node2
-        node2.left = node3
-        node2.right = node4
-        
-        let res = s.buildTree([3,9,20,15,7], [9,3,15,20,7])
+        let res = s.verticalOrder(root)
         print(res)
     }
 }
