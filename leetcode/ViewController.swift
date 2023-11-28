@@ -10,20 +10,25 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = BinaryTreeZigzagLevelOrderTraversal.Solution()
+        let s = ValidateBinarySearchTree.Solution()
         
-        let root = TreeNode(3)
-        let node9 = TreeNode(9)
-        let node20 = TreeNode(20)
-        let node15 = TreeNode(15)
-        let node7 = TreeNode(7)
+        // Уровень 1
+        let root = TreeNode(8)
         
-        root.left = node9
-        root.right = node20
-        node20.left = node15
-        node20.right = node7
+        // Уровень 2
+        root.left = TreeNode(3)
+        root.right = TreeNode(10)
+        
+        // Уровень 3
+        root.left?.left = TreeNode(1)
+        root.left?.right = TreeNode(6)
+        root.right?.right = TreeNode(14)
+        
+        // Уровень 4
+        root.left?.right?.left = TreeNode(4)
+        root.left?.right?.right = TreeNode(7)
 
-        let res = s.zigzagLevelOrder(root)
+        let res = s.isValidBST(root)
         print(res)
     }
 }
