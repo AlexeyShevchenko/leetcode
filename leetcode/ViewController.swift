@@ -10,17 +10,14 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = BinaryTreeRightSideView.Solution()
+        let s = KthSmallestElementInBST.Solution()
         
         let root = TreeNode(3)
-        root.left = TreeNode(9)
-        root.right = TreeNode(8)
-        root.left?.left = TreeNode(4)
-        root.left?.right = TreeNode(0)
-        root.right?.left = TreeNode(1)
-        root.right?.right = TreeNode(7)
-        
-        let res = s.rightSideView(root)
+        root.left = TreeNode(1)
+        root.right = TreeNode(4)
+        root.left?.right = TreeNode(2)
+
+        let res = s.kthSmallest(root, 1)
         print(res)
     }
 }
