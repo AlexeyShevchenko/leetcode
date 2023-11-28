@@ -11,19 +11,23 @@ class KthSmallestElementInBST {
     class Solution {
         func kthSmallest(_ root: TreeNode?, _ k: Int) -> Int {
             guard let root = root else { return 0 }
-            var queue: [Int] = []
+            var count = k
+            var res = 0
             
             func dfs(_ node: TreeNode?) {
-                guard let node = node else { return }
-                
+                guard let node = node, count > 0 else { return }
+
                 dfs(node.left)
-                queue.append(node.val)
+                if count > 0 {
+                    count -= 1
+                    res = node.val
+                }
                 dfs(node.right)
             }
             
             dfs(root)
             
-            return queue[k - 1]
+            return res
         }
     }
 }
