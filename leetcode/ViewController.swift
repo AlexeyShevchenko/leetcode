@@ -10,14 +10,20 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = KthSmallestElementInBST.Solution()
+        let s = BinaryTreeZigzagLevelOrderTraversal.Solution()
         
         let root = TreeNode(3)
-        root.left = TreeNode(1)
-        root.right = TreeNode(4)
-        root.left?.right = TreeNode(2)
+        let node9 = TreeNode(9)
+        let node20 = TreeNode(20)
+        let node15 = TreeNode(15)
+        let node7 = TreeNode(7)
+        
+        root.left = node9
+        root.right = node20
+        node20.left = node15
+        node20.right = node7
 
-        let res = s.kthSmallest(root, 1)
+        let res = s.zigzagLevelOrder(root)
         print(res)
     }
 }
