@@ -9,7 +9,7 @@ import Foundation
 
 class ConstructBinaryTreeFromInorderAndPostorderTraversal {
     class Solution {
-        var postorderIndex: Int = 0
+        var postorderIndex = 0
         var inorder: [Int] = []
         var postorder: [Int] = []
         var inorderValueAndItsIndex: [Int: Int] = [:]
@@ -24,10 +24,10 @@ class ConstructBinaryTreeFromInorderAndPostorderTraversal {
                 inorderValueAndItsIndex[value] = i
             }
             
-            return helper(0, inorder.count - 1)
+            return buildTree(0, inorder.count - 1)
         }
         
-        private func helper(_ inorderLeft: Int, _ inorderRight: Int) -> TreeNode? {
+        private func buildTree(_ inorderLeft: Int, _ inorderRight: Int) -> TreeNode? {
             if inorderLeft > inorderRight {
                 return nil
             }
@@ -40,8 +40,8 @@ class ConstructBinaryTreeFromInorderAndPostorderTraversal {
             }
             postorderIndex -= 1
             
-            node.right = helper(inorderSplitIndex + 1, inorderRight)
-            node.left = helper(inorderLeft, inorderSplitIndex - 1)
+            node.right = buildTree(inorderSplitIndex + 1, inorderRight)
+            node.left = buildTree(inorderLeft, inorderSplitIndex - 1)
             
             return node
         }
