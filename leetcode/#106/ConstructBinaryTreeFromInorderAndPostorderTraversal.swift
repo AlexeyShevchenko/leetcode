@@ -19,8 +19,8 @@ class ConstructBinaryTreeFromInorderAndPostorderTraversal {
             self.postorder = postorder
             self.postorderIndex = postorder.count - 1
             
-            for i in 0 ..< postorder.count {
-                let value = postorder[i]
+            for i in 0 ..< inorder.count {
+                let value = inorder[i]
                 inorderValueAndItsIndex[value] = i
             }
             
