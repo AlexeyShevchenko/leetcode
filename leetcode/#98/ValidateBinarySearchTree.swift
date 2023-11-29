@@ -11,34 +11,27 @@ class ValidateBinarySearchTree {
     class Solution {
         func isValidBST(_ root: TreeNode?) -> Bool {
             guard let root = root else { return true }
-            var queue: [Int] = []
+            var prev: Int = .min
+            var invalid = false
             
             func dfs(_ node: TreeNode?) {
-                guard let node = node else { return }
+                guard let node = node, !invalid else { return }
                 dfs(node.left)
-                queue.append(node.val)
+                
+                let currentValue = node.val
+                if prev < currentValue {
+                    prev = currentValue
+                } else {
+                    invalid = true
+                    return
+                }
+                
                 dfs(node.right)
             }
             
             dfs(root)
             
-            if queue.count == 0 {
-                return true
-            }
-            
-            var prev = queue[0]
-            
-            for i in 1 ..< queue.count {
-                let current = queue[i]
-                if prev < current {
-                    prev = current
-                    continue
-                } else {
-                    return false
-                }
-            }
-            
-            return true
+            return !invalid
         }
     }
 }

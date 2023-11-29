@@ -12,21 +12,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let s = ValidateBinarySearchTree.Solution()
         
-        // Уровень 1
-        let root = TreeNode(8)
-        
-        // Уровень 2
-        root.left = TreeNode(3)
-        root.right = TreeNode(10)
-        
-        // Уровень 3
-        root.left?.left = TreeNode(1)
-        root.left?.right = TreeNode(6)
-        root.right?.right = TreeNode(14)
-        
-        // Уровень 4
-        root.left?.right?.left = TreeNode(4)
-        root.left?.right?.right = TreeNode(7)
+        let root = TreeNode(5)
+        root.left = TreeNode(1)
+        root.right = TreeNode(4)
+        root.right?.left = nil
+        root.right?.right = nil
+        root.left?.left = nil
+        root.left?.right = nil
+        root.right?.right = TreeNode(6)
+        root.right?.left = TreeNode(3)
 
         let res = s.isValidBST(root)
         print(res)
