@@ -10,19 +10,9 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = ValidateBinarySearchTree.Solution()
-        
-        let root = TreeNode(5)
-        root.left = TreeNode(1)
-        root.right = TreeNode(4)
-        root.right?.left = nil
-        root.right?.right = nil
-        root.left?.left = nil
-        root.left?.right = nil
-        root.right?.right = TreeNode(6)
-        root.right?.left = TreeNode(3)
-
-        let res = s.isValidBST(root)
+        let s = PopulatingNextRightPointersInEachNodeII.Solution()
+        let root = PopulatingNextRightPointersInEachNodeII.Solution.root
+        let res = s.connect(root)
         print(res)
     }
 }
