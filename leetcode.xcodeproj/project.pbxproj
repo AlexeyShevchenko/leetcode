@@ -15,6 +15,7 @@
 		7C0952432AC1CA7A007DE7DA /* FindTheDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0952422AC1CA7A007DE7DA /* FindTheDifference.swift */; };
 		7C0952462AC1D9EB007DE7DA /* PascalsTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0952452AC1D9EB007DE7DA /* PascalsTriangle.swift */; };
 		7C0952492AC1E34D007DE7DA /* PascalsTriangleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0952482AC1E34D007DE7DA /* PascalsTriangleII.swift */; };
+		7C0F98422B19F34B00153965 /* CheckIfTwoStringArraysAreEquivalent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0F98412B19F34B00153965 /* CheckIfTwoStringArraysAreEquivalent.swift */; };
 		7C12E75C2AC6D4430042BD38 /* CourseScheduleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12E75B2AC6D4430042BD38 /* CourseScheduleII.swift */; };
 		7C12E75F2AC6DCF40042BD38 /* MonotonicArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12E75E2AC6DCF40042BD38 /* MonotonicArray.swift */; };
 		7C12E7622ACAC0E00042BD38 /* SpiralMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12E7612ACAC0E00042BD38 /* SpiralMatrix.swift */; };
@@ -203,6 +204,7 @@
 		7C0952422AC1CA7A007DE7DA /* FindTheDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheDifference.swift; sourceTree = "<group>"; };
 		7C0952452AC1D9EB007DE7DA /* PascalsTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalsTriangle.swift; sourceTree = "<group>"; };
 		7C0952482AC1E34D007DE7DA /* PascalsTriangleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalsTriangleII.swift; sourceTree = "<group>"; };
+		7C0F98412B19F34B00153965 /* CheckIfTwoStringArraysAreEquivalent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIfTwoStringArraysAreEquivalent.swift; sourceTree = "<group>"; };
 		7C12E75B2AC6D4430042BD38 /* CourseScheduleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleII.swift; sourceTree = "<group>"; };
 		7C12E75E2AC6DCF40042BD38 /* MonotonicArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonotonicArray.swift; sourceTree = "<group>"; };
 		7C12E7612ACAC0E00042BD38 /* SpiralMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralMatrix.swift; sourceTree = "<group>"; };
@@ -458,6 +460,14 @@
 				7C0952482AC1E34D007DE7DA /* PascalsTriangleII.swift */,
 			);
 			path = "#119";
+			sourceTree = "<group>";
+		};
+		7C0F98402B19F32900153965 /* #1662 */ = {
+			isa = PBXGroup;
+			children = (
+				7C0F98412B19F34B00153965 /* CheckIfTwoStringArraysAreEquivalent.swift */,
+			);
+			path = "#1662";
 			sourceTree = "<group>";
 		};
 		7C12E75A2AC6D42F0042BD38 /* #210 */ = {
@@ -1522,6 +1532,7 @@
 				7C9149CC2A95125200AC977C /* #1143 */,
 				7CED42712AEBDC9E00AB4402 /* #1290 */,
 				7C7EDBB32B1396A200B49574 /* #1302 */,
+				7C0F98402B19F32900153965 /* #1662 */,
 				7C3AD3932AEE83D300C4500A /* #1669 */,
 				7C3AD3962AEEB41900C4500A /* #1721 */,
 				7C2C04302AF3CB08000E7DCE /* #1768 */,
@@ -2028,6 +2039,7 @@
 				7CED42732AEBDCBF00AB4402 /* ConvertBinaryNumberInLinkeListToInteger.swift in Sources */,
 				7CBA9AF1264FFCD800553CC5 /* NumberOfIslands.swift in Sources */,
 				7CF0E01B26497C5D005396A2 /* GuessNumberHigherOrLower.swift in Sources */,
+				7C0F98422B19F34B00153965 /* CheckIfTwoStringArraysAreEquivalent.swift in Sources */,
 				7C86FB9F26298EA500A6D969 /* LongestCommonPrefix.swift in Sources */,
 				7C5DEC222ABC79D100619AB9 /* TopKFrequentElements.swift in Sources */,
 				7CCA5CCB257134BD00F53CF2 /* ViewController.swift in Sources */,

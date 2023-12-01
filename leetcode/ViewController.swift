@@ -10,9 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = PopulatingNextRightPointersInEachNodeII.Solution()
-        let root = PopulatingNextRightPointersInEachNodeII.Solution.root
-        let res = s.connect(root)
+        let s = CheckIfTwoStringArraysAreEquivalent.Solution()
+        let res = s.arrayStringsAreEqual(["ab", "c"], ["a", "bc"])
         print(res)
     }
 }
@@ -26,25 +25,3 @@ class QSort {
         return sort(less) + [pivot] + sort(greater)
     }
 }
-
-//        let head: ListNode = .init(1)
-//        head.next = .init(2)
-//        head.next?.next = .init(3)
-//        head.next?.next?.next = .init(4)
-//        head.next?.next?.next?.next = .init(5)
-//        head.next?.next?.next?.next?.next = .init(6)
-
-//let root: TreeNode? = .init(
-//    3,
-//    .init(
-//        4,
-//        .init(1),
-//        .init(2)
-//    ),
-//    .init(5)
-//)
-//let subRoot: TreeNode? = .init(
-//    4,
-//    .init(1),
-//    .init(2)
-//)
