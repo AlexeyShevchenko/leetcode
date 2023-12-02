@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = FindWordsThatCanBeFormedByCharacters.Solution()
-        let res = s.countCharacters(["hello","world","leetcode"], "welldonehoneyr")
+        let s = TwoSumLessThanK.Solution()
+        let res = s.twoSumLessThanK([34,23,1,24,75,33,54,8], 60)
         print(res)
     }
 }
