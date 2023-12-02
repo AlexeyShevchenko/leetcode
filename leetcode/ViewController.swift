@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = CheckIfTwoStringArraysAreEquivalent.Solution()
-        let res = s.arrayStringsAreEqual(["ab", "c"], ["a", "bc"])
+        let s = FindWordsThatCanBeFormedByCharacters.Solution()
+        let res = s.countCharacters(["hello","world","leetcode"], "welldonehoneyr")
         print(res)
     }
 }
