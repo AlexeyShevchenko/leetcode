@@ -153,6 +153,7 @@
 		7CCF66CD2635B8AB007B6816 /* RomanToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF66CC2635B8AB007B6816 /* RomanToInteger.swift */; };
 		7CDAC44B2B0EA65700A9A3E5 /* RangeSumOfBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDAC44A2B0EA65700A9A3E5 /* RangeSumOfBST.swift */; };
 		7CDBA3532B1B437400AD6F79 /* FindWordsThatCanBeFormedByCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBA3522B1B437400AD6F79 /* FindWordsThatCanBeFormedByCharacters.swift */; };
+		7CDBA3562B1B67D800AD6F79 /* LowestCommonAncestorOfBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBA3552B1B67D800AD6F79 /* LowestCommonAncestorOfBinaryTree.swift */; };
 		7CE354642603EBC100AE39B1 /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE354632603EBC100AE39B1 /* ValidParentheses.swift */; };
 		7CE55868264C5F32009EC351 /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE55867264C5F32009EC351 /* BalancedBinaryTree.swift */; };
 		7CE67FD72A824F7600107A67 /* ProductOfArrayExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE67FD62A824F7600107A67 /* ProductOfArrayExceptSelf.swift */; };
@@ -349,6 +350,7 @@
 		7CCF66CC2635B8AB007B6816 /* RomanToInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToInteger.swift; sourceTree = "<group>"; };
 		7CDAC44A2B0EA65700A9A3E5 /* RangeSumOfBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSumOfBST.swift; sourceTree = "<group>"; };
 		7CDBA3522B1B437400AD6F79 /* FindWordsThatCanBeFormedByCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindWordsThatCanBeFormedByCharacters.swift; sourceTree = "<group>"; };
+		7CDBA3552B1B67D800AD6F79 /* LowestCommonAncestorOfBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestorOfBinaryTree.swift; sourceTree = "<group>"; };
 		7CE354632603EBC100AE39B1 /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 		7CE55867264C5F32009EC351 /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
 		7CE67FD62A824F7600107A67 /* ProductOfArrayExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfArrayExceptSelf.swift; sourceTree = "<group>"; };
@@ -1480,6 +1482,7 @@
 				7C21209C2AD96D7700F385D3 /* #228 */,
 				7CC64BD42B162584003D0C40 /* #230 */,
 				7C3AD38A2AED4EBB00C4500A /* #234 */,
+				7CDBA3542B1B67C100AD6F79 /* #236 */,
 				7C35C4542AF0292B00ECBB99 /* #237 */,
 				7CE67FD52A824F4400107A67 /* #238 */,
 				7CC979D72639FDEB000D5A43 /* #242 */,
@@ -1700,6 +1703,14 @@
 				7CDBA3522B1B437400AD6F79 /* FindWordsThatCanBeFormedByCharacters.swift */,
 			);
 			path = "#1160";
+			sourceTree = "<group>";
+		};
+		7CDBA3542B1B67C100AD6F79 /* #236 */ = {
+			isa = PBXGroup;
+			children = (
+				7CDBA3552B1B67D800AD6F79 /* LowestCommonAncestorOfBinaryTree.swift */,
+			);
+			path = "#236";
 			sourceTree = "<group>";
 		};
 		7CE354622603EBA600AE39B1 /* #20 */ = {
@@ -2063,6 +2074,7 @@
 				7C8CB7C92ACDB7FC00E0154E /* RemoveDuplicatesFromSortedArrayII.swift in Sources */,
 				7C5DEC332ABF4FFC00619AB9 /* ContainsDuplicateII.swift in Sources */,
 				7C7E38422AFD740100CEEE37 /* OddEvenLinkedList.swift in Sources */,
+				7CDBA3562B1B67D800AD6F79 /* LowestCommonAncestorOfBinaryTree.swift in Sources */,
 				7C0952432AC1CA7A007DE7DA /* FindTheDifference.swift in Sources */,
 				7C7558822AE6ACE700645D03 /* RemoveDuplicatesFromSortedListII.swift in Sources */,
 				7CF0E0222649CFFD005396A2 /* SymmetricTree.swift in Sources */,
