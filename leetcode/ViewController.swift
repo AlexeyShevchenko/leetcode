@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = TwoSumLessThanK.Solution()
-        let res = s.twoSumLessThanK([34,23,1,24,75,33,54,8], 60)
+        let s = MinimumTimeVisitingAllPoints.Solution()
+        let res = s.minTimeToVisitAllPoints([[1,1],[3,4],[-1,0]])
         print(res)
     }
 }
