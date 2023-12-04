@@ -110,6 +110,7 @@
 		7CA5D9CB2A8D093400E8DA25 /* ClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA5D9CA2A8D093400E8DA25 /* ClimbingStairs.swift */; };
 		7CACFFCC2A9C9CD400EC418D /* NumberOf1Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CACFFCB2A9C9CD400EC418D /* NumberOf1Bits.swift */; };
 		7CADA056262D928900CDBD57 /* String+Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CADA055262D928800CDBD57 /* String+Index.swift */; };
+		7CAE278B2B1E180200411066 /* Largest3SameDigitNumberInString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAE278A2B1E180200411066 /* Largest3SameDigitNumberInString.swift */; };
 		7CB2A4412AC592520040E3D5 /* CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB2A4402AC592520040E3D5 /* CourseSchedule.swift */; };
 		7CB2A4442AC59EA80040E3D5 /* FindCenterOfStarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB2A4432AC59EA80040E3D5 /* FindCenterOfStarGraph.swift */; };
 		7CB33D4B2B017E7A0061E433 /* FindMinimumInRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB33D4A2B017E7A0061E433 /* FindMinimumInRotatedSortedArray.swift */; };
@@ -305,6 +306,7 @@
 		7CA5D9CA2A8D093400E8DA25 /* ClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingStairs.swift; sourceTree = "<group>"; };
 		7CACFFCB2A9C9CD400EC418D /* NumberOf1Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOf1Bits.swift; sourceTree = "<group>"; };
 		7CADA055262D928800CDBD57 /* String+Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Index.swift"; sourceTree = "<group>"; };
+		7CAE278A2B1E180200411066 /* Largest3SameDigitNumberInString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Largest3SameDigitNumberInString.swift; sourceTree = "<group>"; };
 		7CB2A4402AC592520040E3D5 /* CourseSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSchedule.swift; sourceTree = "<group>"; };
 		7CB2A4432AC59EA80040E3D5 /* FindCenterOfStarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCenterOfStarGraph.swift; sourceTree = "<group>"; };
 		7CB33D4A2B017E7A0061E433 /* FindMinimumInRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMinimumInRotatedSortedArray.swift; sourceTree = "<group>"; };
@@ -1210,6 +1212,14 @@
 			path = "#191";
 			sourceTree = "<group>";
 		};
+		7CAE27892B1E17E000411066 /* #2264 */ = {
+			isa = PBXGroup;
+			children = (
+				7CAE278A2B1E180200411066 /* Largest3SameDigitNumberInString.swift */,
+			);
+			path = "#2264";
+			sourceTree = "<group>";
+		};
 		7CB2A43F2AC5923B0040E3D5 /* #207 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1563,6 +1573,7 @@
 				7CCE11022AF3E8D10014EDF3 /* #2161 */,
 				7C3AD38D2AED687C00C4500A /* #2181 */,
 				7C5DEC3A2AC090AC00619AB9 /* #2215 */,
+				7CAE27892B1E17E000411066 /* #2264 */,
 				7CC759AC2AF18E29004B86C7 /* #2824 */,
 				7CCA5CC6257134BD00F53CF2 /* AppDelegate.swift */,
 				7CCA5CC8257134BD00F53CF2 /* SceneDelegate.swift */,
@@ -2074,6 +2085,7 @@
 				7CFFAE0E26247728006F8364 /* MergeSortedArray.swift in Sources */,
 				7CC979D92639FE03000D5A43 /* ValidAnagram.swift in Sources */,
 				7CE7528C25FE5DB8005F0B63 /* VerifyingAnAlienDictionary.swift in Sources */,
+				7CAE278B2B1E180200411066 /* Largest3SameDigitNumberInString.swift in Sources */,
 				7C275939264401DA00BB4557 /* BinarySearch.swift in Sources */,
 				7CA5D9CB2A8D093400E8DA25 /* ClimbingStairs.swift in Sources */,
 				7C51F98E2AB197AC00EBDF79 /* MergeIntervals.swift in Sources */,

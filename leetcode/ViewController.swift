@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = MinimumTimeVisitingAllPoints.Solution()
-        let res = s.minTimeToVisitAllPoints([[1,1],[3,4],[-1,0]])
+        let s = Largest3SameDigitNumberInString.Solution()
+        let res = s.largestGoodInteger("11777100848222596198895956272537536733077711172441118756087562211111171951039366777406380")
         print(res)
     }
 }
