@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = Largest3SameDigitNumberInString.Solution()
-        let res = s.largestGoodInteger("11777100848222596198895956272537536733077711172441118756087562211111171951039366777406380")
+        let s = CalculateMoneyInLeetcodeBank.Solution()
+        let res = s.totalMoney(10)
         print(res)
     }
 }
