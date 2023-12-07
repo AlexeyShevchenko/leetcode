@@ -34,7 +34,7 @@ class FindIfPathExistsInGraph {
                 }
             }
             
-            var seen: [Bool] = .init(repeating: false, count: n)
+            var seen: Set<Int> = .init()
             var queue: [Int] = [source]
             
             while !queue.isEmpty {
@@ -46,8 +46,8 @@ class FindIfPathExistsInGraph {
                 guard let neighbors = connections[currentNode] else { continue }
                 for i in 0 ..< neighbors.count {
                     let neighbor = neighbors[i]
-                    if seen[neighbor] { continue }
-                    seen[neighbor] = true
+                    if seen.contains(neighbor) { continue }
+                    seen.insert(neighbor)
                     queue.append(neighbor)
                 }
             }
