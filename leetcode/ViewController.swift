@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = LargestOddNumberInString.Solution()
-        let res = s.largestOddNumber("400012")
+        let s = FindIfPathExistsInGraph.Solution()
+        let res = s.validPath(3, [[0,1],[1,2],[2,0]], 0, 2)
         print(res)
     }
 }
