@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = CalculateMoneyInLeetcodeBank.Solution()
-        let res = s.totalMoney(10)
+        let s = AllPathsFromSourceToTarget.Solution()
+        let res = s.allPathsSourceTarget([[1,2],[3],[3],[]])
         print(res)
     }
 }
