@@ -10,8 +10,14 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = FindIfPathExistsInGraph.Solution()
-        let res = s.validPath(3, [[0,1],[1,2],[2,0]], 0, 2)
+        
+        let root = TreeNode(1)
+        root.left = TreeNode(2)
+        root.right = TreeNode(3)
+        root.left?.left = TreeNode(4)
+        
+        let s = ConstructStringFromBinaryTree.Solution()
+        let res = s.tree2str(root)
         print(res)
     }
 }
