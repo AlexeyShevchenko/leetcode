@@ -11,13 +11,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let root = TreeNode(1)
-        root.left = TreeNode(2)
-        root.right = TreeNode(3)
-        root.left?.left = TreeNode(4)
-        
-        let s = ConstructStringFromBinaryTree.Solution()
-        let res = s.tree2str(root)
+        let s = KeysAndRooms.Solution()
+        let res = s.canVisitAllRooms([[1],[2],[3],[]])
         print(res)
     }
 }
