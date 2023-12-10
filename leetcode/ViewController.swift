@@ -11,8 +11,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let s = TransposeMatrix.Solution()
-        let res = s.transpose([[1,2,3],[4,5,6]])
+        let s = ValidateBinaryTreeNodes.Solution()
+        let res = s.validateBinaryTreeNodes(4, [1,-1,3,-1], [2,-1,-1,-1])
         print(res)
     }
 }
