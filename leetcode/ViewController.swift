@@ -11,8 +11,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let s = KeysAndRooms.Solution()
-        let res = s.canVisitAllRooms([[1],[2],[3],[]])
+        let s = TransposeMatrix.Solution()
+        let res = s.transpose([[1,2,3],[4,5,6]])
         print(res)
     }
 }
