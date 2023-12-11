@@ -11,8 +11,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let s = ValidateBinaryTreeNodes.Solution()
-        let res = s.validateBinaryTreeNodes(4, [1,-1,3,-1], [2,-1,-1,-1])
+        let s = ElementAppearingMoreThan25PercentInSortedArray.Solution()
+        let res = s.findSpecialInteger([1,2,2,6,6,6,6,7,10])
         print(res)
     }
 }
