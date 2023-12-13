@@ -11,8 +11,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let s = MaximumProductOfTwoElementsInAnArray.Solution()
-        let res = s.maxProduct([3,4,5,2])
+        let s = SpecialPositionsInBinaryMatrix.Solution()
+        let res = s.numSpecial([[1,0,0],[0,0,1],[1,0,0]])
         print(res)
     }
 }
