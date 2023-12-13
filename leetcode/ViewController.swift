@@ -11,8 +11,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let s = ElementAppearingMoreThan25PercentInSortedArray.Solution()
-        let res = s.findSpecialInteger([1,2,2,6,6,6,6,7,10])
+        let s = MaximumProductOfTwoElementsInAnArray.Solution()
+        let res = s.maxProduct([3,4,5,2])
         print(res)
     }
 }
