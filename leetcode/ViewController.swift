@@ -11,8 +11,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let s = MaximalNetworkRank.Solution()
-        let res = s.maximalNetworkRank(5, [[0,1],[0,3],[1,2],[1,3],[2,3],[2,4]])
+        let s = DifferenceBetweenOnesAndZerosInRowAndColumn.Solution()
+        let res = s.onesMinusZeros([[0,1,1],[1,0,1],[0,0,1]])
         print(res)
     }
 }
