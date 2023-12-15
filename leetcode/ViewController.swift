@@ -11,8 +11,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let s = DifferenceBetweenOnesAndZerosInRowAndColumn.Solution()
-        let res = s.onesMinusZeros([[0,1,1],[1,0,1],[0,0,1]])
+        let s = DestinationCity.Solution()
+        let res = s.destCity([["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]])
         print(res)
     }
 }
