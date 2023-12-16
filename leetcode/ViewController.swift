@@ -11,8 +11,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let s = DestinationCity.Solution()
-        let res = s.destCity([["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]])
+        let s = GraphValidTree.Solution()
+        let res = s.validTree(5, [[0,1],[1,2],[2,3],[1,3],[1,4]])
         print(res)
     }
 }
