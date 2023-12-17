@@ -11,9 +11,49 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let s = GraphValidTree.Solution()
-        let res = s.validTree(5, [[0,1],[1,2],[2,3],[1,3],[1,4]])
-        print(res)
+        let s = DesignFoodRatingSystem.FoodRatings(
+            ["kimchi","miso","sushi","moussaka","ramen","bulgogi"],
+            ["korean","japanese","japanese","greek","japanese","korean"],
+            [9,12,8,15,14,7]
+        )
+        _ = s.highestRated("korean")
+        _ = s.highestRated("japanese")
+        s.changeRating("sushi", 16)
+        _ = s.highestRated("japanese")
+        s.changeRating("ramen", 16)
+        _ = s.highestRated("japanese")
+        
+        /*
+         
+         [
+            "FoodRatings",
+            
+            "highestRated",
+            "highestRated",
+            "changeRating",
+            "highestRated",
+            "changeRating",
+            "highestRated"
+         ]
+         
+         [
+            [
+                ["kimchi","miso","sushi","moussaka","ramen","bulgogi"],
+                ["korean","japanese","japanese","greek","japanese","korean"],
+                [9,12,8,15,14,7]
+            ],
+                
+            ["korean"],
+            ["japanese"],
+            ["sushi",16],
+            ["japanese"],
+            ["ramen",16],
+            ["japanese"]
+         ]
+         
+         */
+        
+//        print(res)
     }
 }
 
