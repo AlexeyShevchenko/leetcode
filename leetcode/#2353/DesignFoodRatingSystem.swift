@@ -7,58 +7,84 @@
 
 import Foundation
 
-class DesignFoodRatingSystem {
-    class FoodRatings {
-        private var cuisinesAndFoods: [String: [String]] = [:]
-        private var foodsAndCuisines: [String: String] = [:]
-        private var foodsAndRatings: [String: Int] = [:]
-        
-        init(_ foods: [String], _ cuisines: [String], _ ratings: [Int]) {
-            for i in 0 ..< cuisines.count {
-                let cuisine = cuisines[i]
-                let food = foods[i]
-                let rating = ratings[i]
-                
-                foodsAndRatings[food] = rating
-                
-                if var cuisineFood = cuisinesAndFoods[cuisine] {
-                    cuisineFood.append(food)
-                    cuisinesAndFoods[cuisine] = cuisineFood
-                } else {
-                    cuisinesAndFoods[cuisine] = [food]
-                }
+//class DesignFoodRatingSystem {
 
-                foodsAndCuisines[food] = cuisine
-            }
-        }
-        
-        func changeRating(_ food: String, _ newRating: Int) {
-            foodsAndRatings[food] = newRating
-            
-            
-        }
-        
-        func highestRated(_ cuisine: String) -> String {
-            guard let foods = cuisinesAndFoods[cuisine] else { return "" }
-            
-            var maxRating: Int = .min
-            var topFood = ""
-            
-            for i in 0 ..< foods.count {
-                let food = foods[i]
-                if let foodRating = foodsAndRatings[food] {
-                    if foodRating > maxRating {
-                        maxRating = foodRating
-                        topFood = food
-                    } else if foodRating == maxRating {
-                        if food < topFood {
-                            topFood = food
-                        }
-                    }
-                }
-            }
-            
-            return topFood
+struct SortedArray<T: Comparable> {
+    private var array: [T]
+    var count: Int {
+        array.count
+    }
+    
+    init(_ array: [T]? = []) {
+        self.array = []
+        for element in array ?? [] {
+            self.insert(element)
         }
     }
+    
+    mutating func insert(_ element: T) {
+        let i = bisect_right(element)
+        array.insert(element, at: i)
+    }
+    
+    mutating func remove(_ value: T) {
+        let i = bisect_right(value) - 1
+        array.remove(at: i)
+    }
+    
+    private func bisect_right(_ target: T) -> Int {
+        var (low, high) = (0, count)
+        while low < high {
+            let middle = low + (high - low) / 2
+            if array[middle] <= target {
+                low = middle + 1
+            } else {
+                high = middle
+            }
+        }
+        return low
+    }
+    
+    func min() -> T? {
+        array.min()
+    }
 }
+
+struct FoodRating: Comparable {
+    let name: String
+    let rating: Int
+    
+    static func < (lhs: Self, rhs: Self) -> Bool {
+        (lhs.rating, lhs.name) < (rhs.rating, rhs.name)
+    }
+    
+    static func == (lhs: Self, rhs: Self) -> Bool {
+        (lhs.rating, lhs.name) == (rhs.rating, rhs.name)
+    }
+}
+
+class FoodRatings {
+    var foodRating: [String: SortedArray<FoodRating>]
+    var foodStat: [String: (String, Int)]
+    
+    init(_ foods: [String], _ cuisines: [String], _ ratings: [Int]) {
+        foodRating = [:]
+        foodStat = [:]
+        for (cuisine, (food, rating)) in zip(cuisines, zip(foods, ratings)) {
+            foodRating[cuisine, default: SortedArray()].insert(FoodRating(name: food, rating: -rating))
+            foodStat[food] = (cuisine, -rating)
+        }
+    }
+    
+    func changeRating(_ food: String, _ newRating: Int) {
+        let (cuisine, rating) = foodStat[food]!
+        foodStat[food] = (cuisine, -newRating)
+        foodRating[cuisine]!.remove(FoodRating(name: food, rating: rating))
+        foodRating[cuisine]!.insert(FoodRating(name: food, rating: -newRating))
+    }
+    
+    func highestRated(_ cuisine: String) -> String {
+        foodRating[cuisine]!.min()!.name
+    }
+}
+//}
