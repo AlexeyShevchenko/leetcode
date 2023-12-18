@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = MaximumProductDifferenceBetweenTwoPairs.Solution()
-        let r = s.maxProductDifference([4,2,5,9,7,4,8])
+        let s = BestMeetingPoint.Solution()
+        let r = s.minTotalDistance([[1,0,0,0,1],[0,0,0,0,0],[0,0,1,0,0]])
         print(r)
     }
 }
