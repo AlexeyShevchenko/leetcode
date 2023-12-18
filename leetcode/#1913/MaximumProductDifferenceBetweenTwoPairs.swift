@@ -10,8 +10,35 @@ import Foundation
 class MaximumProductDifferenceBetweenTwoPairs {
     class Solution {
         func maxProductDifference(_ nums: [Int]) -> Int {
-            var num = nums.sorted()
-            return (num[num.count - 1] * num[num.count - 2]) - (num[1] * num[0])
+            var minNum: Int = .max
+            var nextAfterMinNum: Int = .max
+            
+            var maxNum: Int = .min
+            var nextBeforeMaxNum: Int = .min
+            
+            for i in 0 ..< nums.count {
+                let num = nums[i]
+                
+                if num > maxNum {
+                    nextBeforeMaxNum = maxNum
+                    maxNum = num
+                } else if num == maxNum {
+                    nextBeforeMaxNum = num
+                } else if num > nextBeforeMaxNum {
+                    nextBeforeMaxNum = num
+                } 
+                
+                if num < minNum {
+                    nextAfterMinNum = minNum
+                    minNum = num
+                } else if num == minNum {
+                    nextAfterMinNum = num
+                } else if num < nextAfterMinNum {
+                    nextAfterMinNum = num
+                }
+            }
+            
+            return (maxNum * nextBeforeMaxNum) - (nextAfterMinNum * minNum)
         }
     }
 }
