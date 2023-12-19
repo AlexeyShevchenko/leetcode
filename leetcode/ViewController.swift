@@ -10,16 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = Exchange()
-        let r = s.findRateAndRoute(
-            for: "USDRUB",
-            rates: [
-                "GBPRUB" : 100,
-                "USDGBP" : 0.7,
-                "GBPEUR" : 0.83,
-                "EURRUB" : 86.3,
-            ]
-        )
+        let s = ImageSmoother.Solution()
+        let r = s.imageSmoother([[100,200,100],[200,50,200],[100,200,100]])
         print(r)
     }
 }
