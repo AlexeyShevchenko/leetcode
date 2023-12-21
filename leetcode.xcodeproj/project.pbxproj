@@ -86,6 +86,7 @@
 		7C6EEDA02B322C0F00D7295C /* LowestCommonAncestorOfBinaryTreeIII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6EED9F2B322C0F00D7295C /* LowestCommonAncestorOfBinaryTreeIII.swift */; };
 		7C6EEDA82B3337FF00D7295C /* BuyTwoChocolates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6EEDA72B3337FF00D7295C /* BuyTwoChocolates.swift */; };
 		7C6EEDAB2B333A8300D7295C /* FindLargestValueInEachTreeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6EEDAA2B333A8300D7295C /* FindLargestValueInEachTreeRow.swift */; };
+		7C6EEDAE2B346C9200D7295C /* WidestVerticalAreaBetweenTwoPointsContainingNoPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6EEDAD2B346C9200D7295C /* WidestVerticalAreaBetweenTwoPointsContainingNoPoints.swift */; };
 		7C7558822AE6ACE700645D03 /* RemoveDuplicatesFromSortedListII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7558812AE6ACE700645D03 /* RemoveDuplicatesFromSortedListII.swift */; };
 		7C78260B2B14C6D500FC4E36 /* BinaryTreeVerticalOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C78260A2B14C6D500FC4E36 /* BinaryTreeVerticalOrderTraversal.swift */; };
 		7C78260E2B14EB6300FC4E36 /* BinaryTreeRightSideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C78260D2B14EB6300FC4E36 /* BinaryTreeRightSideView.swift */; };
@@ -306,6 +307,7 @@
 		7C6EED9F2B322C0F00D7295C /* LowestCommonAncestorOfBinaryTreeIII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestorOfBinaryTreeIII.swift; sourceTree = "<group>"; };
 		7C6EEDA72B3337FF00D7295C /* BuyTwoChocolates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyTwoChocolates.swift; sourceTree = "<group>"; };
 		7C6EEDAA2B333A8300D7295C /* FindLargestValueInEachTreeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindLargestValueInEachTreeRow.swift; sourceTree = "<group>"; };
+		7C6EEDAD2B346C9200D7295C /* WidestVerticalAreaBetweenTwoPointsContainingNoPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidestVerticalAreaBetweenTwoPointsContainingNoPoints.swift; sourceTree = "<group>"; };
 		7C7558812AE6ACE700645D03 /* RemoveDuplicatesFromSortedListII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesFromSortedListII.swift; sourceTree = "<group>"; };
 		7C78260A2B14C6D500FC4E36 /* BinaryTreeVerticalOrderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeVerticalOrderTraversal.swift; sourceTree = "<group>"; };
 		7C78260D2B14EB6300FC4E36 /* BinaryTreeRightSideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeRightSideView.swift; sourceTree = "<group>"; };
@@ -1076,6 +1078,14 @@
 			path = "#515";
 			sourceTree = "<group>";
 		};
+		7C6EEDAC2B346C7000D7295C /* #1637 */ = {
+			isa = PBXGroup;
+			children = (
+				7C6EEDAD2B346C9200D7295C /* WidestVerticalAreaBetweenTwoPointsContainingNoPoints.swift */,
+			);
+			path = "#1637";
+			sourceTree = "<group>";
+		};
 		7C7558802AE6ACC400645D03 /* #82 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1808,6 +1818,7 @@
 				7C7F63AB2B2369D700E58D63 /* #1557 */,
 				7C1B4F102B29C49900CEC814 /* #1582 */,
 				7C2C6A492B2A00CC0077CA86 /* #1615 */,
+				7C6EEDAC2B346C7000D7295C /* #1637 */,
 				7C6EED9E2B322BF300D7295C /* #1650 */,
 				7C0F98402B19F32900153965 /* #1662 */,
 				7C3AD3932AEE83D300C4500A /* #1669 */,
@@ -2427,6 +2438,7 @@
 				7C5DEC292ABDD26C00619AB9 /* RemoveElement.swift in Sources */,
 				7C4031402B0E358E00072C8B /* LeafSimilarTrees.swift in Sources */,
 				7C12E7652ACC41BB0042BD38 /* AddTwoNumbers.swift in Sources */,
+				7C6EEDAE2B346C9200D7295C /* WidestVerticalAreaBetweenTwoPointsContainingNoPoints.swift in Sources */,
 				7C7F63B92B2483B300E58D63 /* KeysAndRooms.swift in Sources */,
 				7CCD97B12B1BCFAE00E8B877 /* BinaryTreeMaximumPathSum.swift in Sources */,
 				7CF095AF25713B5300E48F1E /* SingleNumber.swift in Sources */,
