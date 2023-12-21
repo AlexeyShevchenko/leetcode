@@ -10,8 +10,17 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = ImageSmoother.Solution()
-        let r = s.imageSmoother([[100,200,100],[200,50,200],[100,200,100]])
+        let s = AllNodesDistanceKInBinaryTree.Solution()
+        let root = TreeNode(3)
+        root.left = TreeNode(5)
+        root.right = TreeNode(1)
+        root.left?.left = TreeNode(6)
+        root.left?.right = TreeNode(2)
+        root.right?.left = TreeNode(0)
+        root.right?.right = TreeNode(8)
+        root.left?.right?.left = TreeNode(7)
+        root.left?.right?.right = TreeNode(4)
+        let r = s.distanceK(root, .init(5), 2)
         print(r)
     }
 }
