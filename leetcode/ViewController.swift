@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = PathCrossing.Solution()
-        let r = s.isPathCrossing("NESWW")
+        let s = LongestSubstringWithAtMostTwoDistinctCharacters.Solution()
+        let r = s.lengthOfLongestSubstringTwoDistinct("ccaabbb")
         print(r)
     }
 }
