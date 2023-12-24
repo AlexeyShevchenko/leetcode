@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = LongestSubstringWithAtMostTwoDistinctCharacters.Solution()
-        let r = s.lengthOfLongestSubstringTwoDistinct("ccaabbb")
+        let s = MinimumChangesToMakeAlternatingBinaryString.Solution()
+        let r = s.minOperations("0100")
         print(r)
     }
 }
