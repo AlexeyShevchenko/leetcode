@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = TrappingRainWater.Solution()
-        let r = s.trap([0,1,0,2,1,0,1,3,2,1,2,1])
+        let s = IntegerToRoman.Solution()
+        let r = s.intToRoman(1000)
         print(r)
     }
 }
