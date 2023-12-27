@@ -15,6 +15,7 @@
 		7C0952432AC1CA7A007DE7DA /* FindTheDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0952422AC1CA7A007DE7DA /* FindTheDifference.swift */; };
 		7C0952462AC1D9EB007DE7DA /* PascalsTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0952452AC1D9EB007DE7DA /* PascalsTriangle.swift */; };
 		7C0952492AC1E34D007DE7DA /* PascalsTriangleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0952482AC1E34D007DE7DA /* PascalsTriangleII.swift */; };
+		7C0976712B3C5FFC001416B3 /* MinimumTimeToMakeRopeColorful.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0976702B3C5FFC001416B3 /* MinimumTimeToMakeRopeColorful.swift */; };
 		7C0F98422B19F34B00153965 /* CheckIfTwoStringArraysAreEquivalent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0F98412B19F34B00153965 /* CheckIfTwoStringArraysAreEquivalent.swift */; };
 		7C12E75C2AC6D4430042BD38 /* CourseScheduleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12E75B2AC6D4430042BD38 /* CourseScheduleII.swift */; };
 		7C12E75F2AC6DCF40042BD38 /* MonotonicArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12E75E2AC6DCF40042BD38 /* MonotonicArray.swift */; };
@@ -243,6 +244,7 @@
 		7C0952422AC1CA7A007DE7DA /* FindTheDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheDifference.swift; sourceTree = "<group>"; };
 		7C0952452AC1D9EB007DE7DA /* PascalsTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalsTriangle.swift; sourceTree = "<group>"; };
 		7C0952482AC1E34D007DE7DA /* PascalsTriangleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalsTriangleII.swift; sourceTree = "<group>"; };
+		7C0976702B3C5FFC001416B3 /* MinimumTimeToMakeRopeColorful.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumTimeToMakeRopeColorful.swift; sourceTree = "<group>"; };
 		7C0F98412B19F34B00153965 /* CheckIfTwoStringArraysAreEquivalent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIfTwoStringArraysAreEquivalent.swift; sourceTree = "<group>"; };
 		7C12E75B2AC6D4430042BD38 /* CourseScheduleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleII.swift; sourceTree = "<group>"; };
 		7C12E75E2AC6DCF40042BD38 /* MonotonicArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonotonicArray.swift; sourceTree = "<group>"; };
@@ -538,6 +540,14 @@
 				7C0952482AC1E34D007DE7DA /* PascalsTriangleII.swift */,
 			);
 			path = "#119";
+			sourceTree = "<group>";
+		};
+		7C09766F2B3C5FE7001416B3 /* #1578 */ = {
+			isa = PBXGroup;
+			children = (
+				7C0976702B3C5FFC001416B3 /* MinimumTimeToMakeRopeColorful.swift */,
+			);
+			path = "#1578";
 			sourceTree = "<group>";
 		};
 		7C0F98402B19F32900153965 /* #1662 */ = {
@@ -1892,6 +1902,7 @@
 				7C1B4F0D2B28A6A500CEC814 /* #1464 */,
 				7C9D377F2B3722DE00A8B2EB /* #1496 */,
 				7C7F63AB2B2369D700E58D63 /* #1557 */,
+				7C09766F2B3C5FE7001416B3 /* #1578 */,
 				7C1B4F102B29C49900CEC814 /* #1582 */,
 				7C2C6A492B2A00CC0077CA86 /* #1615 */,
 				7C6EEDAC2B346C7000D7295C /* #1637 */,
@@ -2620,6 +2631,7 @@
 				7CC1E9CA2B2B54F700C7A9DA /* DifferenceBetweenOnesAndZerosInRowAndColumn.swift in Sources */,
 				7CACFFCC2A9C9CD400EC418D /* NumberOf1Bits.swift in Sources */,
 				7C5DEC2C2ABDE83900619AB9 /* MajorityElement.swift in Sources */,
+				7C0976712B3C5FFC001416B3 /* MinimumTimeToMakeRopeColorful.swift in Sources */,
 				7CBA9AF426500FF100553CC5 /* Search2dMatrix.swift in Sources */,
 				7C12E75C2AC6D4430042BD38 /* CourseScheduleII.swift in Sources */,
 				7C26D2132ABB8F4D00A9CEFF /* TreeNode.swift in Sources */,
