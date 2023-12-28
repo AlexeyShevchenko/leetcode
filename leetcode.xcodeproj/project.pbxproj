@@ -16,6 +16,7 @@
 		7C0952462AC1D9EB007DE7DA /* PascalsTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0952452AC1D9EB007DE7DA /* PascalsTriangle.swift */; };
 		7C0952492AC1E34D007DE7DA /* PascalsTriangleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0952482AC1E34D007DE7DA /* PascalsTriangleII.swift */; };
 		7C0976712B3C5FFC001416B3 /* MinimumTimeToMakeRopeColorful.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0976702B3C5FFC001416B3 /* MinimumTimeToMakeRopeColorful.swift */; };
+		7C0976742B3C8BD6001416B3 /* SubstringWithConcatenationOfAllWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0976732B3C8BD6001416B3 /* SubstringWithConcatenationOfAllWords.swift */; };
 		7C0F98422B19F34B00153965 /* CheckIfTwoStringArraysAreEquivalent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0F98412B19F34B00153965 /* CheckIfTwoStringArraysAreEquivalent.swift */; };
 		7C12E75C2AC6D4430042BD38 /* CourseScheduleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12E75B2AC6D4430042BD38 /* CourseScheduleII.swift */; };
 		7C12E75F2AC6DCF40042BD38 /* MonotonicArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12E75E2AC6DCF40042BD38 /* MonotonicArray.swift */; };
@@ -245,6 +246,7 @@
 		7C0952452AC1D9EB007DE7DA /* PascalsTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalsTriangle.swift; sourceTree = "<group>"; };
 		7C0952482AC1E34D007DE7DA /* PascalsTriangleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalsTriangleII.swift; sourceTree = "<group>"; };
 		7C0976702B3C5FFC001416B3 /* MinimumTimeToMakeRopeColorful.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumTimeToMakeRopeColorful.swift; sourceTree = "<group>"; };
+		7C0976732B3C8BD6001416B3 /* SubstringWithConcatenationOfAllWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubstringWithConcatenationOfAllWords.swift; sourceTree = "<group>"; };
 		7C0F98412B19F34B00153965 /* CheckIfTwoStringArraysAreEquivalent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIfTwoStringArraysAreEquivalent.swift; sourceTree = "<group>"; };
 		7C12E75B2AC6D4430042BD38 /* CourseScheduleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleII.swift; sourceTree = "<group>"; };
 		7C12E75E2AC6DCF40042BD38 /* MonotonicArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonotonicArray.swift; sourceTree = "<group>"; };
@@ -548,6 +550,14 @@
 				7C0976702B3C5FFC001416B3 /* MinimumTimeToMakeRopeColorful.swift */,
 			);
 			path = "#1578";
+			sourceTree = "<group>";
+		};
+		7C0976722B3C8BBE001416B3 /* #30 */ = {
+			isa = PBXGroup;
+			children = (
+				7C0976732B3C8BD6001416B3 /* SubstringWithConcatenationOfAllWords.swift */,
+			);
+			path = "#30";
 			sourceTree = "<group>";
 		};
 		7C0F98402B19F32900153965 /* #1662 */ = {
@@ -1746,6 +1756,7 @@
 				7C08CC1B2A8634930043A2E5 /* #26 */,
 				7C5DEC272ABDD23200619AB9 /* #27 */,
 				7C8CB7CA2ACDBA8800E0154E /* #28 */,
+				7C0976722B3C8BBE001416B3 /* #30 */,
 				7C27102126552204007CA4FC /* #33 */,
 				7CA235E02AFFF1720021EB1D /* #34 */,
 				7CA9B97B2B39AECF0093D2D9 /* #42 */,
@@ -2501,6 +2512,7 @@
 				7C5DEC332ABF4FFC00619AB9 /* ContainsDuplicateII.swift in Sources */,
 				7C7E38422AFD740100CEEE37 /* OddEvenLinkedList.swift in Sources */,
 				7C6EEDB12B34781300D7295C /* AllNodesDistanceKInBinaryTree.swift in Sources */,
+				7C0976742B3C8BD6001416B3 /* SubstringWithConcatenationOfAllWords.swift in Sources */,
 				7CDBA3562B1B67D800AD6F79 /* LowestCommonAncestorOfBinaryTree.swift in Sources */,
 				7C0952432AC1CA7A007DE7DA /* FindTheDifference.swift in Sources */,
 				7C7558822AE6ACE700645D03 /* RemoveDuplicatesFromSortedListII.swift in Sources */,

@@ -10,8 +10,11 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = IntegerToRoman.Solution()
-        let r = s.intToRoman(1000)
+        let s = SubstringWithConcatenationOfAllWords.Solution()
+        let r = s.findSubstring(
+            "barfoothefoobarman",
+            ["foo","bar"]
+        )
         print(r)
     }
 }
