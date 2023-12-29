@@ -10,11 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = SubstringWithConcatenationOfAllWords.Solution()
-        let r = s.findSubstring(
-            "barfoothefoobarman",
-            ["foo","bar"]
-        )
+        let s = MinimumDifficultyOfJobSchedule.Solution()
+        let r = s.minDifficulty([6,5,4,3,2,1], 2)
         print(r)
     }
 }
