@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = MinimumDifficultyOfJobSchedule.Solution()
-        let r = s.minDifficulty([6,5,4,3,2,1], 2)
+        let s = MaximumAverageSubarrayI.Solution()
+        let r = s.findMaxAverage([5], 1)
         print(r)
     }
 }
