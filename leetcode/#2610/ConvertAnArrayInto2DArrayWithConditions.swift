@@ -15,23 +15,13 @@ class ConvertAnArrayInto2DArrayWithConditions {
 
             for i in 0 ..< nums.count {
                 let num = nums[i]
-                if let frequency = numsAndFrequency[num] {
-                    let incrementedFrequency = frequency + 1
-                    numsAndFrequency[num] = incrementedFrequency
-                    if res.count < incrementedFrequency {
-                        res.append([num])
-                    } else {
-                        res[frequency].append(num)
-                    }
+                let frequency = numsAndFrequency[num, default: 0]
+                if frequency == res.count {
+                    res.append([num])
                 } else {
-                    let firstTime = 1
-                    numsAndFrequency[num] = firstTime
-                    if res.count < firstTime {
-                        res.append([num])
-                    } else {
-                        res[firstTime - 1].append(num)
-                    }
+                    res[frequency].append(num)
                 }
+                numsAndFrequency[num] = frequency + 1
             }
             
             return res
