@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = ConvertAnArrayInto2DArrayWithConditions.Solution()
-        let r = s.findMatrix([1,3,4,1,2,3,1])
+        let s = KthLargestElementInArray.Solution()
+        let r = s.findKthLargest([3,2,3,1,2,4,5,5,6], 4)
         print(r)
     }
 }
