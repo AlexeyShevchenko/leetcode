@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = MaximumAverageSubarrayI.Solution()
-        let r = s.findMaxAverage([5], 1)
+        let s = PathSumIV.Solution()
+        let r = s.pathSum([111,217,221,315,415])
         print(r)
     }
 }
