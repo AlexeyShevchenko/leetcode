@@ -33,13 +33,19 @@ class SubstringWithConcatenationOfAllWords {
             for windowShift in 0 ..< windowShifts {
                 let startIndex = windowShift
                 let endIndex = startIndex + windowWidth - 1
-                let charsInWindow = Array(sChars[startIndex...endIndex])
+                var charsInWindow: [String] = []
+                for i in startIndex ... endIndex {
+                    charsInWindow.append(sChars[i])
+                }
                 
                 var copyWordsAndCount = wordsAndCount
                 for i in 0 ..< wordsCount {
                     let startIndex = i * wordLength
                     let endIndex = startIndex + wordLength - 1
-                    let wordInWindow = Array(charsInWindow[startIndex...endIndex]).joined()
+                    var wordInWindow = ""
+                    for char in startIndex ... endIndex {
+                        wordInWindow.append(charsInWindow[char])
+                    }
                     
                     if let count = copyWordsAndCount[wordInWindow] {
                         copyWordsAndCount[wordInWindow] = count - 1
