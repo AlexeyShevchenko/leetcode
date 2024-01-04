@@ -16,12 +16,8 @@ class SubstringWithConcatenationOfAllWords {
             
             let wordLength = words[0].count
             let sChars: [String] = s.compactMap({ .init($0) })
-            var windowWidth = 0
             let wordsCount = words.count
-            for i in 0 ..< wordsCount {
-                let word = words[i]
-                windowWidth += word.count
-            }
+            let windowWidth = words.count * wordLength
             let windowShifts = sChars.count - windowWidth + 1
 
             var wordsAndCount: [String: Int] = [:]

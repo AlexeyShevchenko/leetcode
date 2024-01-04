@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = MinimumNumberOfOperationsToMakeArrayEmpty.Solution()
-        let r = s.minOperations([14,12,14,14,12,14,14,12,12,12,12,14,14,12,14,14,14,12,12])
+        let s = SubstringWithConcatenationOfAllWords.Solution()
+        let r = s.findSubstring("barfoofoobarthefoobarman", ["bar","foo","the"]) 
         print(r)
     }
 }
