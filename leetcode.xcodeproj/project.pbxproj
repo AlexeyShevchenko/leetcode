@@ -71,6 +71,7 @@
 		7C40E9CF2AE5301C0055990C /* RemoveNthNodeFromEndOfList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C40E9CE2AE5301C0055990C /* RemoveNthNodeFromEndOfList.swift */; };
 		7C426DD12A8E490C00CDEC7B /* CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C426DD02A8E490C00CDEC7B /* CoinChange.swift */; };
 		7C4528302B45A291004763C2 /* NumberOfLaserBeamsInBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C45282F2B45A291004763C2 /* NumberOfLaserBeamsInBank.swift */; };
+		7C4528332B46D356004763C2 /* MinimumNumberOfOperationsToMakeArrayEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4528322B46D356004763C2 /* MinimumNumberOfOperationsToMakeArrayEmpty.swift */; };
 		7C4625E32AD8016F002EDA79 /* IsomorphicStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4625E22AD8016F002EDA79 /* IsomorphicStrings.swift */; };
 		7C4625E62AD80A8B002EDA79 /* WordPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4625E52AD80A8B002EDA79 /* WordPattern.swift */; };
 		7C4D25AA2B2DCF89004AB6F1 /* GraphValidTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D25A92B2DCF89004AB6F1 /* GraphValidTree.swift */; };
@@ -311,6 +312,7 @@
 		7C40E9CE2AE5301C0055990C /* RemoveNthNodeFromEndOfList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthNodeFromEndOfList.swift; sourceTree = "<group>"; };
 		7C426DD02A8E490C00CDEC7B /* CoinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChange.swift; sourceTree = "<group>"; };
 		7C45282F2B45A291004763C2 /* NumberOfLaserBeamsInBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfLaserBeamsInBank.swift; sourceTree = "<group>"; };
+		7C4528322B46D356004763C2 /* MinimumNumberOfOperationsToMakeArrayEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumNumberOfOperationsToMakeArrayEmpty.swift; sourceTree = "<group>"; };
 		7C4625E22AD8016F002EDA79 /* IsomorphicStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsomorphicStrings.swift; sourceTree = "<group>"; };
 		7C4625E52AD80A8B002EDA79 /* WordPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPattern.swift; sourceTree = "<group>"; };
 		7C4D25A92B2DCF89004AB6F1 /* GraphValidTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphValidTree.swift; sourceTree = "<group>"; };
@@ -994,6 +996,14 @@
 				7C45282F2B45A291004763C2 /* NumberOfLaserBeamsInBank.swift */,
 			);
 			path = "#2125";
+			sourceTree = "<group>";
+		};
+		7C4528312B46D338004763C2 /* #2870 */ = {
+			isa = PBXGroup;
+			children = (
+				7C4528322B46D356004763C2 /* MinimumNumberOfOperationsToMakeArrayEmpty.swift */,
+			);
+			path = "#2870";
 			sourceTree = "<group>";
 		};
 		7C4625E12AD80153002EDA79 /* #205 */ = {
@@ -2051,6 +2061,7 @@
 				7C2C3BE62B4434ED00FA58AE /* #2610 */,
 				7C6EEDA62B3337D700D7295C /* #2706 */,
 				7CC759AC2AF18E29004B86C7 /* #2824 */,
+				7C4528312B46D338004763C2 /* #2870 */,
 				7CCA5CC6257134BD00F53CF2 /* AppDelegate.swift */,
 				7CCA5CC8257134BD00F53CF2 /* SceneDelegate.swift */,
 				7CCA5CCA257134BD00F53CF2 /* ViewController.swift */,
@@ -2589,6 +2600,7 @@
 				7CB236FF2B4054DA00C2718A /* RedistributeCharactersToMakeAllStringsEqual.swift in Sources */,
 				7CA235DF2AFFEB240021EB1D /* SumOfSquareNumbers.swift in Sources */,
 				7CCC77872B08F65A009A5862 /* PathSumII.swift in Sources */,
+				7C4528332B46D356004763C2 /* MinimumNumberOfOperationsToMakeArrayEmpty.swift in Sources */,
 				7C8CB7C62ACD845100E0154E /* MedianOfTwoSortedArrays.swift in Sources */,
 				7CECC5F12AB4929100F99034 /* ListNode.swift in Sources */,
 				7C3AD3892AED3E8C00C4500A /* IntersectionOfTwoLinkedLists.swift in Sources */,

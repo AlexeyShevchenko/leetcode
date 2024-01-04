@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = NumberOfLaserBeamsInBank.Solution()
-        let r = s.numberOfBeams(["011001","000000","010100","001000"])
+        let s = MinimumNumberOfOperationsToMakeArrayEmpty.Solution()
+        let r = s.minOperations([14,12,14,14,12,14,14,12,12,12,12,14,14,12,14,14,14,12,12])
         print(r)
     }
 }
