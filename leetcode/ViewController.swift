@@ -10,29 +10,9 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let stringMatrix =  [[".",".",".",".","5",".",".","1","."],
-                    [".","4",".","3",".",".",".",".","."],
-                    [".",".",".",".",".","3",".",".","1"],
-                    ["8",".",".",".",".",".",".","2","."],
-                    [".",".","2",".","7",".",".",".","."],
-                    [".","1","5",".",".",".",".",".","."],
-                    [".",".",".",".",".","2",".",".","."],
-                    [".","2",".","9",".",".",".",".","."],
-                    [".",".","4",".",".",".",".",".","."]]
-        var characterMatrix: [[Character]] = []
-
-        for row in stringMatrix {
-            var characterRow: [Character] = []
-            for element in row {
-                characterRow.append(Character(element))
-            }
-            characterMatrix.append(characterRow)
-        }
-        
-        
-        let s = ValidSudoku.Solution()
-        _ = s.isValidSudoku(characterMatrix)
+        let s = SimplifyPath.Solution()
+        let r = s.simplifyPath("/../")
+        print(r)
     }
 }
 
