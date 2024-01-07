@@ -10,8 +10,11 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = EvaluateReversePolishNotation.Solution()
-        let r = s.evalRPN(["10","6","9","3","+","-11","*","/","*","17","+","5","+"])
+        let s = BasicCalculator.Solution()
+        //"(1+(4+5+2)-3)+(6+8)"
+        // "2147483647"
+        // "1"
+        let r = s.calculate("(1+(4+5+2)-3)+(6+8)")
         print(r)
     }
 }
