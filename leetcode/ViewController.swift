@@ -14,7 +14,9 @@ class ViewController: UIViewController {
         //"(1+(4+5+2)-3)+(6+8)"
         // "2147483647"
         // "1"
-        let r = s.calculate("(1+(4+5+2)-3)+(6+8)")
+        // "1-(     -2)"
+        // "- (3 + (4 + 5))"
+        let r = s.calculate("- (3 + (4 + 5))")
         print(r)
     }
 }
