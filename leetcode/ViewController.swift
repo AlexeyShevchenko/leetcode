@@ -10,13 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = BasicCalculator.Solution()
-        //"(1+(4+5+2)-3)+(6+8)"
-        // "2147483647"
-        // "1"
-        // "1-(     -2)"
-        // "- (3 + (4 + 5))"
-        let r = s.calculate("- (3 + (4 + 5))")
+        let s = LeftmostColumnWithAtLeastOne.Solution()
+        let r = s.leftMostColumnWithOne(.init())
         print(r)
     }
 }
