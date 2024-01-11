@@ -11,18 +11,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let root = TreeNode(1)
-        root.left = TreeNode(5)
-        root.right = TreeNode(3)
-
-        root.left?.right = TreeNode(4)
-        root.left?.right?.left = TreeNode(9)
-        root.left?.right?.right = TreeNode(2)
+        root.right = TreeNode(2)
         
-        root.right?.left = TreeNode(10)
-        root.right?.right = TreeNode(6)
         
-        let s = AmountOfTimeForBinaryTreeToBeInfected.Solution()
-        let r = s.amountOfTime(root, 3)
+        
+        let s = MaximumDifferenceBetweenNodeAndAncestor.Solution()
+        let r = s.maxAncestorDiff(root)
         print(r)
     }
 }
