@@ -15,8 +15,8 @@ class ViewController: UIViewController {
         
         
         
-        let s = MaximumDifferenceBetweenNodeAndAncestor.Solution()
-        let r = s.maxAncestorDiff(root)
+        let s = DetermineIfStringHalvesAreAlike.Solution()
+        let r = s.halvesAreAlike("book")
         print(r)
     }
 }
