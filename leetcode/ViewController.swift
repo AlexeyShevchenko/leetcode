@@ -10,13 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let root = TreeNode(1)
-        root.right = TreeNode(2)
-        
-        
-        
-        let s = DetermineIfStringHalvesAreAlike.Solution()
-        let r = s.halvesAreAlike("book")
+        let s = MinimumNumberOfStepsToMakeTwoStringsAnagram.Solution()
+        let r = s.minSteps("bab", "aba")
         print(r)
     }
 }
