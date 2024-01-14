@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = MinimumNumberOfStepsToMakeTwoStringsAnagram.Solution()
-        let r = s.minSteps("bab", "aba")
+        let s = DetermineIfTwoStringsAreClose.Solution()
+        let r = s.closeStrings("cabbba", "abbccc")
         print(r)
     }
 }
