@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = DetermineIfTwoStringsAreClose.Solution()
-        let r = s.closeStrings("cabbba", "abbccc")
+        let s = FindPlayersWithZeroOrOneLosses.Solution()
+        let r = s.findWinners([[1,3],[2,3],[3,6],[5,6],[5,7],[4,5],[4,8],[4,9],[10,4],[10,9]])
         print(r)
     }
 }
