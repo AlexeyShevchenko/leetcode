@@ -26,8 +26,8 @@ class ImplementTriePrefixTree {
                 if current.children[char] == nil {
                     current.children[char] = .init()
                 }
-                if let childNode = current.children[char] {
-                    current = childNode
+                if let charNode = current.children[char] {
+                    current = charNode
                 }
             }
             current.isEndOfWord = true
