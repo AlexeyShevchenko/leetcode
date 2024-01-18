@@ -13,7 +13,7 @@ class MinimumGeneticMutation {
             var queue: [String] = [startGene]
             var seen: Set<String> = .init([startGene])
             var steps = 0
-            var bankSet: Set<String> = .init(bank)
+            let bankSet: Set<String> = .init(bank)
             let choices: [Character] = [
                 .init("A"),
                 .init("C"),
@@ -21,7 +21,8 @@ class MinimumGeneticMutation {
                 .init("T"),
             ]
             
-            while let gene = queue.popLast() {
+            while !queue.isEmpty {
+                let gene = queue.removeFirst()
                 if gene == endGene {
                     return steps
                 }
@@ -29,10 +30,10 @@ class MinimumGeneticMutation {
                 for i in 0 ..< choices.count {
                     let choice = choices[i]
                     
-                    for i in 0 ..< gene.count {
-                        let preIndex = gene.index(gene.startIndex, offsetBy: i)
+                    for j in 0 ..< gene.count {
+                        let preIndex = gene.index(gene.startIndex, offsetBy: j)
                         let preStr = gene[..<preIndex]
-                        let postIndex = gene.index(gene.startIndex, offsetBy: i + 1)
+                        let postIndex = gene.index(gene.startIndex, offsetBy: j + 1)
                         let postStr = gene[postIndex...]
                         
                         let candidate = "\(preStr)\(choice)\(postStr)"
