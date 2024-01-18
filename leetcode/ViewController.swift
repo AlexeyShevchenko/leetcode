@@ -10,14 +10,9 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = InsertDeleteGetRandom.RandomizedSet()
-        let s1 = s.insert(1)
-        let s2 = s.remove(2)
-        let s3 = s.insert(2)
-        let s4 = s.getRandom()
-        let s5 = s.remove(1)
-        let s6 = s.insert(2)
-        let s7 = s.getRandom()
+        let s = MinimumGeneticMutation.Solution()
+        let r = s.minMutation("AACCGGTT", "AACCGGTA", ["AACCGGTA"])
+        print(r)
     }
 }
 
