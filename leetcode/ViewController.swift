@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = MinimumGeneticMutation.Solution()
-        let r = s.minMutation("AACCGGTT", "AACCGGTA", ["AACCGGTA"])
+        let s = MinimumFallingPathSum.Solution()
+        let r = s.minFallingPathSum([[2,1,3],[6,5,4],[7,8,9]])
         print(r)
     }
 }
