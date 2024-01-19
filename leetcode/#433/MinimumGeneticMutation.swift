@@ -13,8 +13,8 @@ class MinimumGeneticMutation {
             var queue: [String] = [startGene]
             var seen: Set<String> = .init([startGene])
             var steps = 0
-            let bankSet: Set<String> = .init(bank)
-            let choices: [Character] = [
+            let bank: Set<String> = .init(bank)
+            let geneParts: [Character] = [
                 .init("A"),
                 .init("C"),
                 .init("G"),
@@ -22,29 +22,28 @@ class MinimumGeneticMutation {
             ]
             
             while !queue.isEmpty {
-                let gene = queue.removeFirst()
-                if gene == endGene {
-                    return steps
-                }
+                var currentLevel: [String] = []
                 
-                for i in 0 ..< choices.count {
-                    let choice = choices[i]
+                for i in 0 ..< queue.count {
+                    let gene = queue[i]
+                    if gene == endGene { return steps }
                     
-                    for j in 0 ..< gene.count {
-                        let preIndex = gene.index(gene.startIndex, offsetBy: j)
+                    for genePartIndex in 0 ..< gene.count {
+                        let preIndex = gene.index(gene.startIndex, offsetBy: genePartIndex)
                         let preStr = gene[..<preIndex]
-                        let postIndex = gene.index(gene.startIndex, offsetBy: j + 1)
+                        let postIndex = gene.index(gene.startIndex, offsetBy: genePartIndex + 1)
                         let postStr = gene[postIndex...]
                         
-                        let candidate = "\(preStr)\(choice)\(postStr)"
-                        
-                        if !seen.contains(candidate), bankSet.contains(candidate) {
-                            seen.insert(candidate)
-                            queue.append(candidate)
+                        for genePart in geneParts {
+                            let geneCandidate = "\(preStr)\(genePart)\(postStr)"
+                            guard bank.contains(geneCandidate), !seen.contains(geneCandidate) else { continue }
+                            currentLevel.append(geneCandidate)
+                            seen.insert(geneCandidate)
                         }
                     }
                 }
                 
+                queue = currentLevel
                 steps += 1
             }
             
