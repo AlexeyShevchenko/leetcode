@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = MinimumFallingPathSum.Solution()
-        let r = s.minFallingPathSum([[2,1,3],[6,5,4],[7,8,9]])
+        let s = SetMismatch.Solution()
+        let r = s.findErrorNums([1,2,2,4])
         print(r)
     }
 }
