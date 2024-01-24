@@ -15,16 +15,12 @@ class PseudoPalindromicPathsInBinaryTree {
             
             func dfs(
                 _ node: TreeNode?,
-                _ currentPath: [Int],
                 _ set: Set<Int>
             ) {
                 guard let node = node else { return }
-                let num = node.val
-                
-                var currentPath = currentPath
-                currentPath.append(num)
                 
                 var set = set
+                let num = node.val
                 if set.contains(num) {
                     set.remove(num)
                 } else {
@@ -32,24 +28,17 @@ class PseudoPalindromicPathsInBinaryTree {
                 }
                 
                 if node.left == nil, node.right == nil {
-                    if currentPath.count % 2 == 0 {
-                        if set.isEmpty {
-                            res += 1
-                        }
-                    } else {
-                        if set.count == 1 {
-                            res += 1
-                        }
+                    if set.count < 2 {
+                        res += 1
                     }
-                    
                     return
                 }
                 
-                dfs(node.left, currentPath, set)
-                dfs(node.right, currentPath, set)
+                dfs(node.left, set)
+                dfs(node.right, set)
             }
             
-            dfs(root, [], .init())
+            dfs(root, .init())
             
             return res
         }
