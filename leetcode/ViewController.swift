@@ -10,8 +10,14 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = SetMismatch.Solution()
-        let r = s.findErrorNums([1,2,2,4])
+        let root = TreeNode(2)
+        root.left = TreeNode(3)
+        root.right = TreeNode(1)
+        root.left?.left = TreeNode(3)
+        root.left?.right = TreeNode(1)
+        root.right?.right = TreeNode(1)
+        let s = PseudoPalindromicPathsInBinaryTree.Solution()
+        let r = s.pseudoPalindromicPaths(root)
         print(r)
     }
 }
