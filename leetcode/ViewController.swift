@@ -10,14 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let root = TreeNode(2)
-        root.left = TreeNode(3)
-        root.right = TreeNode(1)
-        root.left?.left = TreeNode(3)
-        root.left?.right = TreeNode(1)
-        root.right?.right = TreeNode(1)
-        let s = PseudoPalindromicPathsInBinaryTree.Solution()
-        let r = s.pseudoPalindromicPaths(root)
+        let s = MinimumCostToConnectSticks.Solution()
+        let r = s.connectSticks([1,8,3,5])
         print(r)
     }
 }
