@@ -30,14 +30,10 @@ class OutOfBoundaryPaths {
                 if let val = dict[key] { return val }
                 
                 let res = (
-                    (
-                        dfs(row + 1, column, remainingMove - 1) +
-                        dfs(row - 1, column, remainingMove - 1)
-                    ) % mod +
-                    (
-                        dfs(row, column + 1, remainingMove - 1) +
-                        dfs(row, column - 1, remainingMove - 1)
-                    ) % mod
+                    dfs(row + 1, column, remainingMove - 1) % mod +
+                    dfs(row - 1, column, remainingMove - 1) % mod +
+                    dfs(row, column + 1, remainingMove - 1) % mod +
+                    dfs(row, column - 1, remainingMove - 1) % mod
                 ) % mod
                 dict[key] = res
                 return res
