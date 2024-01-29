@@ -71,6 +71,7 @@
 		7C40E9C62AE15BAF0055990C /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C40E9C52AE15BAE0055990C /* Candy.swift */; };
 		7C40E9C92AE2C1DD0055990C /* MinimumNumberOfArrowsToBurstBalloons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C40E9C82AE2C1DD0055990C /* MinimumNumberOfArrowsToBurstBalloons.swift */; };
 		7C40E9CF2AE5301C0055990C /* RemoveNthNodeFromEndOfList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C40E9CE2AE5301C0055990C /* RemoveNthNodeFromEndOfList.swift */; };
+		7C41906A2B67ABAA0034FC5A /* ImplementQueueUsingStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4190692B67ABAA0034FC5A /* ImplementQueueUsingStacks.swift */; };
 		7C426DD12A8E490C00CDEC7B /* CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C426DD02A8E490C00CDEC7B /* CoinChange.swift */; };
 		7C4528302B45A291004763C2 /* NumberOfLaserBeamsInBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C45282F2B45A291004763C2 /* NumberOfLaserBeamsInBank.swift */; };
 		7C4528332B46D356004763C2 /* MinimumNumberOfOperationsToMakeArrayEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4528322B46D356004763C2 /* MinimumNumberOfOperationsToMakeArrayEmpty.swift */; };
@@ -334,6 +335,7 @@
 		7C40E9C52AE15BAE0055990C /* Candy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
 		7C40E9C82AE2C1DD0055990C /* MinimumNumberOfArrowsToBurstBalloons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumNumberOfArrowsToBurstBalloons.swift; sourceTree = "<group>"; };
 		7C40E9CE2AE5301C0055990C /* RemoveNthNodeFromEndOfList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthNodeFromEndOfList.swift; sourceTree = "<group>"; };
+		7C4190692B67ABAA0034FC5A /* ImplementQueueUsingStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementQueueUsingStacks.swift; sourceTree = "<group>"; };
 		7C426DD02A8E490C00CDEC7B /* CoinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChange.swift; sourceTree = "<group>"; };
 		7C45282F2B45A291004763C2 /* NumberOfLaserBeamsInBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfLaserBeamsInBank.swift; sourceTree = "<group>"; };
 		7C4528322B46D356004763C2 /* MinimumNumberOfOperationsToMakeArrayEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumNumberOfOperationsToMakeArrayEmpty.swift; sourceTree = "<group>"; };
@@ -1040,6 +1042,14 @@
 				7C40E9CE2AE5301C0055990C /* RemoveNthNodeFromEndOfList.swift */,
 			);
 			path = "#19";
+			sourceTree = "<group>";
+		};
+		7C4190682B67AB8A0034FC5A /* #232 */ = {
+			isa = PBXGroup;
+			children = (
+				7C4190692B67ABAA0034FC5A /* ImplementQueueUsingStacks.swift */,
+			);
+			path = "#232";
 			sourceTree = "<group>";
 		};
 		7C426DCF2A8E489E00CDEC7B /* #322 */ = {
@@ -2094,6 +2104,7 @@
 				7C26D2142ABC3CF200A9CEFF /* #226 */,
 				7C21209C2AD96D7700F385D3 /* #228 */,
 				7CC64BD42B162584003D0C40 /* #230 */,
+				7C4190682B67AB8A0034FC5A /* #232 */,
 				7C3AD38A2AED4EBB00C4500A /* #234 */,
 				7CDBA3542B1B67C100AD6F79 /* #236 */,
 				7C35C4542AF0292B00ECBB99 /* #237 */,
@@ -3038,6 +3049,7 @@
 				7C5DEC2C2ABDE83900619AB9 /* MajorityElement.swift in Sources */,
 				7C51BB0C2B4AC6F100D2E8F9 /* BasicCalculator.swift in Sources */,
 				7C0976712B3C5FFC001416B3 /* MinimumTimeToMakeRopeColorful.swift in Sources */,
+				7C41906A2B67ABAA0034FC5A /* ImplementQueueUsingStacks.swift in Sources */,
 				7CBA9AF426500FF100553CC5 /* Search2dMatrix.swift in Sources */,
 				7C12E75C2AC6D4430042BD38 /* CourseScheduleII.swift in Sources */,
 				7C26D2132ABB8F4D00A9CEFF /* TreeNode.swift in Sources */,
