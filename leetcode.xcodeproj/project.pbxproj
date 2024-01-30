@@ -11,6 +11,7 @@
 		7C0424E52B52B152008F4F7D /* MinimumNumberOfStepsToMakeTwoStringsAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0424E42B52B152008F4F7D /* MinimumNumberOfStepsToMakeTwoStringsAnagram.swift */; };
 		7C0556F42ADFFF54003D4A16 /* GasStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0556F32ADFFF54003D4A16 /* GasStation.swift */; };
 		7C08CC1D2A8634D50043A2E5 /* RemoveDuplicatesFromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C08CC1C2A8634D50043A2E5 /* RemoveDuplicatesFromSortedArray.swift */; };
+		7C09508D2B6948B800C1199B /* PaintHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C09508C2B6948B800C1199B /* PaintHouse.swift */; };
 		7C09523A2AC1A4B8007DE7DA /* MinCostClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0952392AC1A4B8007DE7DA /* MinCostClimbingStairs.swift */; };
 		7C09523D2AC1AA9D007DE7DA /* NthTribonacciNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C09523C2AC1AA9D007DE7DA /* NthTribonacciNumber.swift */; };
 		7C0952432AC1CA7A007DE7DA /* FindTheDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0952422AC1CA7A007DE7DA /* FindTheDifference.swift */; };
@@ -275,6 +276,7 @@
 		7C0424E42B52B152008F4F7D /* MinimumNumberOfStepsToMakeTwoStringsAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumNumberOfStepsToMakeTwoStringsAnagram.swift; sourceTree = "<group>"; };
 		7C0556F32ADFFF54003D4A16 /* GasStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStation.swift; sourceTree = "<group>"; };
 		7C08CC1C2A8634D50043A2E5 /* RemoveDuplicatesFromSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesFromSortedArray.swift; sourceTree = "<group>"; };
+		7C09508C2B6948B800C1199B /* PaintHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintHouse.swift; sourceTree = "<group>"; };
 		7C0952392AC1A4B8007DE7DA /* MinCostClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinCostClimbingStairs.swift; sourceTree = "<group>"; };
 		7C09523C2AC1AA9D007DE7DA /* NthTribonacciNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NthTribonacciNumber.swift; sourceTree = "<group>"; };
 		7C0952422AC1CA7A007DE7DA /* FindTheDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheDifference.swift; sourceTree = "<group>"; };
@@ -578,6 +580,14 @@
 				7C08CC1C2A8634D50043A2E5 /* RemoveDuplicatesFromSortedArray.swift */,
 			);
 			path = "#26";
+			sourceTree = "<group>";
+		};
+		7C09508B2B6948A600C1199B /* #256 */ = {
+			isa = PBXGroup;
+			children = (
+				7C09508C2B6948B800C1199B /* PaintHouse.swift */,
+			);
+			path = "#256";
 			sourceTree = "<group>";
 		};
 		7C0952382AC1A495007DE7DA /* #746 */ = {
@@ -2110,6 +2120,7 @@
 				7C35C4542AF0292B00ECBB99 /* #237 */,
 				7CE67FD52A824F4400107A67 /* #238 */,
 				7CC979D72639FDEB000D5A43 /* #242 */,
+				7C09508B2B6948A600C1199B /* #256 */,
 				7C8C250B2B07E83500B06FE7 /* #257 */,
 				7C4D25A82B2DCF5F004AB6F1 /* #261 */,
 				7C7873412A8AB182009DA470 /* #268 */,
@@ -2897,6 +2908,7 @@
 				7C5DEC332ABF4FFC00619AB9 /* ContainsDuplicateII.swift in Sources */,
 				7C7E38422AFD740100CEEE37 /* OddEvenLinkedList.swift in Sources */,
 				7C6EEDB12B34781300D7295C /* AllNodesDistanceKInBinaryTree.swift in Sources */,
+				7C09508D2B6948B800C1199B /* PaintHouse.swift in Sources */,
 				7C0976742B3C8BD6001416B3 /* SubstringWithConcatenationOfAllWords.swift in Sources */,
 				7CDBA3562B1B67D800AD6F79 /* LowestCommonAncestorOfBinaryTree.swift in Sources */,
 				7C0952432AC1CA7A007DE7DA /* FindTheDifference.swift in Sources */,
