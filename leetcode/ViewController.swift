@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = MinimumCostToConnectSticks.Solution()
-        let r = s.connectSticks([1,8,3,5])
+        let s = DivideArrayIntoArraysWithMaxDifference.Solution()
+        let r = s.divideArray([1,3,4,8,7,9,3,5,1], 2)
         print(r)
     }
 }
