@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = DivideArrayIntoArraysWithMaxDifference.Solution()
-        let r = s.divideArray([1,3,4,8,7,9,3,5,1], 2)
+        let s = MinimumWindowSubstring.Solution()
+        let r = s.minWindow("a", "aa")
         print(r)
     }
 }
