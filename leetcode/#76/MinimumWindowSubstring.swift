@@ -31,13 +31,14 @@ class MinimumWindowSubstring {
             for right in 0 ..< s.count {
                 let rightIndex = s.index(s.startIndex, offsetBy: right)
                 let char = s[rightIndex]
+               
                 if let count = window[char] {
                     window[char] = count + 1
                 } else {
                     window[char] = 1
                 }
                 
-                if tCharAndCount[char] != nil, window[char] == tCharAndCount[char] {
+                if let tCount = tCharAndCount[char], tCount == window[char] {
                     have += 1
                 }
                                   
@@ -54,10 +55,12 @@ class MinimumWindowSubstring {
                         window[leftChar] = count - 1
                     }
                     
-                    if tCharAndCount[leftChar] != nil,
-                       (window[leftChar] ?? -1) < (tCharAndCount[leftChar] ?? -1) {
+                    if let tCount = tCharAndCount[leftChar],
+                       let windowCount = window[leftChar],
+                       tCount > windowCount {
                         have -= 1
                     }
+
                     left += 1
                 }
             }

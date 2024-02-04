@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let s = MinimumWindowSubstring.Solution()
-        let r = s.minWindow("a", "aa")
+        let r = s.minWindow("ADOBECODEBANC", "ABC")
         print(r)
     }
 }
