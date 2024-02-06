@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = MinimumWindowSubstring.Solution()
-        let r = s.minWindow("ADOBECODEBANC", "ABC")
+        let s = GroupAnagrams.Solution()
+        let r = s.groupAnagrams(["eat","tea","tan","ate","nat","bat"])
         print(r)
     }
 }

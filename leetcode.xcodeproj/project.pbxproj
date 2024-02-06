@@ -96,6 +96,7 @@
 		7C5DEC392AC0781500619AB9 /* IntersectionOfTwoArraysII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5DEC382AC0781500619AB9 /* IntersectionOfTwoArraysII.swift */; };
 		7C5DEC3C2AC090C500619AB9 /* FindTheDifferenceOfTwoArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5DEC3B2AC090C500619AB9 /* FindTheDifferenceOfTwoArrays.swift */; };
 		7C5DEC3F2AC0B2A400619AB9 /* FibonacciNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5DEC3E2AC0B2A400619AB9 /* FibonacciNumber.swift */; };
+		7C612E7E2B7275E000210C45 /* GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C612E7D2B7275E000210C45 /* GroupAnagrams.swift */; };
 		7C6617AE2AB9E029002CFBB3 /* SetMatrixZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6617AD2AB9E029002CFBB3 /* SetMatrixZeroes.swift */; };
 		7C6EC469264AF04000719C52 /* BestTimeToBuyAndSellStockII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6EC468264AF04000719C52 /* BestTimeToBuyAndSellStockII.swift */; };
 		7C6EED972B30550D00D7295C /* MaximumProductDifferenceBetweenTwoPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6EED962B30550D00D7295C /* MaximumProductDifferenceBetweenTwoPairs.swift */; };
@@ -366,6 +367,7 @@
 		7C5DEC382AC0781500619AB9 /* IntersectionOfTwoArraysII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionOfTwoArraysII.swift; sourceTree = "<group>"; };
 		7C5DEC3B2AC090C500619AB9 /* FindTheDifferenceOfTwoArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheDifferenceOfTwoArrays.swift; sourceTree = "<group>"; };
 		7C5DEC3E2AC0B2A400619AB9 /* FibonacciNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciNumber.swift; sourceTree = "<group>"; };
+		7C612E7D2B7275E000210C45 /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
 		7C6617AD2AB9E029002CFBB3 /* SetMatrixZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetMatrixZeroes.swift; sourceTree = "<group>"; };
 		7C6EC468264AF04000719C52 /* BestTimeToBuyAndSellStockII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToBuyAndSellStockII.swift; sourceTree = "<group>"; };
 		7C6EED962B30550D00D7295C /* MaximumProductDifferenceBetweenTwoPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumProductDifferenceBetweenTwoPairs.swift; sourceTree = "<group>"; };
@@ -1256,6 +1258,14 @@
 			path = "#509";
 			sourceTree = "<group>";
 		};
+		7C612E7C2B7275CC00210C45 /* #49 */ = {
+			isa = PBXGroup;
+			children = (
+				7C612E7D2B7275E000210C45 /* GroupAnagrams.swift */,
+			);
+			path = "#49";
+			sourceTree = "<group>";
+		};
 		7C6617AC2AB9E00D002CFBB3 /* #73 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2083,6 +2093,7 @@
 				7CA9B97B2B39AECF0093D2D9 /* #42 */,
 				7C8CB7D32AD01BCF00E0154E /* #45 */,
 				7C8490032AB9A4AC00CF7D0A /* #48 */,
+				7C612E7C2B7275CC00210C45 /* #49 */,
 				7CE67FD82A82846B00107A67 /* #53 */,
 				7C12E7602ACAC0CC0042BD38 /* #54 */,
 				7C2299252AC323F5000B3B43 /* #55 */,
@@ -3121,6 +3132,7 @@
 				7C5DEC2C2ABDE83900619AB9 /* MajorityElement.swift in Sources */,
 				7C51BB0C2B4AC6F100D2E8F9 /* BasicCalculator.swift in Sources */,
 				7C0976712B3C5FFC001416B3 /* MinimumTimeToMakeRopeColorful.swift in Sources */,
+				7C612E7E2B7275E000210C45 /* GroupAnagrams.swift in Sources */,
 				7C41906A2B67ABAA0034FC5A /* ImplementQueueUsingStacks.swift in Sources */,
 				7CBA9AF426500FF100553CC5 /* Search2dMatrix.swift in Sources */,
 				7C12E75C2AC6D4430042BD38 /* CourseScheduleII.swift in Sources */,
