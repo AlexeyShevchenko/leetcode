@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = GroupAnagrams.Solution()
-        let r = s.groupAnagrams(["eat","tea","tan","ate","nat","bat"])
+        let s = SortCharactersByFrequency.Solution()
+        let r = s.frequencySort("tree")
         print(r)
     }
 }
