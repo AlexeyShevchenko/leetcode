@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C01DEE12B756104009CEBD9 /* FrequencyOfTheMostFrequentElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C01DEE02B756104009CEBD9 /* FrequencyOfTheMostFrequentElement.swift */; };
 		7C021A242AFEBA8500C2058A /* ValidPerfectSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C021A232AFEBA8500C2058A /* ValidPerfectSquare.swift */; };
 		7C0424E52B52B152008F4F7D /* MinimumNumberOfStepsToMakeTwoStringsAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0424E42B52B152008F4F7D /* MinimumNumberOfStepsToMakeTwoStringsAnagram.swift */; };
 		7C0556F42ADFFF54003D4A16 /* GasStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0556F32ADFFF54003D4A16 /* GasStation.swift */; };
@@ -279,6 +280,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C01DEE02B756104009CEBD9 /* FrequencyOfTheMostFrequentElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyOfTheMostFrequentElement.swift; sourceTree = "<group>"; };
 		7C021A232AFEBA8500C2058A /* ValidPerfectSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPerfectSquare.swift; sourceTree = "<group>"; };
 		7C0424E42B52B152008F4F7D /* MinimumNumberOfStepsToMakeTwoStringsAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumNumberOfStepsToMakeTwoStringsAnagram.swift; sourceTree = "<group>"; };
 		7C0556F32ADFFF54003D4A16 /* GasStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStation.swift; sourceTree = "<group>"; };
@@ -564,6 +566,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C01DEDF2B7560D0009CEBD9 /* #1838 */ = {
+			isa = PBXGroup;
+			children = (
+				7C01DEE02B756104009CEBD9 /* FrequencyOfTheMostFrequentElement.swift */,
+			);
+			path = "#1838";
+			sourceTree = "<group>";
+		};
 		7C021A222AFEBA6700C2058A /* #367 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2299,6 +2309,7 @@
 				7C89F4B52B386B31000DF029 /* #1758 */,
 				7C2C04302AF3CB08000E7DCE /* #1768 */,
 				7CB2A4422AC59E920040E3D5 /* #1791 */,
+				7C01DEDF2B7560D0009CEBD9 /* #1838 */,
 				7C8182E22B6EDDCD00C16BDC /* #1876 */,
 				7CB236FD2B40547800C2718A /* #1897 */,
 				7C875F4F2B21E03500496ACF /* #1903 */,
@@ -3047,6 +3058,7 @@
 				7CED42702AEBD95600AB4402 /* MiddleOfTheLinkedList.swift in Sources */,
 				7CCC778D2B09364C009A5862 /* FindModeInBinarySearchTree.swift in Sources */,
 				7CED42792AEBFF6400AB4402 /* RemoveLinkedListElements.swift in Sources */,
+				7C01DEE12B756104009CEBD9 /* FrequencyOfTheMostFrequentElement.swift in Sources */,
 				7CBE01A72B2C8EDB00BE938D /* DestinationCity.swift in Sources */,
 				7CE67FD72A824F7600107A67 /* ProductOfArrayExceptSelf.swift in Sources */,
 				7C3AD3982AEEB43000C4500A /* SwappingNodesInLinkedList.swift in Sources */,
