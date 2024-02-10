@@ -231,6 +231,7 @@
 		7CDBCDF52B4EEBB700DCCEEE /* AmountOfTimeForBinaryTreeToBeInfected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBCDF42B4EEBB700DCCEEE /* AmountOfTimeForBinaryTreeToBeInfected.swift */; };
 		7CDBCDF82B50201000DCCEEE /* MaximumDifferenceBetweenNodeAndAncestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBCDF72B50201000DCCEEE /* MaximumDifferenceBetweenNodeAndAncestor.swift */; };
 		7CDBCDFE2B5144CA00DCCEEE /* DetermineIfStringHalvesAreAlike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBCDFD2B5144CA00DCCEEE /* DetermineIfStringHalvesAreAlike.swift */; };
+		7CDF21722B7796EF002800BE /* PalindromicSubstrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF21712B7796EF002800BE /* PalindromicSubstrings.swift */; };
 		7CE354642603EBC100AE39B1 /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE354632603EBC100AE39B1 /* ValidParentheses.swift */; };
 		7CE55868264C5F32009EC351 /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE55867264C5F32009EC351 /* BalancedBinaryTree.swift */; };
 		7CE67FD72A824F7600107A67 /* ProductOfArrayExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE67FD62A824F7600107A67 /* ProductOfArrayExceptSelf.swift */; };
@@ -510,6 +511,7 @@
 		7CDBCDF42B4EEBB700DCCEEE /* AmountOfTimeForBinaryTreeToBeInfected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountOfTimeForBinaryTreeToBeInfected.swift; sourceTree = "<group>"; };
 		7CDBCDF72B50201000DCCEEE /* MaximumDifferenceBetweenNodeAndAncestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumDifferenceBetweenNodeAndAncestor.swift; sourceTree = "<group>"; };
 		7CDBCDFD2B5144CA00DCCEEE /* DetermineIfStringHalvesAreAlike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetermineIfStringHalvesAreAlike.swift; sourceTree = "<group>"; };
+		7CDF21712B7796EF002800BE /* PalindromicSubstrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromicSubstrings.swift; sourceTree = "<group>"; };
 		7CE354632603EBC100AE39B1 /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 		7CE55867264C5F32009EC351 /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
 		7CE67FD62A824F7600107A67 /* ProductOfArrayExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfArrayExceptSelf.swift; sourceTree = "<group>"; };
@@ -2248,6 +2250,7 @@
 				7C2AC3C72B0CF51A00A5E1FA /* #637 */,
 				7CB237002B405A6D00C2718A /* #643 */,
 				7C806FF92B5E726200D6DD26 /* #645 */,
+				7CDF21702B7796DC002800BE /* #647 */,
 				7CBF63ED2B0D4AEC009D88EB /* #653 */,
 				7C6EED9B2B31FA3700D7295C /* #661 */,
 				7C2C3BDB2B43128100FA58AE /* #666 */,
@@ -2573,6 +2576,14 @@
 				7CDBCDFD2B5144CA00DCCEEE /* DetermineIfStringHalvesAreAlike.swift */,
 			);
 			path = "#1704";
+			sourceTree = "<group>";
+		};
+		7CDF21702B7796DC002800BE /* #647 */ = {
+			isa = PBXGroup;
+			children = (
+				7CDF21712B7796EF002800BE /* PalindromicSubstrings.swift */,
+			);
+			path = "#647";
 			sourceTree = "<group>";
 		};
 		7CE354622603EBA600AE39B1 /* #20 */ = {
@@ -3162,6 +3173,7 @@
 				7C12E75C2AC6D4430042BD38 /* CourseScheduleII.swift in Sources */,
 				7C26D2132ABB8F4D00A9CEFF /* TreeNode.swift in Sources */,
 				7C51BB092B4A14A400D2E8F9 /* EvaluateReversePolishNotation.swift in Sources */,
+				7CDF21722B7796EF002800BE /* PalindromicSubstrings.swift in Sources */,
 				7CF4FA412B06A86000C249FC /* MinimumDepthOfBinaryTree.swift in Sources */,
 				7C0424E52B52B152008F4F7D /* MinimumNumberOfStepsToMakeTwoStringsAnagram.swift in Sources */,
 				7C1B4F082B27140F00CEC814 /* ElementAppearingMoreThan25PercentInSortedArray.swift in Sources */,
