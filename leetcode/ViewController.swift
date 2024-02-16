@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = SortCharactersByFrequency.Solution()
-        let r = s.frequencySort("tree")
+        let s = LeastNumberOfUniqueIntegersAfterKRemovals.Solution()
+        let r = s.findLeastNumOfUniqueInts([4,3,1,1,3,3,2], 3)
         print(r)
     }
 }
