@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -82,6 +82,7 @@
 		7C4528362B483097004763C2 /* ValidSudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4528352B483097004763C2 /* ValidSudoku.swift */; };
 		7C4625E32AD8016F002EDA79 /* IsomorphicStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4625E22AD8016F002EDA79 /* IsomorphicStrings.swift */; };
 		7C4625E62AD80A8B002EDA79 /* WordPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4625E52AD80A8B002EDA79 /* WordPattern.swift */; };
+		7C48667F2B7F9271004F80ED /* LeastNumberOfUniqueIntegersAfterKRemovals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C48667E2B7F9271004F80ED /* LeastNumberOfUniqueIntegersAfterKRemovals.swift */; };
 		7C4D25AA2B2DCF89004AB6F1 /* GraphValidTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D25A92B2DCF89004AB6F1 /* GraphValidTree.swift */; };
 		7C4D25AD2B2F1692004AB6F1 /* DesignFoodRatingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D25AC2B2F1692004AB6F1 /* DesignFoodRatingSystem.swift */; };
 		7C51BB092B4A14A400D2E8F9 /* EvaluateReversePolishNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C51BB082B4A14A400D2E8F9 /* EvaluateReversePolishNotation.swift */; };
@@ -357,6 +358,7 @@
 		7C4528352B483097004763C2 /* ValidSudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidSudoku.swift; sourceTree = "<group>"; };
 		7C4625E22AD8016F002EDA79 /* IsomorphicStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsomorphicStrings.swift; sourceTree = "<group>"; };
 		7C4625E52AD80A8B002EDA79 /* WordPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPattern.swift; sourceTree = "<group>"; };
+		7C48667E2B7F9271004F80ED /* LeastNumberOfUniqueIntegersAfterKRemovals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeastNumberOfUniqueIntegersAfterKRemovals.swift; sourceTree = "<group>"; };
 		7C4D25A92B2DCF89004AB6F1 /* GraphValidTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphValidTree.swift; sourceTree = "<group>"; };
 		7C4D25AC2B2F1692004AB6F1 /* DesignFoodRatingSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignFoodRatingSystem.swift; sourceTree = "<group>"; };
 		7C51BB082B4A14A400D2E8F9 /* EvaluateReversePolishNotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluateReversePolishNotation.swift; sourceTree = "<group>"; };
@@ -1152,6 +1154,14 @@
 				7C4625E52AD80A8B002EDA79 /* WordPattern.swift */,
 			);
 			path = "#290";
+			sourceTree = "<group>";
+		};
+		7C48667D2B7F924F004F80ED /* #1481 */ = {
+			isa = PBXGroup;
+			children = (
+				7C48667E2B7F9271004F80ED /* LeastNumberOfUniqueIntegersAfterKRemovals.swift */,
+			);
+			path = "#1481";
 			sourceTree = "<group>";
 		};
 		7C4D25A82B2DCF5F004AB6F1 /* #261 */ = {
@@ -2305,6 +2315,7 @@
 				7CBE01A52B2C8ECC00BE938D /* #1436 */,
 				7C7AE6872B613EAB00FE7FC6 /* #1457 */,
 				7C1B4F0D2B28A6A500CEC814 /* #1464 */,
+				7C48667D2B7F924F004F80ED /* #1481 */,
 				7C9D377F2B3722DE00A8B2EB /* #1496 */,
 				7C7F63AB2B2369D700E58D63 /* #1557 */,
 				7C09766F2B3C5FE7001416B3 /* #1578 */,
@@ -2875,8 +2886,9 @@
 		7CCA5CBB257134BD00F53CF2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1220;
-				LastUpgradeCheck = 1220;
+				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					7CCA5CC2257134BD00F53CF2 = {
 						CreatedOnToolsVersion = 12.2;
@@ -3072,6 +3084,7 @@
 				7C7F63A72B23414900E58D63 /* ConstructStringFromBinaryTree.swift in Sources */,
 				7C2299272AC3241D000B3B43 /* JumpGame.swift in Sources */,
 				7C6EC469264AF04000719C52 /* BestTimeToBuyAndSellStockII.swift in Sources */,
+				7C48667F2B7F9271004F80ED /* LeastNumberOfUniqueIntegersAfterKRemovals.swift in Sources */,
 				7C1B4F122B29C4B100CEC814 /* SpecialPositionsInBinaryMatrix.swift in Sources */,
 				7CD0FEBA2B57203F001B1861 /* ImplementTriePrefixTree.swift in Sources */,
 				7CDBCDF52B4EEBB700DCCEEE /* AmountOfTimeForBinaryTreeToBeInfected.swift in Sources */,
@@ -3284,6 +3297,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -3345,6 +3359,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
