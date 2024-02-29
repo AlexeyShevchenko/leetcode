@@ -16,7 +16,6 @@ class EvenOddTree {
             var levelIndex = 0
             
             while !stack.isEmpty {
-                
                 var level: [TreeNode] = []
                 
                 for i in 0 ..< stack.count {
@@ -35,47 +34,33 @@ class EvenOddTree {
                     if level.count > 1 {
                         for i in 1 ..< level.count {
                             let prev = level[i - 1]
-                            if prev.val % 2 == 0 {
-                                return false
-                            }
-                            
                             let curr = level[i]
-                            if curr.val % 2 == 0 {
-                                return false
-                            }
                             
+                            guard prev.val % 2 != 0 else { return false }
+                            guard curr.val % 2 != 0 else { return false }
                             guard curr.val > prev.val else { return false }
                         }
-                    } else if level.count == 1 {
-                        if level[0].val % 2 == 0 {
-                            return false
-                        }
+                    } else if level.count == 1, level[0].val % 2 == 0 {
+                        return false
                     }
                 } else {
                     if level.count > 1 {
                         for i in 1 ..< level.count {
                             let prev = level[i - 1]
-                            if prev.val % 2 != 0 {
-                                return false
-                            }
-                            
                             let curr = level[i]
-                            if curr.val % 2 != 0 {
-                                return false
-                            }
                             
+                            guard prev.val % 2 == 0 else { return false }
+                            guard curr.val % 2 == 0 else { return false }
                             guard curr.val < prev.val else { return false }
                         }
-                    } else if level.count == 1 {
-                        if level[0].val % 2 != 0 {
-                            return false
-                        }
+                    } else if level.count == 1, level[0].val % 2 != 0 {
+                        return false
                     }
                 }
                 
                 stack = level
             }
-
+            
             return true
         }
     }
