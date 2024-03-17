@@ -90,6 +90,7 @@
 		7C51F7462B1110B6008B82C1 /* BinaryTreeLevelOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C51F7452B1110B6008B82C1 /* BinaryTreeLevelOrderTraversal.swift */; };
 		7C51F98B2AB05CA000EBDF79 /* LongestConsecutiveSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C51F98A2AB05CA000EBDF79 /* LongestConsecutiveSequence.swift */; };
 		7C51F98E2AB197AC00EBDF79 /* MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C51F98D2AB197AC00EBDF79 /* MergeIntervals.swift */; };
+		7C56246F2BA244AF008B69A0 /* LetterCombinationsOfPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56246E2BA244AF008B69A0 /* LetterCombinationsOfPhoneNumber.swift */; };
 		7C5DEC222ABC79D100619AB9 /* TopKFrequentElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5DEC212ABC79D100619AB9 /* TopKFrequentElements.swift */; };
 		7C5DEC262ABDC01200619AB9 /* IsSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5DEC252ABDC01200619AB9 /* IsSubsequence.swift */; };
 		7C5DEC292ABDD26C00619AB9 /* RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5DEC282ABDD26C00619AB9 /* RemoveElement.swift */; };
@@ -369,6 +370,7 @@
 		7C51F7452B1110B6008B82C1 /* BinaryTreeLevelOrderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeLevelOrderTraversal.swift; sourceTree = "<group>"; };
 		7C51F98A2AB05CA000EBDF79 /* LongestConsecutiveSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestConsecutiveSequence.swift; sourceTree = "<group>"; };
 		7C51F98D2AB197AC00EBDF79 /* MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervals.swift; sourceTree = "<group>"; };
+		7C56246E2BA244AF008B69A0 /* LetterCombinationsOfPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCombinationsOfPhoneNumber.swift; sourceTree = "<group>"; };
 		7C5DEC212ABC79D100619AB9 /* TopKFrequentElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopKFrequentElements.swift; sourceTree = "<group>"; };
 		7C5DEC252ABDC01200619AB9 /* IsSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSubsequence.swift; sourceTree = "<group>"; };
 		7C5DEC282ABDD26C00619AB9 /* RemoveElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveElement.swift; sourceTree = "<group>"; };
@@ -1224,6 +1226,14 @@
 				7C51F98D2AB197AC00EBDF79 /* MergeIntervals.swift */,
 			);
 			path = "#56";
+			sourceTree = "<group>";
+		};
+		7C56246D2BA2448C008B69A0 /* #17 */ = {
+			isa = PBXGroup;
+			children = (
+				7C56246E2BA244AF008B69A0 /* LetterCombinationsOfPhoneNumber.swift */,
+			);
+			path = "#17";
 			sourceTree = "<group>";
 		};
 		7C5DEC232ABC79DE00619AB9 /* #347 */ = {
@@ -2143,6 +2153,7 @@
 				7CA9B97E2B3A359E0093D2D9 /* #12 */,
 				7CCF66CB2635B896007B6816 /* #13 */,
 				7C86FB9D26298E9000A6D969 /* #14 */,
+				7C56246D2BA2448C008B69A0 /* #17 */,
 				7C40E9CD2AE530000055990C /* #19 */,
 				7CE354622603EBA600AE39B1 /* #20 */,
 				7C2299212AC2FED8000B3B43 /* #22 */,
@@ -3149,6 +3160,7 @@
 				7C8CB7D22ACDEB9C00E0154E /* RotateArray.swift in Sources */,
 				7CB33D512B028FA20061E433 /* FirstBadVersion.swift in Sources */,
 				7CCA5CFE2571398500F53CF2 /* MaximumDepthOfBinaryTree.swift in Sources */,
+				7C56246F2BA244AF008B69A0 /* LetterCombinationsOfPhoneNumber.swift in Sources */,
 				7C2C04322AF3CB23000E7DCE /* MergeStringsAlternately.swift in Sources */,
 				7CDAE5052B4C180600D35154 /* LeftmostColumnWithAtLeastOne.swift in Sources */,
 				7C1F6D702AADEA1B00DF768A /* CloneGraph.swift in Sources */,

@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = LongestRepeatingCharacterReplacement.Solution()
-        let r = s.characterReplacement("AABABBA", 1)
+        let s = LetterCombinationsOfPhoneNumber.Solution()
+        let r = s.letterCombinations("23")
         print(r)
     }
 }
