@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = LetterCombinationsOfPhoneNumber.Solution()
-        let r = s.letterCombinations("23")
+        let s = Permutations.Solution()
+        let r = s.permute([1,2,3])
         print(r)
     }
 }
