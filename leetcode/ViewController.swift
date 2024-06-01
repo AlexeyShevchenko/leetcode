@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = Permutations.Solution()
-        let r = s.permute([1,2,3])
+        let s = ScoreOfString.Solution()
+        let r = s.scoreOfString("hello")
         print(r)
     }
 }
