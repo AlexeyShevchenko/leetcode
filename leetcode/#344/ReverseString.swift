@@ -10,14 +10,15 @@ import Foundation
 class ReverseString {
     class Solution {
         func reverseString(_ s: inout [Character]) {
-            let middleIndex = (s.count - 1) / 2
-            var endIndex = s.count - 1
+            var first = 0
+            var last = s.count - 1
             
-            for i in 0 ... middleIndex {
-                let temp = s[i]
-                s[i] = s[endIndex]
-                s[endIndex] = temp
-                endIndex -= 1
+            while first < last {
+                let temp = s[first]
+                s[first] = s[last]
+                s[last] = temp
+                first += 1
+                last -= 1
             }
         }
     }
