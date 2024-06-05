@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = ScoreOfString.Solution()
-        let r = s.scoreOfString("hello")
+        let s = FindCommonCharacters.Solution()
+        let r = s.commonChars(["bella","label","roller"])
         print(r)
     }
 }
