@@ -10,8 +10,11 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = FindCommonCharacters.Solution()
-        let r = s.commonChars(["bella","label","roller"])
+        let s = ReplaceWords.Solution()
+        let r = s.replaceWords(
+            ["a", "aa", "aaa", "aaaa"], 
+            "a aa a aaaa aaa aaa aaa aaaaaa bbb baba ababa"
+        )
         print(r)
     }
 }
