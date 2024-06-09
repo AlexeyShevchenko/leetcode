@@ -10,11 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = ReplaceWords.Solution()
-        let r = s.replaceWords(
-            ["a", "aa", "aaa", "aaaa"], 
-            "a aa a aaaa aaa aaa aaa aaaaaa bbb baba ababa"
-        )
+        let s = SubarraySumsDivisibleByK.Solution()
+        let r = s.subarraysDivByK([4, 5, 0, -2, -3, 1], 5)
         print(r)
     }
 }
