@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = SubarraySumsDivisibleByK.Solution()
-        let r = s.subarraysDivByK([4, 5, 0, -2, -3, 1], 5)
+        let s = MaximizeDistanceToClosestPerson.Solution()
+        let r = s.maxDistToClosest([0,0,1,0,1,1])
         print(r)
     }
 }
