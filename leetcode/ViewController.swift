@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = MinimumIncrementToMakeArrayUnique.Solution()
-        let r = s.minIncrementForUnique([3,2,1,2,1,7])
+        let s = ContainerWithMostWater.Solution()
+        let r = s.maxArea([1,8,6,2,5,4,8,3,7])
         print(r)
     }
 }
