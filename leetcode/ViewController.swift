@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = MinimumNumberOfMovesToSeatEveryone.Solution()
-        let r = s.minMovesToSeat([3,1,5], [2,7,4])
+        let s = MinimumIncrementToMakeArrayUnique.Solution()
+        let r = s.minIncrementForUnique([3,2,1,2,1,7])
         print(r)
     }
 }
