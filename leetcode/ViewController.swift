@@ -10,8 +10,12 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = ContainerWithMostWater.Solution()
-        let r = s.maxArea([1,8,6,2,5,4,8,3,7])
+        let s = BalanceBinarySearchTree.Solution()
+        let node4 = TreeNode(4)
+        let node3 = TreeNode(3, nil, node4)
+        let node2 = TreeNode(2, nil, node3)
+        let root = TreeNode(1, nil, node2)
+        let r = s.balanceBST(root)
         print(r)
     }
 }
