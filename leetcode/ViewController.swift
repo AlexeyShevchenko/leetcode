@@ -10,12 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = BalanceBinarySearchTree.Solution()
-        let node4 = TreeNode(4)
-        let node3 = TreeNode(3, nil, node4)
-        let node2 = TreeNode(2, nil, node3)
-        let root = TreeNode(1, nil, node2)
-        let r = s.balanceBST(root)
+        let s = ThreeConsecutiveOdds.Solution()
+        let r = s.threeConsecutiveOdds([1,2,34,3,4,5,7,23,12])
         print(r)
     }
 }
