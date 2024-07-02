@@ -10,8 +10,8 @@ import Foundation
 class IntersectionOfTwoArraysII {
     class Solution {
         func intersect(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
-            var nums1 = nums1.sorted()
-            var nums2 = nums2.sorted()
+            let nums1 = nums1.sorted()
+            let nums2 = nums2.sorted()
             var nums1Pointer = 0
             var nums2Pointer = 0
             var result: [Int] = []
