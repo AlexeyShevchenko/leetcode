@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = ThreeConsecutiveOdds.Solution()
-        let r = s.threeConsecutiveOdds([1,2,34,3,4,5,7,23,12])
+        let s = IntersectionOfTwoArraysII.Solution()
+        let r = s.intersect([1,2,2,1], [2,2])
         print(r)
     }
 }

@@ -10,25 +10,39 @@ import Foundation
 class IntersectionOfTwoArraysII {
     class Solution {
         func intersect(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
-            let nums1 = nums1.sorted()
-            let nums2 = nums2.sorted()
-            var nums1Pointer = 0
-            var nums2Pointer = 0
-            var result: [Int] = []
+            var nums1Dict: [Int: Int] = [:]
             
-            while nums1Pointer < nums1.count && nums2Pointer < nums2.count {
-                if nums1[nums1Pointer] == nums2[nums2Pointer] {
-                    result.append(nums1[nums1Pointer])
-                    nums1Pointer += 1
-                    nums2Pointer += 1
-                } else if nums1[nums1Pointer] < nums2[nums2Pointer] {
-                    nums1Pointer += 1
+            for i in 0 ..< nums1.count {
+                let num = nums1[i]
+                if let count = nums1Dict[num] {
+                    nums1Dict[num] = 1 + count
                 } else {
-                    nums2Pointer += 1
+                    nums1Dict[num] = 1
                 }
             }
             
-            return result
+            var nums2Dict: [Int: Int] = [:]
+            
+            for i in 0 ..< nums2.count {
+                let num = nums2[i]
+                if let count = nums2Dict[num] {
+                    nums2Dict[num] = 1 + count
+                } else {
+                    nums2Dict[num] = 1
+                }
+            }
+            
+            var res: [Int] = []
+            
+            for key in nums1Dict.keys {
+                if let nums1Count = nums1Dict[key],
+                   let nums2Count = nums2Dict[key] {
+                    let minCount = min(nums1Count, nums2Count)
+                    res.append(contentsOf: [Int].init(repeating: key, count: minCount))
+                }
+            }
+            
+            return res
         }
     }
 }
