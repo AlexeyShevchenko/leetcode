@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = BackspaceStringCompare.Solution()
-        let r = s.backspaceCompare("a##c", "#a#c")
+        let s = RemovingStarsFromString.Solution()
+        let r = s.removeStars("leet**cod*e")
         print(r)
     }
 }
