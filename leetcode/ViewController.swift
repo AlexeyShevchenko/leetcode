@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = IntersectionOfTwoArraysII.Solution()
-        let r = s.intersect([1,2,2,1], [2,2])
+        let s = BaseballGame.Solution()
+        let r = s.calPoints(["5","2","C","D","+"])
         print(r)
     }
 }
