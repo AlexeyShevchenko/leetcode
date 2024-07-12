@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = BaseballGame.Solution()
-        let r = s.calPoints(["5","2","C","D","+"])
+        let s = BackspaceStringCompare.Solution()
+        let r = s.backspaceCompare("a##c", "#a#c")
         print(r)
     }
 }
