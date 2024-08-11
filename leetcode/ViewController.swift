@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let s = HighFive.Solution()
-        let r = s.highFive([[1,91],[1,92],[2,93],[2,97],[1,60],[2,77],[1,65],[1,87],[1,100],[2,100],[2,76]])
+        let s = CountElementsWithMaximumFrequency.Solution()
+        let r = s.maxFrequencyElements([1,2,2,3,1,4])
         print(r)
     }
 }
